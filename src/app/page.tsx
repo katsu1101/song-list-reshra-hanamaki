@@ -67,19 +67,16 @@ export default async function Home() {
                 ) : (
                   // ✅ `source=2` → コンパクトなカード + リスト
                   <div className="mt-2">
-                    <h3 className="text-lg font-semibold text-blue-900 dark:text-blue-300">
-                      🎤 {songs[0].title}（ライブアーカイブ）
-                    </h3>
                     <ul className="mt-2 space-y-2 text-gray-800 dark:text-gray-300">
                       {songs.map((song) => (
                         <li key={song.timestamp} className="text-sm">
                           <a
-                            href={`https://www.youtube.com/watch?v=${song.videoId}${song.timestamp ? `&t=${song.timestamp}` : ""}`}
+                            href={`https://www.youtube.com/watch?v=${song.videoId}${song.timestamp ? `&t=${song.timestamp}s` : ""}`}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="block hover:underline hover:text-blue-500"
                           >
-                            ♪ {song.title} ({song.timestamp ? `${song.timestamp}` : "なし"})
+                            ♪ {song.title} {song.timestamp ? `(${song.timestamp}s)` : ""}
                           </a>
                         </li>
                       ))}
