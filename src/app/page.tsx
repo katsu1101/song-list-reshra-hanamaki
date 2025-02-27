@@ -1,101 +1,73 @@
-import Image from "next/image";
+import { prisma } from '@/lib/prisma';
+import redis, {cacheKey} from '@/lib/redis';
+import { SongsList } from '@/types'; // 型をインポート
 
-export default function Home() {
+export default async function Home() {
+  // Redis からキャッシュを取得
+  const cachedData = await redis.get(cacheKey);
+  let songs: SongsList;
+  if (cachedData) {
+    songs = JSON.parse(cachedData);
+  } else {
+    // DBからデータを取得
+    songs = await prisma.song.findMany({
+      orderBy: [{ date: 'desc' }, { timestamp: 'asc' }],
+    });
+
+  }
+  // 日付ごとにグループ化（videoIdごと）
+  const groupedSongs: Record<string, Record<string, typeof songs>> = {};
+  songs.forEach((song) => {
+    if (!groupedSongs[song.date]) {
+      groupedSongs[song.date] = {};
+    }
+    if (!groupedSongs[song.date][song.videoId]) {
+      groupedSongs[song.date][song.videoId] = [];
+    }
+    groupedSongs[song.date][song.videoId].push(song);
+  });
+
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <main className="max-w-4xl mx-auto p-4 text-gray-900 dark:text-gray-100 bg-white dark:bg-gray-900">
+      <h1 className="text-3xl font-bold text-center mb-6">YouTube Song List</h1>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      {Object.entries(groupedSongs).map(([date, videos]) => (
+        <section key={date} className="mb-8">
+          <h2 className="text-2xl font-semibold border-b-2 pb-2">{date}</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+            {Object.entries(videos).map(([videoId, songs]) => (
+              <div key={videoId} className="p-4 border rounded-lg shadow-md bg-gray-100 dark:bg-gray-800">
+                <a
+                  href={`https://www.youtube.com/watch?v=${videoId}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block"
+                >
+                  <img
+                    src={`https://img.youtube.com/vi/${videoId}/mqdefault.jpg`}
+                    alt={songs[0].title}
+                    className="w-full h-48 object-cover rounded-md"
+                  />
+                </a>
+                <ul className="mt-2 space-y-2">
+                  {songs.map((song) => (
+                    <li key={song.timestamp} className="text-gray-800 dark:text-gray-200">
+                      <a
+                        href={`https://www.youtube.com/watch?v=${videoId}${song.timestamp ? `&t=${song.timestamp}` : ''}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block hover:underline"
+                      >
+                        <span className="font-medium">{song.title}</span>{' (' + song.timestamp + ')' || ''}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </section>
+      ))}
+    </main>
   );
 }
