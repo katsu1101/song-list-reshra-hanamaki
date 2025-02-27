@@ -13,7 +13,7 @@ export async function GET() {
     }
 
     // ✅ 2つのスクレイピングを並列実行（並列処理で高速化）
-    const [data1, data2] = await Promise.all([scrapeSongList(url1), scrapeSongList(url2)]);
+    const [data1, data2] = await Promise.all([scrapeSongList(url1, 1), scrapeSongList(url2, 2)]);
 
     // ✅ データを統合
     const data = [...data1, ...data2];
@@ -38,7 +38,6 @@ export async function GET() {
 
     return NextResponse.json({ message: "Scrape API Executed", data });
   } catch (error) {
-    console.error("Scraping failed:", error);
     return NextResponse.json({
       message: "Scraping failed",
       error: error instanceof Error ? error.message : String(error)

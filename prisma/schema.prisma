@@ -18,8 +18,10 @@ model Song {
   title     String // 曲名（Pタグのテキスト）
   url       String // YouTubeのURL
   videoId   String // YouTube動画ID
-  timestamp String? // 開始時間（null許可）
+  timestamp Int      @default(0) // 開始時間
+  source    Int      @default(0) // ✅ 追加: どのURLから取得したかを記録
   createdAt DateTime @default(now())
 
-  @@unique([videoId, timestamp]) // ✅ 複合ユニークキーを追加
+  @@unique([videoId, timestamp]) // ✅ `NULL` 許容で一意に
+  @@index([videoId]) // ✅ `videoId` だけで検索できるように
 }

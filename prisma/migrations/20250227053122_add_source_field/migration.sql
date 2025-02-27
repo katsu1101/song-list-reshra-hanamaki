@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE "Song" ALTER COLUMN "timestamp" DROP NOT NULL,
+ALTER COLUMN "timestamp" DROP DEFAULT,
+ALTER COLUMN "timestamp" SET DATA TYPE TEXT;

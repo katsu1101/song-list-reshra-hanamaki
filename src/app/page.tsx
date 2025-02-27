@@ -36,36 +36,59 @@ export default async function Home() {
           <h2 className="text-2xl font-semibold border-b-2 pb-2">{date}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
             {Object.entries(videos).map(([videoId, songs]) => (
-              <div key={videoId} className="p-4 border rounded-lg shadow-md bg-gray-100 dark:bg-gray-800">
+              <div
+                key={videoId}
+                className={`p-4 border rounded-lg shadow-md transition-transform duration-300 ${
+                  songs[0].source === 1
+                    ? "bg-gray-300 dark:bg-gray-700 hover:scale-105"
+                    : "bg-blue-100 dark:bg-blue-900 hover:scale-105 border-blue-500"
+                }`}
+              >
                 <a
-                  href={`https://www.youtube.com/watch?v=${videoId}`}
+                  href={`https://www.youtube.com/watch?v=${videoId}&t=0s`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block"
                 >
                   <img
-                    src={`https://img.youtube.com/vi/${videoId}/mqdefault.jpg`}
+                    src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`}
                     alt={songs[0].title}
-                    className="w-full h-48 object-cover rounded-md"
+                    className={`w-full object-cover rounded-md ${
+                      songs[0].source === 1 ? "h-48" : "h-32"
+                    }`}
                   />
                 </a>
-                <ul className="mt-2 space-y-2">
-                  {songs.map((song) => (
-                    <li key={song.timestamp} className="text-gray-800 dark:text-gray-200">
-                      <a
-                        href={`https://www.youtube.com/watch?v=${videoId}${song.timestamp ? `&t=${song.timestamp}` : ''}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="block hover:underline"
-                      >
-                        <span className="font-medium">{song.title}</span>
-                        {song.timestamp ? ' (' + song.timestamp + ')' : ''}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
+
+                {/* ✅ `source=1` → 大きなカード */}
+                {songs[0].source === 1 ? (
+                  <p className="mt-2 font-medium text-center text-lg text-gray-900 dark:text-gray-100">
+                    ♬ {songs[0].title}
+                  </p>
+                ) : (
+                  // ✅ `source=2` → コンパクトなカード + リスト
+                  <div className="mt-2">
+                    <h3 className="text-lg font-semibold text-blue-900 dark:text-blue-300">
+                      🎤 {songs[0].title}（ライブアーカイブ）
+                    </h3>
+                    <ul className="mt-2 space-y-2 text-gray-800 dark:text-gray-300">
+                      {songs.map((song) => (
+                        <li key={song.timestamp} className="text-sm">
+                          <a
+                            href={`https://www.youtube.com/watch?v=${song.videoId}${song.timestamp ? `&t=${song.timestamp}` : ""}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block hover:underline hover:text-blue-500"
+                          >
+                            ♪ {song.title} ({song.timestamp ? `${song.timestamp}` : "なし"})
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </div>
             ))}
+
           </div>
         </section>
       ))}
