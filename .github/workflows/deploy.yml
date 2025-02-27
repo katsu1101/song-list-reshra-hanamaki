@@ -27,7 +27,6 @@ jobs:
       - name: Build Next.js
         run: |
           npm run build
-          npm run export
 
       - name: Move output to docs
         run: |
