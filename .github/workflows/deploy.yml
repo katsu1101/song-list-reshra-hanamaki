@@ -12,6 +12,10 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
+    env:  # ここで環境変数を設定
+      NODE_ENV: production
+      NEXT_PUBLIC_BASE_PATH: /song-list-linca-tojou
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
