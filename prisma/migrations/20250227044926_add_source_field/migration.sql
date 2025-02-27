@@ -1,2 +1,0 @@
--- AlterTable
-ALTER TABLE "Song" ADD COLUMN     "source" INTEGER NOT NULL DEFAULT 0;

@@ -1,22 +1,33 @@
-import { prisma } from '@/lib/prisma';
-import redis, {cacheKey} from '@/lib/redis';
-import { SongsList } from '@/types'; // 型をインポート
+"use client";
 
-export default async function Home() {
-  // Redis からキャッシュを取得
-  const cachedData = await redis.get(cacheKey);
-  let songs: SongsList;
-  if (cachedData) {
-    songs = JSON.parse(cachedData);
-  } else {
-    // DBからデータを取得
-    songs = await prisma.song.findMany({
-      orderBy: [{ date: 'desc' }, { timestamp: 'asc' }],
-    });
+import { Song, SongsList }         from '@/types';
+import {useEffect, useState} from "react";
 
-  }
-  // 日付ごとにグループ化（videoIdごと）
-  const groupedSongs: Record<string, Record<string, typeof songs>> = {};
+
+export default function Home() {
+  const [songs, setSongs] = useState<SongsList>([]);
+
+  useEffect(() => {
+    // const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+    fetch(`/songs.json`)
+      .then((res) => res.json())
+      .then((data) => {
+
+        console.log(data);
+        const sortedSongs = [...data.songs].sort((a: Song, b: Song) => {
+          if (a.date !== b.date) {
+            return b.date.localeCompare(a.date); // `date` の降順（新しい日付を上）
+          }
+          return (a.timestamp || 0) - (b.timestamp || 0); // `timestamp` の昇順（時間が早い順）
+        });
+        setSongs(sortedSongs)
+      })
+      .catch((error) => console.error("Failed to load songs.json:", error));
+  }, []);
+
+  // ✅ 日付ごとにグループ化（videoIdごと）
+  const groupedSongs: Record<string, Record<string, Song[]>> = {};
+
   songs.forEach((song) => {
     if (!groupedSongs[song.date]) {
       groupedSongs[song.date] = {};
@@ -29,7 +40,7 @@ export default async function Home() {
 
   return (
     <main className="max-w-4xl mx-auto p-4 text-gray-900 dark:text-gray-100 bg-white dark:bg-gray-900">
-      <h1 className="text-3xl font-bold text-center mb-6">YouTube Song List</h1>
+      <h1 className="text-3xl font-bold text-center mb-6">戸定梨香ちゃんの歌リスト</h1>
 
       {Object.entries(groupedSongs).map(([date, videos]) => (
         <section key={date} className="mb-8">
