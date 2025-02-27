@@ -12,10 +12,6 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
-    env:  # ここで環境変数を設定
-      NODE_ENV: production
-      NEXT_PUBLIC_BASE_PATH: /song-list-linca-tojou
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -24,13 +20,18 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
+          cache: "npm"
 
       - name: Install Dependencies
-        run: npm install
+        run: |
+          rm -rf node_modules package-lock.json  # キャッシュによる不具合を防ぐ
+          npm ci  # npm install の代わりに npm ci を使用
+
+      - name: Verify TailwindCSS installation
+        run: npm list tailwindcss || echo "TailwindCSS not found!"
 
       - name: Build Next.js
-        run: |
-          npm run build
+        run: npm run build
 
       - name: Move output to docs
         run: |
