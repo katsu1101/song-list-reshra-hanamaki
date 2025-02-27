@@ -30,9 +30,6 @@ jobs:
         run: |
           yarn  # npm install の代わりに npm ci を使用
 
-      - name: Verify TailwindCSS installation
-        run: npm list tailwindcss || echo "TailwindCSS not found!"
-
       - name: Build Next.js
         run: npm run build
 
