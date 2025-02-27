@@ -24,7 +24,6 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          rm -rf node_modules package-lock.json  # キャッシュによる不具合を防ぐ
           npm ci  # npm install の代わりに npm ci を使用
 
       - name: Verify TailwindCSS installation
