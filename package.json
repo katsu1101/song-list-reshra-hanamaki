@@ -12,6 +12,7 @@
     "generate:json": "npx ts-node -P tsconfig.scripts.json scripts/generateJson.ts"
   },
   "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.13.1",
     "next": "15.1.7",
     "playwright": "^1.50.1",
     "react": "^19.0.0",
