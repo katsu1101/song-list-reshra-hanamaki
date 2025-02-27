@@ -3,13 +3,12 @@
 import { Song, SongsList }         from '@/types';
 import {useEffect, useState} from "react";
 
-
 export default function Home() {
   const [songs, setSongs] = useState<SongsList>([]);
 
   useEffect(() => {
-    // const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
-    fetch(`/songs.json`)
+    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+    fetch(`${basePath}/songs.json`)
       .then((res) => res.json())
       .then((data) => {
 
