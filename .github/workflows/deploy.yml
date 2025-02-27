@@ -28,7 +28,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          npm ci  # npm install の代わりに npm ci を使用
+          yarn  # npm install の代わりに npm ci を使用
 
       - name: Verify TailwindCSS installation
         run: npm list tailwindcss || echo "TailwindCSS not found!"
