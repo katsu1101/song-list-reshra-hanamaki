@@ -58,7 +58,8 @@ export default async function Home() {
                         rel="noopener noreferrer"
                         className="block hover:underline"
                       >
-                        <span className="font-medium">{song.title}</span>{' (' + song.timestamp + ')' || ''}
+                        <span className="font-medium">{song.title}</span>
+                        {song.timestamp ? ' (' + song.timestamp + ')' : ''}
                       </a>
                     </li>
                   ))}

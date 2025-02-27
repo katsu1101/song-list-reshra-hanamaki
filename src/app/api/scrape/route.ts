@@ -1,64 +1,26 @@
+import { scrapeSongList } from "@/lib/scraper";
 import { NextResponse } from 'next/server';
-import { chromium } from 'playwright';
 import { prisma } from '@/lib/prisma';
-import redis, {cacheKey} from '@/lib/redis';
+import redis, { cacheKey } from '@/lib/redis';
 
 export async function GET() {
   try {
-    const browser = await chromium.launch({ headless: true });
-    const page = await browser.newPage();
-    await page.goto('https://kicku-tw.blogspot.com/2023/06/youtube02.html#more', { waitUntil: 'domcontentloaded' });
+    const url1 = process.env.SONG_LIST_URL1 || '';
+    const url2 = process.env.SONG_LIST_URL2 || '';
 
-    const data = await page.evaluate(() => {
-      let currentDate = '';
+    if (!url1 || !url2) {
+      return NextResponse.json({ message: "Missing SONG_LIST_URL1 or SONG_LIST_URL2 in .env" }, { status: 400 });
+    }
 
-      return Array.from(document.querySelectorAll('p')).map(p => {
-        const aTag = p.querySelector('a');
-        const text = p.childNodes[0]?.textContent?.trim() || '';
+    // ✅ 2つのスクレイピングを並列実行（並列処理で高速化）
+    const [data1, data2] = await Promise.all([scrapeSongList(url1), scrapeSongList(url2)]);
 
-        if (!text) return null; // 空のテキストを削除
-        if (!aTag) {
-          currentDate = text; // 日付と仮定
-          return null;
-        }
-
-        // YouTube URL の解析
-        const url = aTag.getAttribute('href') || '';
-        let videoId = '';
-        let timestamp = '';
-
-        try {
-          const parsedUrl = new URL(url);
-          const params = new URLSearchParams(parsedUrl.search);
-
-          if (parsedUrl.pathname.startsWith('/watch')) {
-            // 通常動画（https://www.youtube.com/watch?v=xxxx&t=xxxxs）
-            videoId = params.get('v') || '';
-            timestamp = params.get('t') || '';
-          } else if (parsedUrl.pathname.startsWith('/live/')) {
-            // ライブ配信（https://www.youtube.com/live/xxxx?t=xxxxs）
-            videoId = parsedUrl.pathname.split('/').pop() || '';
-            timestamp = params.get('t') || '';
-          }
-        } catch (e) {
-          console.error('Invalid URL:', url, e);
-        }
-
-        return {
-          date: currentDate,
-          title: text,
-          url,
-          videoId,
-          timestamp,
-        };
-      }).filter(item => item !== null);
-    });
-
-
+    // ✅ データを統合
+    const data = [...data1, ...data2];
     console.log("Extracted Data:", data);
 
-    // 既存データの重複を防ぐため、DB に upsert（新規 or 更新）する
-    for (const item of data) {
+    // ✅ Prisma にデータを保存（重複を防ぐため upsert を使用）
+    await Promise.all(data.map(async (item) => {
       await prisma.song.upsert({
         where: {
           videoId_timestamp: {
@@ -69,9 +31,7 @@ export async function GET() {
         update: item,  // 既存データは更新
         create: item,  // 新規データは作成
       });
-    }
-
-    await browser.close();
+    }));
 
     // ✅ Redis のキャッシュを削除
     await redis.del(cacheKey);
