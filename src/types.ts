@@ -8,3 +8,24 @@ export type Song = {
 };
 
 export type SongsList = Song[];
+
+// YouTube API のレスポンスデータの型
+export interface YouTubeVideo {
+  id: string;
+  snippet: {
+    title: string;
+    thumbnails: {
+      default: { url: string };
+      medium: { url: string };
+      high: { url: string };
+    };
+  };
+  contentDetails: {
+    duration: string;
+  };
+  statistics: {
+    viewCount: string;
+    likeCount: string;
+    commentCount: string;
+  };
+}

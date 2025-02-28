@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "cross-env NODE_ENV=production NEXT_PUBLIC_BASE_PATH=/song-list-linca-tojou next build",
     "start": "next start",
     "lint": "next lint",
     "fetch:json": "powershell -Command \"Invoke-WebRequest -Uri 'http://localhost:3000/api/generate' -OutFile 'public/songs.json'\"",
@@ -13,6 +13,8 @@
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.13.1",
+    "axios": "^1.8.1",
+    "dotenv": "^16.4.7",
     "next": "15.1.7",
     "playwright": "^1.50.1",
     "react": "^19.0.0",
@@ -24,6 +26,7 @@
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19",
     "autoprefixer": "^10.4.20",
+    "cross-env": "^7.0.3",
     "eslint": "^9",
     "eslint-config-next": "15.1.7",
     "gh-pages": "^6.3.0",

@@ -1,6 +1,6 @@
-import path             from "path";
-import {scrapeSongList} from "../src/lib/scraper";
-import * as fs          from "fs";
+import path                        from "path";
+import {fetchVideos, scrapeSongList} from "./lib/scraper";
+import * as fs                     from "fs";
 
 
 const SONG_LIST_URL1 = "https://kicku-tw.blogspot.com/2023/06/youtube01.html#more"
@@ -20,7 +20,15 @@ async function generateJson() {
     scrapeSongList(url2, 2),
   ]);
 
-  const data = { songs: [...data1, ...data2] };
+  const songs = [...data1, ...data2]
+  // ✅ videoId のユニークな一覧を取得
+  const videoIds = [...new Set(songs.map(song => song.videoId))];
+
+  const videos = await fetchVideos(videoIds)
+
+  const data = { songs: songs, videos: videos };
+
+  console.log(data. videos);
 
   // ✅ `public/songs.json` に保存
   const filePath = path.join(process.cwd(), "public", "songs.json");

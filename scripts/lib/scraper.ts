@@ -1,4 +1,38 @@
-import { chromium } from 'playwright';
+import {YouTubeVideo} from "@/types";
+import axios          from "axios";
+import { chromium }   from 'playwright';
+import dotenv         from "dotenv";
+
+// 配列を指定したサイズごとに分割する関数
+const chunkArray = <T>(arr: T[], size: number): T[][] =>
+  arr.reduce<T[][]>((acc, _, i) => (i % size ? acc : [...acc, arr.slice(i, i + size)]), []);
+
+export const fetchVideos = async (videoIds: string[]): Promise<Record<string, YouTubeVideo>> => {
+  const chunks = chunkArray(videoIds, 50);
+  const allVideos: Record<string, YouTubeVideo> = {};
+
+  dotenv.config();
+  const API_KEY = process.env.YOUTUBE_API_KEY;
+
+  for (const chunk of chunks) {
+    try {
+      const url = `https://www.googleapis.com/youtube/v3/videos?id=${chunk.join(",")}&part=snippet,contentDetails,statistics&key=${API_KEY}`;
+      const response = await axios.get<{ items: YouTubeVideo[] }>(url);
+
+      // 取得した動画データを `{ id: { data } }` の形式で保存
+      response.data.items.forEach((video) => {
+        allVideos[video.id] = video;
+      });
+    } catch (error: unknown) {
+      if (axios.isAxiosError(error)) {
+        console.error("Error fetching videos:", error.response?.data || error.message);
+      } else {
+        console.error("Unexpected error:", error);
+      }
+    }
+  }
+  return allVideos;
+};
 
 export async function scrapeSongList(url: string, source: number) {
   const browser = await chromium.launch({ headless: true });
