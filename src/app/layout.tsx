@@ -57,7 +57,7 @@ export default function RootLayout({
       <meta name="theme-color" content="#FF0000"/>
       <link rel="icon" type="image/png" sizes="32x32" href={`${basePath}/favicon-32x32.png`}/>
       <link rel="icon" type="image/png" sizes="16x16" href={`${basePath}/favicon-16x16.png`}/>
-      <link rel="manifest" href="/site.webmanifest"/>
+      <link rel="manifest" href={`${basePath}/site.webmanifest`}/>
     </head>
     <body
       className={`${geistSans.variable} ${geistMono.variable} antialiased`}
