@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "戸定梨香ちゃんの歌リスト",
+  metadataBase: new URL("https://katsu1101.github.io/song-list-linca-tojou/"),
   description: "これは 戸定梨香ちゃんの歌リストアプリです",
   openGraph: {
     title: "戸定梨香ちゃんの歌リスト",
@@ -44,12 +45,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="ja">
     <head>
-      <title>{metadata.title}</title>
+      <title>戸定梨香ちゃんの歌リスト</title>
       <meta name="apple-mobile-web-app-capable" content="yes"/>
       <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
-      <meta name="apple-mobile-web-app-title" content={metadata.title}/>
+      <meta name="apple-mobile-web-app-title" content="戸定梨香ちゃんの歌リスト"/>
       <link rel="apple-touch-icon" href="/icon-192x192.png"/>
       <meta name="mobile-web-app-capable" content="yes"/>
       <meta name="theme-color" content="#000000"/>
