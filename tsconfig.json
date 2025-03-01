@@ -1,11 +1,15 @@
 {
   "compilerOptions": {
-    "module": "esnext",  // ✅ 'esnext' に変更 (または 'es2020' も可)
-    "target": "esnext",  // ✅ 'esnext' を指定
-    "jsx": "preserve",   // ✅ Next.js に適した設定
+    "module": "esnext", // ✅ 'esnext' に変更 (または 'es2020' も可)
+    "target": "esnext", // ✅ 'esnext' を指定
+    "jsx": "preserve", // ✅ Next.js に適した設定
     "moduleResolution": "node",
     "outDir": "dist", // ✅ コンパイル後の出力先
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -20,9 +24,19 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": [
+        "./src/*"
+      ]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "next-env.d.ts",
+    "build/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
