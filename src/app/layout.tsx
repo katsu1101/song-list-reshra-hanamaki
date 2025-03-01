@@ -48,16 +48,32 @@ export default function RootLayout({
   return (
     <html lang="ja">
     <head>
+      <meta charSet="UTF-8"/>
       <title>戸定梨香ちゃんの歌リスト</title>
       <meta name="apple-mobile-web-app-capable" content="yes"/>
       <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
       <meta name="apple-mobile-web-app-title" content="戸定梨香ちゃんの歌リスト"/>
-      <link rel="apple-touch-icon" href={`${basePath}/icon-192x192.png`}/>
+
       <meta name="mobile-web-app-capable" content="yes"/>
       <meta name="theme-color" content="#FF0000"/>
       <link rel="icon" type="image/png" sizes="32x32" href={`${basePath}/favicon-32x32.png`}/>
       <link rel="icon" type="image/png" sizes="16x16" href={`${basePath}/favicon-16x16.png`}/>
-      <link rel="manifest" href={`${basePath}/site.webmanifest`}/>
+      <link rel="manifest" href={`${basePath}/manifest.json`}/>
+
+      <meta property="og:site_name" content="戸定梨香ちゃんの歌リスト"/>
+      <meta property="og:locale" content="ja_JP"/>
+
+      <link rel="canonical" href="https://katsu1101.github.io/song-list-linca-tojou/"/>
+
+
+      {/*<meta name="robots" content="index, follow"/>*/}
+
+      {/*スタートアップ画像*/}
+      <link rel="apple-touch-startup-image" href={`${basePath}/apple-touch-icon.png`}/>
+
+      {/*ホーム画面に追加したときのアイコン*/}
+      <link rel="shortcut icon" href={`${basePath}/android-chrome-192x192.png`}/>
+
     </head>
     <body
       className={`${geistSans.variable} ${geistMono.variable} antialiased`}
