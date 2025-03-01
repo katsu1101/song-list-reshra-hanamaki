@@ -8,8 +8,8 @@ export default function Home() {
   const [videos, setVideos] = useState<Record<string, YouTubeVideo>>({});
   const [searchQuery, setSearchQuery] = useState<string>(""); // 🔍 検索ワード
 
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
   useEffect(() => {
-    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
     fetch(`${basePath}/songs.json`)
       .then((res) => res.json())
       .then((data) => {
