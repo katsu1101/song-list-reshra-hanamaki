@@ -6,6 +6,16 @@ import * as fs                     from "fs";
 const SONG_LIST_URL1 = "https://kicku-tw.blogspot.com/2023/06/youtube01.html#more"
 const SONG_LIST_URL2 = "https://kicku-tw.blogspot.com/2023/06/youtube02.html#more"
 
+const dataVersionPath = path.join(process.cwd(), "public", "data-version.json");
+
+const updateDataVersion = () => {
+  const timestamp = new Date().toISOString();
+  fs.writeFileSync(dataVersionPath, JSON.stringify({ version: timestamp }, null, 2));
+  console.log(`✅ Data version updated: ${timestamp}`);
+};
+
+updateDataVersion();
+
 async function generateJson() {
   const url1 = SONG_LIST_URL1 || "";
   const url2 = SONG_LIST_URL2 || "";
@@ -28,7 +38,7 @@ async function generateJson() {
 
   const data = { songs: songs, videos: videos };
 
-  console.log(data. videos);
+  // console.log(data. videos);
 
   // ✅ `public/songs.json` に保存
   const filePath = path.join(process.cwd(), "public", "songs.json");

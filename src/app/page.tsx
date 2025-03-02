@@ -1,7 +1,8 @@
 "use client";
 
+import {checkVersionAndUpdateCache}      from "@/lib/versionChecker";
 import { Song, SongsList, YouTubeVideo } from "@/types";
-import { useEffect, useState } from "react";
+import { useEffect, useState }           from "react";
 
 export default function Home() {
   const [songs, setSongs] = useState<SongsList>([]);
@@ -9,6 +10,17 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState<string>(""); // 🔍 検索ワード
 
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+  useEffect(() => {
+    checkVersionAndUpdateCache().then(r => {
+      console.log("checkVersionAndUpdateCache()", r);
+    });
+
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("/sw.js").then(() => {
+        console.log("Service Worker registered.");
+      });
+    }
+  }, []);
   useEffect(() => {
     fetch(`${basePath}/songs.json`)
       .then((res) => res.json())

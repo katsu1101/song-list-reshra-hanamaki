@@ -1,4 +1,4 @@
-import {YouTubeVideo} from "@/types";
+import {YouTubeVideo} from "../../src/types";
 import axios          from "axios";
 import { chromium }   from 'playwright';
 import dotenv         from "dotenv";
@@ -38,55 +38,80 @@ export async function scrapeSongList(url: string, source: number) {
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
 
-  await page.goto(url, { waitUntil: 'domcontentloaded' });
+  await page.goto(url, { waitUntil: "domcontentloaded" });
 
   const data = await page.evaluate((source) => {
-    let currentDate = '';
+    let currentDate = ""; // 直前の日時を保存
+    let results: any[] = [];
 
-    return Array.from(document.querySelectorAll('p')).map(p => {
-      const aTag = p.querySelector('a');
-      const text = p.childNodes[0]?.textContent?.trim() || '';
+    const targetDiv = document.querySelector(".post-body.entry-content");
+    if (!targetDiv) return [];
 
-      if (!text) return null; // 空のテキストを削除
-      if (!aTag) {
-        currentDate = text; // 日付と仮定
-        return null;
-      }
-
-      // YouTube URL の解析
-      const url = aTag.getAttribute('href') || '';
-      let videoId = '';
-      let rawTimestamp = '';
-
-      try {
-        const parsedUrl = new URL(url);
-        const params = new URLSearchParams(parsedUrl.search);
-
-        if (parsedUrl.pathname.startsWith('/watch')) {
-          // 通常動画（https://www.youtube.com/watch?v=xxxx&t=xxxxs）
-          videoId = params.get('v') || '';
-          rawTimestamp = params.get('t') || '';
-        } else if (parsedUrl.pathname.startsWith('/live/')) {
-          // ライブ配信（https://www.youtube.com/live/xxxx?t=xxxxs）
-          videoId = parsedUrl.pathname.split('/').pop() || '';
-          rawTimestamp = params.get('t') || '';
+    targetDiv.childNodes.forEach((node) => {
+      if (node.nodeType === Node.TEXT_NODE) {
+        // 直接のテキストノード (p, span の外にあるテキスト)
+        const text = node.textContent?.trim();
+        if (text) {
+          currentDate = text; // 日付として仮定
         }
-      } catch (e) {
-        console.error('Invalid URL:', url, e);
-      }
-      const timestamp = rawTimestamp ? parseInt(rawTimestamp.replace('s', ''), 10) || 0 : 0;
+      } else if (node instanceof Element && (node.tagName === "P" || node.tagName === "SPAN")) {
+        // <p> または <span> の処理
+        const text = Array.from(node.childNodes)
+          .filter(child => child.nodeType === Node.TEXT_NODE) // テキストノードのみ取得
+          .map(child => child.textContent?.trim()) // 空白を削除
+          .join('') // すべてのテキストを結合
 
-      return {
-        date: currentDate,
-        title: text,
-        url,
-        videoId,
-        timestamp,
-        source,
-      };
-    }).filter(item => item !== null);
+        if (!text) return; // 空なら処理をスキップ
+
+        if (!text) return;
+
+        const aTag = node.querySelector("a");
+        if (!aTag) {
+          currentDate = text; // 日付として保持
+          return;
+        }
+
+        // YouTube URL の解析
+        const url = aTag.getAttribute("href") || "";
+        let videoId = "";
+        let rawTimestamp = "";
+
+        try {
+          const parsedUrl = new URL(url);
+          const params = new URLSearchParams(parsedUrl.search);
+
+          if (parsedUrl.pathname.startsWith("/watch")) {
+            // 通常動画（https://www.youtube.com/watch?v=xxxx&t=xxxxs）
+            videoId = params.get("v") || "";
+            rawTimestamp = params.get("t") || "";
+          } else if (parsedUrl.pathname.startsWith("/live/")) {
+            // ライブ配信（https://www.youtube.com/live/xxxx?t=xxxxs）
+            videoId = parsedUrl.pathname.split("/").pop() || "";
+            rawTimestamp = params.get("t") || "";
+          }
+        } catch (e) {
+          console.error("Invalid URL:", url, e);
+        }
+
+        const timestamp = rawTimestamp
+          ? parseInt(rawTimestamp.replace("s", ""), 10) || 0
+          : 0;
+
+        results.push({
+          date: currentDate, // 直前に取得した日付を適用
+          title: text,
+          url,
+          videoId,
+          timestamp,
+          source,
+        });
+      }
+    });
+
+    return results;
   }, source);
 
   await browser.close();
   return data;
 }
+

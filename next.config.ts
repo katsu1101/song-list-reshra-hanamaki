@@ -1,9 +1,23 @@
 import type { NextConfig } from "next";
+import fs from "fs";
+import path from "path";
 
 const isProd = process.env.NODE_ENV === "production";
 const repoName = "song-list-linca-tojou";
+
+// 🔽 追加: ビルドバージョンを更新する関数
+const updateBuildVersion = () => {
+  const buildVersionPath = path.join(__dirname, "public", "build-version.json");
+  const timestamp = new Date().toISOString();
+
+  fs.writeFileSync(buildVersionPath, JSON.stringify({ version: timestamp }, null, 2));
+  console.log(`✅ Build version updated: ${timestamp}`);
+};
+
+// 🔽 追加: Next.js のビルド時にバージョンを自動更新
+updateBuildVersion();
+
 const nextConfig: NextConfig = {
-  /* config options here */
   output: "export", // ✅ 静的サイト化
   images: { unoptimized: true }, // ✅ GitHub Pages は画像最適化ができないため無効化
   trailingSlash: true, // ✅ URL の末尾に `/` を追加（GitHub Pages 互換）
