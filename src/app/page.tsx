@@ -1,49 +1,83 @@
 "use client";
 
-import {checkVersionAndUpdateCache}      from "@/lib/versionChecker";
-import { Song, SongsList, YouTubeVideo } from "@/types";
-import { useEffect, useState }           from "react";
+import GenreBadge                     from "@/components/GenreBadge";
+import {Genre, Song, SongInfo, YouTubeVideo} from "@/types";
+import { useEffect, useState }               from "react";
+import Papa                           from "papaparse";
+
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 export default function Home() {
-  const [songs, setSongs] = useState<SongsList>([]);
+  const [songs, setSongs] = useState<Song[]>([]);
   const [videos, setVideos] = useState<Record<string, YouTubeVideo>>({});
-  const [searchQuery, setSearchQuery] = useState<string>(""); // 🔍 検索ワード
+  const [searchQuery, setSearchQuery] = useState<string>("");
+  const [songInfoMap, setSongInfoMap] = useState<Record<string, SongInfo> | null>(null);
 
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+  // ✅ クリック時に検索バーへジャンルをセット
+  const handleGenreClick = (genre: Genre) => {
+    setSearchQuery(genre);
+  };
+
   useEffect(() => {
-    checkVersionAndUpdateCache().then(r => {
-      console.log("checkVersionAndUpdateCache()", r);
-    });
+    const fetchSongInfo = async () => {
+      try {
+        const res = await fetch(`${basePath}/songinfo.csv`);
+        const csvText = await res.text();
+        const { data }: { data: SongInfo[] } = Papa.parse(csvText, {
+          header: true,
+          skipEmptyLines: true,
+        });
 
-    if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register(`${basePath}/sw.js`).then(() => {
-        console.log("Service Worker registered.");
-      });
-    }
+        const songInfoObj: Record<string, SongInfo> = {};
+        data.forEach((info) => {
+          songInfoObj[info.title] = info;
+        });
+
+        setSongInfoMap(songInfoObj);
+      } catch (error) {
+        console.error("Failed to load songinfo.csv:", error);
+      }
+    };
+
+    fetchSongInfo();
   }, []);
+
   useEffect(() => {
-    fetch(`${basePath}/songs.json`)
-      .then((res) => res.json())
-      .then((data) => {
+    if (!songInfoMap) return;
+    const fetchSongs = async () => {
+
+      try {
+        const res = await fetch(`${basePath}/songs.json`);
+        const data = await res.json();
+
         const sortedSongs = [...data.songs].sort((a: Song, b: Song) => {
           if (a.date !== b.date) {
-            return b.date.localeCompare(a.date); // `date` の降順（新しい日付を上）
+            return b.date.localeCompare(a.date);
           }
-          return (a.timestamp || 0) - (b.timestamp || 0); // `timestamp` の昇順（時間が早い順）
+          return (a.timestamp || 0) - (b.timestamp || 0);
         });
-        setSongs(sortedSongs);
-        setVideos(data.videos || {}); // 🎥 動画データをセット
-      })
-      .catch((error) => console.error("Failed to load songs.json:", error));
-  }, []);
+        const songsWithInfo = sortedSongs.map((song) => ({
+          ...song,
+          info: songInfoMap[song.title] || null,
+        }));
 
-  // ✅ フィルタリング（検索ワードが含まれる曲・動画のみ表示）
+        setSongs(songsWithInfo);
+        setVideos(data.videos || {});
+      } catch (error) {
+        console.error("Failed to load songs.json:", error);
+      }
+    };
+
+    fetchSongs();
+  }, [songInfoMap]);
+
   const filteredSongs = songs.filter((song) => {
     const videoData = videos[song.videoId];
     return (
-      song.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      song.date.includes(searchQuery) ||
-      (videoData?.snippet?.title?.toLowerCase() || "").includes(searchQuery.toLowerCase()) // 🎥 動画タイトルでも検索可能に
+      song.title.toLowerCase().includes(searchQuery.toLowerCase()) ||  // 曲名検索
+      song.date.includes(searchQuery) ||  // 日付検索
+      (videoData?.snippet?.title?.toLowerCase() || "").includes(searchQuery.toLowerCase()) || // 動画タイトル検索
+      (song.info?.genre?.toLowerCase() || "").includes(searchQuery.toLowerCase()) // ✅ ジャンル検索追加
     );
   });
 
@@ -113,24 +147,37 @@ export default function Home() {
                     )}
 
                     {songs[0].source === 1 ? (
-                      <p className="mt-2 font-medium text-center text-lg text-gray-900 dark:text-gray-100">
+                      <p className="mt-2 font-medium text-center text-lg flex items-start  space-x-2 text-gray-900 dark:text-gray-100">
                         ♬ {songs[0].title}
+                        {songs[0].info?.genre &&
+                          <GenreBadge
+                            genre={songs[0].info.genre}
+                            onClick={handleGenreClick}
+                          />
+                        }
                       </p>
+
                     ) : (
                       <div className="mt-2">
                         <ul className="mt-2 space-y-2 text-gray-800 dark:text-gray-300">
-                          {songs.map((song) => (
-                            <li key={song.timestamp} className="text-sm">
+                          {songs.map((song) => {
+                            return <li key={song.timestamp} className="text-lg flex items-start  space-x-2">
                               <a
                                 href={`https://www.youtube.com/watch?v=${song.videoId}${song.timestamp ? `&t=${song.timestamp}s` : ""}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="block hover:underline hover:text-blue-500"
                               >
-                                ♪ {song.title} {song.timestamp ? `(${song.timestamp}s)` : ""}
+                                ♪ {song.title}
                               </a>
+                              {song.info?.genre &&
+                                <GenreBadge
+                                  genre={song.info.genre}
+                                  onClick={handleGenreClick}
+                                />
+                              }
                             </li>
-                          ))}
+                          })}
                         </ul>
                       </div>
                     )}

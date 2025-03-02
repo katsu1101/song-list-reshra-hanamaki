@@ -1,4 +1,5 @@
 export type Song = {
+  info?: SongInfo;      // 追加情報
   date: string;        // 日付（例: "2025/02/23"）
   title: string;       // 曲名
   url: string;         // YouTubeのURL
@@ -8,6 +9,20 @@ export type Song = {
 };
 
 export type SongsList = Song[];
+
+export type Genre = 'オリジナル' | 'J-POP' | 'ドラえもん' | 'アニソン' | 'ボカロ' | 'ディズニー' | 'クリスマス' | 'ガンダム';
+
+export type SongInfo = {
+  title: string;       // 曲名
+  release?: string;    // リリース日
+  album?: string;      // アルバム名
+  genre?: Genre;      // ジャンル
+  lyricist?: string;   // 作詞
+  composer?: string;   // 作曲
+  arranger?: string;   // 編曲
+  work?: string;       // 作品名
+  opEd?: string;       // OP/ED区分
+};
 
 // YouTube API のレスポンスデータの型
 export interface YouTubeVideo {
