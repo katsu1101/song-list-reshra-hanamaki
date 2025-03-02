@@ -2,10 +2,11 @@ export const checkVersionAndUpdateCache = async (): Promise<void> => {
   const currentBuildVersion = localStorage.getItem("build-version");
   const currentDataVersion = localStorage.getItem("data-version");
 
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
   try {
     const [buildRes, dataRes] = await Promise.all([
-      fetch("/build-version.json"),
-      fetch("/data-version.json"),
+      fetch(`${basePath}/build-version.json`),
+      fetch(`${basePath}/data-version.json`),
     ]);
 
     const newBuildVersion = (await buildRes.json()).version;
