@@ -16,7 +16,7 @@ export default function Home() {
     });
 
     if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("/sw.js").then(() => {
+      navigator.serviceWorker.register(`${basePath}/sw.js`).then(() => {
         console.log("Service Worker registered.");
       });
     }
