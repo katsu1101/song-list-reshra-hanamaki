@@ -1,7 +1,7 @@
 "use client";
 
-import GenreBadge                     from "@/components/GenreBadge";
-import {Genre, Song, SongInfo, YouTubeVideo} from "@/types";
+import VideoCard                      from "@/components/VideoCard";
+import {Song, SongInfo, YouTubeVideo} from "@/types";
 import { useEffect, useState }               from "react";
 import Papa                           from "papaparse";
 
@@ -12,10 +12,29 @@ export default function Home() {
   const [videos, setVideos] = useState<Record<string, YouTubeVideo>>({});
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [songInfoMap, setSongInfoMap] = useState<Record<string, SongInfo> | null>(null);
+  const [isScrolled, setIsScrolled] = useState(false); // スクロールの位置
+  const [isClient, setIsClient] = useState(false);
 
   // ✅ クリック時に検索バーへジャンルをセット
-  const handleGenreClick = (genre: Genre) => {
-    setSearchQuery(genre);
+  const handleGenreClick = (tag: string) => {
+    setSearchQuery("#" + tag);
+  };
+
+  const smoothScrollToTop = () => {
+    const scrollStep = () => {
+      const currentScroll = window.scrollY;
+      if (currentScroll > 0) {
+        window.scrollTo(0, currentScroll - currentScroll / 5); // 速度調整
+        requestAnimationFrame(scrollStep);
+      }
+    };
+    requestAnimationFrame(scrollStep);
+  };
+
+  // 検索をリセット
+  const handleResetSearch = () => {
+    smoothScrollToTop(); // 🔝 なめらかにスクロール
+    setSearchQuery(""); // 🔍 検索をリセット
   };
 
   useEffect(() => {
@@ -71,13 +90,36 @@ export default function Home() {
     fetchSongs();
   }, [songInfoMap]);
 
+  useEffect(() => {
+    setIsClient(true); // クライアント側でのみ `true` にする
+    // クライアントサイドでのみ実行
+    if (typeof window === "undefined") return;
+
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 0);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   const filteredSongs = songs.filter((song) => {
     const videoData = videos[song.videoId];
+
+    // 🔹「#」で始まる場合はジャンル & opEd の完全一致検索
+    if (searchQuery.startsWith("#")) {
+      const query = searchQuery.slice(1).toLowerCase(); // 先頭の「#」を削除
+      return (
+        (song.info?.genre?.toLowerCase() === query) || // ✅ ジャンル完全一致
+        (song.info?.opEd?.toLowerCase() === query) // ✅ opEd完全一致
+      );
+    }
+
+    // 🔹それ以外の場合は通常の部分一致検索
     return (
       song.title.toLowerCase().includes(searchQuery.toLowerCase()) ||  // 曲名検索
       song.date.includes(searchQuery) ||  // 日付検索
-      (videoData?.snippet?.title?.toLowerCase() || "").includes(searchQuery.toLowerCase()) || // 動画タイトル検索
-      (song.info?.genre?.toLowerCase() || "").includes(searchQuery.toLowerCase()) // ✅ ジャンル検索追加
+      (videoData?.snippet?.title?.toLowerCase() || "").includes(searchQuery.toLowerCase()) // 動画タイトル検索
     );
   });
 
@@ -93,103 +135,75 @@ export default function Home() {
     groupedSongs[song.date][song.videoId].push(song);
   });
 
+  if (!isClient) {
+    return <div>Loading...</div>; // SSR時に一旦「Loading...」を表示
+  }
+
   return (
     <main className="max-w-4xl mx-auto p-4 text-gray-900 dark:text-gray-100 bg-white dark:bg-gray-900">
-      <h1 className="text-3xl font-bold text-center mb-6">戸定梨香ちゃんの歌リスト</h1>
+      {/* 固定ヘッダー */}
+      <div className="fixed top-0 left-0 w-full bg-white dark:bg-gray-900 shadow-md p-0">
+        <div className="max-w-4xl mx-auto flex flex-col items-center transition-all">
+          {/* タイトル（スクロール時に消える） */}
+          <h1
+            className={`text-2xl font-bold text-center transition-opacity duration-300 opacity-0 ${
+              isScrolled ? "opacity-0 h-0" : "opacity-100 h-auto"
+            }`}
+          >
+            戸定梨香ちゃんの歌リスト
+          </h1>
 
-      {/* 🔍 検索バー */}
-      <div className="mb-6">
-        <input
-          type="text"
-          placeholder="曲名・日付・動画タイトルで検索"
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-          className="w-full p-2 border border-gray-400 rounded-md dark:bg-gray-800 dark:text-gray-100"
-        />
+          <div className="max-w-4xl mx-auto flex items-center w-full z-[999] p-0">
+             {/*左上のアイコン */}
+            <div className="mr-2 h-full p-1 cursor-pointer" onClick={handleResetSearch}>
+              <img src="/icon-192x192.png" alt="Logo" className="w-12 h-12" />
+            </div>
+
+            {/* 検索バー（中央配置） */}
+            <div className="flex-1 relative pr-3">
+              <input
+                type="text"
+                placeholder="曲名・日付・動画タイトルで検索"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-full p-2 border border-gray-400 rounded-md
+                dark:bg-gray-800 dark:text-gray-100"
+              />
+              {/* 検索リセットボタン（×ボタン） */}
+              {searchQuery && (
+                <button
+                  onClick={() => setSearchQuery("")}
+                  className="absolute right-4 top-1/2 -translate-y-1/2 bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-100
+                rounded-full w-6 h-6 flex items-center justify-center hover:bg-gray-400 dark:hover:bg-gray-600 transition"
+                >
+                  ✕
+                </button>
+              )}
+            </div>
+          </div>
+        </div>
       </div>
 
-      {Object.entries(groupedSongs).length > 0 ? (
-        Object.entries(groupedSongs).map(([date, videosByDate]) => (
+      <div className="mt-24">
+      {Object.entries(groupedSongs).length == 0
+        ? <p className="text-center text-gray-500">検索結果がありません</p>
+        : Object.entries(groupedSongs).map(([date, videosByDate]) => (
           <section key={date} className="mb-8">
             <h2 className="text-2xl font-semibold border-b-2 pb-2">{date}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
               {Object.entries(videosByDate).map(([videoId, songs]) => {
-                const videoData = videos[videoId]; // 🎥 `data.videos` から動画情報を取得
                 return (
-                  <div
-                    key={videoId}
-                    className={`p-4 border rounded-lg shadow-md transition-transform duration-300 ${
-                      songs[0].source === 1
-                        ? "bg-gray-300 dark:bg-gray-700 hover:scale-105"
-                        : "bg-blue-100 dark:bg-blue-900 hover:scale-105 border-blue-500"
-                    }`}
-                  >
-                    <a
-                      href={`https://www.youtube.com/watch?v=${videoId}&t=0s`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block"
-                    >
-                      <img
-                        src={videoData?.snippet?.thumbnails?.high?.url || `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`}
-                        alt={videoData?.snippet?.title || songs[0].title}
-                        className={`w-full object-cover rounded-md ${
-                          songs[0].source === 1 ? "h-48" : "h-32"
-                        }`}
-                      />
-                    </a>
-
-                    {/* 🎥 動画タイトルの表示 */}
-                    {videoData?.snippet?.title && (
-                      <p className="mt-2 text-center font-semibold text-lg text-gray-900 dark:text-gray-100">
-                        {videoData.snippet.title}
-                      </p>
-                    )}
-
-                    {songs[0].source === 1 ? (
-                      <p className="mt-2 font-medium text-center text-lg flex items-start  space-x-2 text-gray-900 dark:text-gray-100">
-                        ♬ {songs[0].title}
-                        {songs[0].info?.genre &&
-                          <GenreBadge
-                            genre={songs[0].info.genre}
-                            onClick={handleGenreClick}
-                          />
-                        }
-                      </p>
-
-                    ) : (
-                      <div className="mt-2">
-                        <ul className="mt-2 space-y-2 text-gray-800 dark:text-gray-300">
-                          {songs.map((song) => {
-                            return <li key={song.timestamp} className="text-lg flex items-start  space-x-2">
-                              <a
-                                href={`https://www.youtube.com/watch?v=${song.videoId}${song.timestamp ? `&t=${song.timestamp}s` : ""}`}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="block hover:underline hover:text-blue-500"
-                              >
-                                ♪ {song.title}
-                              </a>
-                              {song.info?.genre &&
-                                <GenreBadge
-                                  genre={song.info.genre}
-                                  onClick={handleGenreClick}
-                                />
-                              }
-                            </li>
-                          })}
-                        </ul>
-                      </div>
-                    )}
-                  </div>
+                  <VideoCard
+                    key={videoId} videoData={videos[videoId]} songs={songs}
+                    handleGenreClick={handleGenreClick}
+                  />
                 );
               })}
             </div>
           </section>
         ))
-      ) : (
-        <p className="text-center text-gray-500">検索結果がありません</p>
-      )}
+      }
+      </div>
     </main>
   );
 }

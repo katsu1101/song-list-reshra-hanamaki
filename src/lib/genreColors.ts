@@ -10,14 +10,18 @@ export const genreColors: Record<Genre, { background: string; color: string, bor
   }, // 青
   "アニソン": { background: "#FF4500", color: "#FFFFFF" },   // オレンジ
   "ボカロ": { background: "#00CED1", color: "#FFFFFF" },     // 青緑
-  "ディズニー": { background: "#60B3E7", color: "#D2E6FA" }, // 紫
-  "クリスマス": { background: "#008000", color: "#E9423A" }, // 緑
+  "ディズニー": {
+    background: "#60B3E7", color: "#D2E6FA",
+    border: "1px solid #243e81", // 色枠
+  }, // 紫
+  "クリスマス": { background: "#00E000", color: "#E9423A" }, // 緑
   "ガンダム": {
     background: "#EBF7EE",  // 白
     color: "#E9423A",       // 赤
     border: "2px solid #F9C13A", // 黄色枠
     boxShadow: "0 0 5px #5DA0E7" // 青のグロー効果
   },
+  "市民の歌": { background: "#008000", color: "#FFFFFF" }, // 緑
 };
 
 // ジャンルの色を取得する関数

@@ -5,12 +5,12 @@ export type Song = {
   url: string;         // YouTubeのURL
   videoId: string;     // YouTube動画ID
   timestamp: number;   // 開始時間（秒, 0 の場合は先頭）
-  source: number;      // 取得元（1: 単独動画, 2: 配信）
+  source: number;      // 取得元（1: 歌ってみた動画, 2: 配信）
 };
-
 export type SongsList = Song[];
 
-export type Genre = 'オリジナル' | 'J-POP' | 'ドラえもん' | 'アニソン' | 'ボカロ' | 'ディズニー' | 'クリスマス' | 'ガンダム';
+export type Genre =
+  'オリジナル' | 'J-POP' | 'ドラえもん' | 'アニソン' | 'ボカロ' | 'ディズニー' | 'クリスマス' | 'ガンダム' | '市民の歌';
 
 export type SongInfo = {
   title: string;       // 曲名

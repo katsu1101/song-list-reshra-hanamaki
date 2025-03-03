@@ -1,17 +1,16 @@
 // components/GenreBadge.tsx
 
-import {getGenreColors} from "@/lib/genreColors";
-import {Genre}          from "@/types";
+import {getOpEdColors} from "@/lib/opEdColors";
 
 type Props = {
-  genre?: Genre;
-  onClick?: (genre: Genre) => void; // ✅ クリック時にジャンルを渡せる
+  opEd?: string;
+  onClick?: (tag: string) => void; // ✅ クリック時にジャンルを渡せる
 };
 
-const GenreBadge: React.FC<Props> = ({ genre, onClick }) => {
-  const genreStyles = getGenreColors(genre);
+const OpEdBadge: React.FC<Props> = ({ opEd, onClick }) => {
+  const genreStyles = getOpEdColors(opEd);
 
-  if (!genre) return null;
+  if (!opEd) return null;
   return (
     <span
       className="ml-1 px-2 py-0.5 text-xs rounded-md font-bold leading-none flex
@@ -25,11 +24,11 @@ const GenreBadge: React.FC<Props> = ({ genre, onClick }) => {
         lineHeight: "1",
         alignSelf: "flex-start", // ✅ `GenreBadge` だけを上揃え
       }}
-      onClick={() => onClick && genre && onClick(genre)} // ✅ クリック時に `genre` を渡す
+      onClick={() => onClick && opEd && onClick(opEd)} // ✅ クリック時に `genre` を渡す
     >
-      {genre}
+      {opEd}
     </span>
   );
 };
 
-export default GenreBadge;
+export default OpEdBadge;
