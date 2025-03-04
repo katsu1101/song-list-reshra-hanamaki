@@ -1,7 +1,8 @@
 import GenreBadge                  from "@/components/GenreBadge";
-import OpEdBadge                   from "@/components/OpEdBadge";
-import { Song, YouTubeVideo} from "@/types";
-import React                       from "react";
+import OpEdBadge                            from "@/components/OpEdBadge";
+import SongInfoModal from "@/components/SongInfoModal";
+import { Song, YouTubeVideo}          from "@/types";
+import React, {useEffect, useRef, useState} from "react";
 
 type Props = {
   videoData: YouTubeVideo;
@@ -11,6 +12,20 @@ type Props = {
 
 // 1: 歌ってみた動画,
 const SingingVideoCard: React.FC<Props> = ({ videoData, songs, handleGenreClick }) => {
+  const [openInfo, setOpenInfo] = useState<string | null>(null);
+  // クリック外で閉じる
+  useEffect(() => {
+    const handleClickOutside = () => {
+      setOpenInfo(null);
+    };
+    if (openInfo) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [openInfo]);
+
   return <div
     className={`p-4 border rounded-lg shadow-md transition-transform duration-300 ${
       "bg-gray-300 dark:bg-gray-700"}`}
@@ -34,9 +49,17 @@ const SingingVideoCard: React.FC<Props> = ({ videoData, songs, handleGenreClick 
         {videoData.snippet.title}
       </p>
     )}
-
-    <p className="mt-2 font-medium text-center text-lg flex items-start  space-x-2 text-gray-900 dark:text-gray-100">
+    <p className="mt-2 font-medium text-center text-lg flex flex-wrap items-start  space-x-2 text-gray-900 dark:text-gray-100">
       ♬ {songs[0].title}
+
+      {/* ℹ️ Info ボタン */}
+      <button
+        className="ml-2 px-2 pl-0 py-1 text-sm text-white rounded-md hover:bg-blue-700 focus:outline-none"
+        onClick={() => setOpenInfo(songs[0].title)}
+      >
+        ℹ️
+      </button>
+
       <GenreBadge
         genre={songs[0].info?.genre}
         onClick={handleGenreClick}
@@ -46,12 +69,37 @@ const SingingVideoCard: React.FC<Props> = ({ videoData, songs, handleGenreClick 
         onClick={handleGenreClick}
       />
     </p>
+    {/* 歌の詳細情報（モーダル風） */}
+    {openInfo === songs[0].title && (
+      <SongInfoModal
+        song={songs.find((s) => s.title === openInfo)!}
+        onClose={() => setOpenInfo(null)} // ✅ モーダルを閉じる処理を渡す
+      />
+    )}
 
   </div>
 }
 
 // 2: 配信
 const LiveStreamCard: React.FC<Props> = ({ videoData, songs, handleGenreClick }) => {
+  const [openInfo, setOpenInfo] = useState<string | null>(null);
+  const infoRef = useRef<HTMLDivElement>(null);
+
+  // クリック外で閉じる
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (infoRef.current && !infoRef.current.contains(event.target as Node)) {
+        setOpenInfo(null);
+      }
+    };
+    if (openInfo) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [openInfo]);
+
   return <div className="p-4 border rounded-lg shadow-md transition-transform duration-300
       bg-blue-100 dark:bg-blue-900 border-blue-500">{/*} hover:scale-105 スマホで悪さをするのでNG */}
     <a
@@ -77,7 +125,7 @@ const LiveStreamCard: React.FC<Props> = ({ videoData, songs, handleGenreClick })
     <div className="mt-2">
       <ul className="mt-2 space-y-2 text-gray-800 dark:text-gray-300">
         {songs.map((song) => {
-          return <li key={song.timestamp} className="text-lg flex items-start  space-x-2">
+          return <li key={song.timestamp} className="text-lg flex flex-wrap items-center space-x-2">
             <a
               href={`https://www.youtube.com/watch?v=${song.videoId}${song.timestamp ? `&t=${song.timestamp}s` : ""}`}
               target="_blank"
@@ -86,6 +134,15 @@ const LiveStreamCard: React.FC<Props> = ({ videoData, songs, handleGenreClick })
             >
               ♪ {song.title}
             </a>
+
+            {/* ℹ️ Info ボタン */}
+            <button
+              className="ml-2 px-2 pl-0 py-1 text-sm text-white rounded-md hover:bg-blue-700 focus:outline-none"
+              onClick={() => setOpenInfo(openInfo === song.title ? null : song.title)}
+            >
+              ℹ️
+            </button>
+
             <GenreBadge
               genre={song.info?.genre}
               onClick={handleGenreClick}
@@ -94,6 +151,14 @@ const LiveStreamCard: React.FC<Props> = ({ videoData, songs, handleGenreClick })
               opEd={song.info?.opEd}
               onClick={handleGenreClick}
             />
+
+            {/* 歌の詳細情報（モーダル風） */}
+            {openInfo === song.title && (
+              <SongInfoModal
+                song={songs.find((s) => s.title === openInfo)!}
+                onClose={() => setOpenInfo(null)} // ✅ モーダルを閉じる処理を渡す
+              />
+            )}
           </li>
         })}
       </ul>

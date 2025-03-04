@@ -13,8 +13,8 @@ const OpEdBadge: React.FC<Props> = ({ opEd, onClick }) => {
   if (!opEd) return null;
   return (
     <span
-      className="ml-1 px-2 py-0.5 text-xs rounded-md font-bold leading-none flex
-      items-center cursor-pointer whitespace-nowrap"
+      className="ml-1 px-2 py-0.5 text-xs rounded-md font-bold leading-none inline-flex
+        items-start cursor-pointer whitespace-nowrap"
       style={{
         backgroundColor: genreStyles?.background,
         color: genreStyles?.color,
@@ -22,7 +22,6 @@ const OpEdBadge: React.FC<Props> = ({ opEd, onClick }) => {
         boxShadow: genreStyles?.boxShadow || "none",
         fontWeight: "bold",
         lineHeight: "1",
-        alignSelf: "flex-start", // ✅ `GenreBadge` だけを上揃え
       }}
       onClick={() => onClick && opEd && onClick(opEd)} // ✅ クリック時に `genre` を渡す
     >
