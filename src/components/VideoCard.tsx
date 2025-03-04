@@ -45,29 +45,30 @@ const SingingVideoCard: React.FC<Props> = ({ videoData, songs, handleGenreClick 
 
     {/* 🎥 動画タイトルの表示 */}
     {videoData?.snippet?.title && (
-      <p className="mt-2 text-center font-semibold text-lg text-gray-900 dark:text-gray-100">
+      <p className="mt-2 text-center  font-semibold text-lg text-gray-900 dark:text-gray-100">
         {videoData.snippet.title}
       </p>
     )}
-    <p className="mt-2 font-medium text-center text-lg flex flex-wrap items-start  space-x-2 text-gray-900 dark:text-gray-100">
-      ♬ {songs[0].title}
+    <p className="mt-2 font-medium text-lg flex flex-wrap items-start  space-x-2 text-gray-900 dark:text-gray-100">
+      <span>
+        {/* ℹ️ Info ボタン */}
+        <button
+          className="ml-2 px-2 pl-0 py-1 text-sm text-white rounded-md hover:bg-blue-700 focus:outline-none"
+          onClick={() => setOpenInfo(songs[0].title)}
+        >
+          ℹ️
+        </button>
+        {songs[0].title}
 
-      {/* ℹ️ Info ボタン */}
-      <button
-        className="ml-2 px-2 pl-0 py-1 text-sm text-white rounded-md hover:bg-blue-700 focus:outline-none"
-        onClick={() => setOpenInfo(songs[0].title)}
-      >
-        ℹ️
-      </button>
-
-      <GenreBadge
-        genre={songs[0].info?.genre}
-        onClick={handleGenreClick}
-      />
-      <OpEdBadge
-        opEd={songs[0].info?.opEd}
-        onClick={handleGenreClick}
-      />
+        <GenreBadge
+          genre={songs[0].info?.genre}
+          onClick={handleGenreClick}
+        />
+        <OpEdBadge
+          opEd={songs[0].info?.opEd || ""}
+          onClick={handleGenreClick}
+        />
+      </span>
     </p>
     {/* 歌の詳細情報（モーダル風） */}
     {openInfo === songs[0].title && (
@@ -125,16 +126,10 @@ const LiveStreamCard: React.FC<Props> = ({ videoData, songs, handleGenreClick })
     <div className="mt-2">
       <ul className="mt-2 space-y-2 text-gray-800 dark:text-gray-300">
         {songs.map((song) => {
-          return <li key={song.timestamp} className="text-lg flex flex-wrap items-center space-x-2">
-            <a
-              href={`https://www.youtube.com/watch?v=${song.videoId}${song.timestamp ? `&t=${song.timestamp}s` : ""}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block hover:underline hover:text-blue-500"
-            >
-              ♪ {song.title}
-            </a>
-
+          return <li key={song.timestamp} className="m-0 text-lg space-x-2"
+                     style={{ borderTop: "0.5px solid rgba(100, 100, 100, 0.75)" }}
+          >
+            <span className="flex-nowrap items-start">
             {/* ℹ️ Info ボタン */}
             <button
               className="ml-2 px-2 pl-0 py-1 text-sm text-white rounded-md hover:bg-blue-700 focus:outline-none"
@@ -142,15 +137,24 @@ const LiveStreamCard: React.FC<Props> = ({ videoData, songs, handleGenreClick })
             >
               ℹ️
             </button>
+            <a
+              href={`https://www.youtube.com/watch?v=${song.videoId}${song.timestamp ? `&t=${song.timestamp}s` : ""}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline hover:text-blue-500"
+            >
+               {song.title}
+            </a>
 
             <GenreBadge
               genre={song.info?.genre}
               onClick={handleGenreClick}
             />
             <OpEdBadge
-              opEd={song.info?.opEd}
+              opEd={song.info?.opEd || ""}
               onClick={handleGenreClick}
             />
+            </span>
 
             {/* 歌の詳細情報（モーダル風） */}
             {openInfo === song.title && (

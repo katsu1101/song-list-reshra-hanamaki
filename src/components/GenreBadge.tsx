@@ -14,7 +14,7 @@ const GenreBadge: React.FC<Props> = ({ genre, onClick }) => {
   if (!genre) return null;
   return (
     <span
-      className="ml-1 px-2 py-0.5 text-xs rounded-md font-bold leading-none inline-flex
+      className="ml-3 px-2 py-0.5 text-xs rounded-md font-bold leading-none inline-flex
         items-start cursor-pointer whitespace-nowrap"
       style={{
         backgroundColor: genreStyles?.background,

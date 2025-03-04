@@ -26,5 +26,5 @@ export const genreColors: Record<Genre, { background: string; color: string, bor
 
 // ジャンルの色を取得する関数
 export const getGenreColors = (genre?: Genre) => {
-  return genre ? genreColors[genre] : { background: "#CCCCCC", color: "#000000" }; // デフォルトグレー
+  return genreColors[genre as Genre] || { background: "#CCCCCC", color: "#000000" }; // デフォルトグレー
 };

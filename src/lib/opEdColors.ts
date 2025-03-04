@@ -23,10 +23,9 @@ export const genreColors: Record<string, { background: string; color: string, bo
     background: "#FFFFFF",
     color: "#1E90FF"
   }, // 青
-
 };
 
 // ジャンルの色を取得する関数
-export const getOpEdColors = (opEd?: string) => {
-  return opEd ? genreColors[opEd] : { background: "#CCCCCC", color: "#000000" }; // デフォルトグレー
+export const getOpEdColors = (opEd: string) => {
+  return genreColors[opEd] || { background: "#CCCCCC", color: "#000000" }; // デフォルトグレー
 };

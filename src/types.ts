@@ -29,6 +29,8 @@ export interface YouTubeVideo {
   id: string;
   snippet: {
     title: string;
+    description: string;
+    tags: string[];
     thumbnails: {
       default: { url: string };
       medium: { url: string };
