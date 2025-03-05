@@ -55,7 +55,6 @@ export default function Home() {
         const songInfoObj: Record<string, SongInfo> = {};
         data.forEach((info) => {
           songInfoObj[info.title] = info;
-          console.log(info);
         });
 
         setSongInfoMap(songInfoObj);
