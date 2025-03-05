@@ -24,7 +24,6 @@ const nextConfig: NextConfig = {
   basePath: isProd ? `/${repoName}` : "", // ✅ 本番のみ basePath 設定
   assetPrefix: isProd ? `/${repoName}/` : "", // ✅ CSS/JS のパスを修正
   reactStrictMode: true,
-  swcMinify: true,
   distDir: "build", // ビルドファイルの出力ディレクトリを変更（オプション）
   pwa: {
     dest: "public",

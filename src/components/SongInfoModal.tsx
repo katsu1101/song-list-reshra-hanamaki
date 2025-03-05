@@ -1,9 +1,21 @@
-import {Song}                from "@/types";
+import GenreBadge                   from "@/components/GenreBadge";
+import OpEdBadge                    from "@/components/OpEdBadge";
+import {Song}                       from "@/types";
 import React, { useRef, useEffect } from "react";
+import { Search }                   from "lucide-react"; // アイコンをインポート（lucide-reactを使用）
 
-const SongInfoModal: React.FC<{ song: Song; onClose: () => void }> = ({ song, onClose }) => {
+type Props = {
+  song: Song;
+  onClose: () => void
+  onTextSearch: (q: string) => void
+}
+const SongInfoModal: React.FC<Props> = ({ song, onClose, onTextSearch }) => {
   const infoRef = useRef<HTMLDivElement>(null);
 
+  const handleSearch = (q: string,  onClose: () => void) => {
+    onTextSearch(q)
+    onClose()
+  }
   // クリック外で閉じる
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -28,6 +40,41 @@ const SongInfoModal: React.FC<{ song: Song; onClose: () => void }> = ({ song, on
         {/* 詳細情報テーブル */}
         <table className="w-full border-collapse">
           <tbody>
+          {song.artist && (
+            <tr className="border-b border-gray-300 dark:border-gray-600">
+              <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">アーティスト</td>
+              <td className="py-2 text-gray-900 dark:text-gray-100">
+                {song.artist}
+                <button
+                  className="ml-2 text-gray-500 hover:text-gray-700 dark:hover:text-gray-300"
+                  onClick={() => handleSearch(song.artist || "", onClose)}
+                >
+                  <Search size={16} />
+                </button>
+              </td>
+            </tr>
+          )}
+          {(song.work || song.info?.work) && (
+            <tr className="border-b border-gray-300 dark:border-gray-600">
+              <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">作品</td>
+              <td className="py-2 text-gray-900 dark:text-gray-100">
+                {song.work || song.info?.work}
+                <button
+                  className="ml-2 text-gray-500 hover:text-gray-700 dark:hover:text-gray-300"
+                  onClick={() => handleSearch(song.work || song.info?.work || "", onClose)}
+                >
+                  <Search size={16} />
+                </button>
+              </td>
+            </tr>
+          )}
+          {song.note && (
+            <tr className="border-b border-gray-300 dark:border-gray-600">
+              <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">注釈</td>
+              <td className="py-2 text-gray-900 dark:text-gray-100">{song.note}</td>
+            </tr>
+          )}
+
           {song.info?.release && (
             <tr className="border-b border-gray-300 dark:border-gray-600">
               <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">リリース日</td>
@@ -43,37 +90,64 @@ const SongInfoModal: React.FC<{ song: Song; onClose: () => void }> = ({ song, on
           {song.info?.genre && (
             <tr className="border-b border-gray-300 dark:border-gray-600">
               <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">ジャンル</td>
-              <td className="py-2 text-gray-900 dark:text-gray-100">{song.info.genre}</td>
+              <td className="py-2 text-gray-900 dark:text-gray-100">
+                <GenreBadge
+                  genre={song.info?.genre}
+                  onClick={() => {handleSearch("#" + song.info?.genre, onClose)}}
+                />
+              </td>
             </tr>
           )}
           {song.info?.lyricist && (
             <tr className="border-b border-gray-300 dark:border-gray-600">
               <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">作詞</td>
-              <td className="py-2 text-gray-900 dark:text-gray-100">{song.info.lyricist}</td>
+              <td className="py-2 text-gray-900 dark:text-gray-100">
+                {song.info.lyricist}
+                <button
+                  className="ml-2 text-gray-500 hover:text-gray-700 dark:hover:text-gray-300"
+                  onClick={() => handleSearch(song.info?.lyricist || "", onClose)}
+                >
+                  <Search size={16} />
+                </button>
+              </td>
             </tr>
           )}
           {song.info?.composer && (
             <tr className="border-b border-gray-300 dark:border-gray-600">
-              <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">作曲</td>
-              <td className="py-2 text-gray-900 dark:text-gray-100">{song.info.composer}</td>
+              <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">編曲</td>
+              <td className="py-2 text-gray-900 dark:text-gray-100">
+                {song.info.composer}
+                <button
+                  className="ml-2 text-gray-500 hover:text-gray-700 dark:hover:text-gray-300"
+                  onClick={() => handleSearch(song.info?.composer || "", onClose)}
+                >
+                  <Search size={16} />
+                </button>
+              </td>
             </tr>
           )}
           {song.info?.arranger && (
             <tr className="border-b border-gray-300 dark:border-gray-600">
               <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">編曲</td>
-              <td className="py-2 text-gray-900 dark:text-gray-100">{song.info.arranger}</td>
-            </tr>
-          )}
-          {song.info?.work && (
-            <tr className="border-b border-gray-300 dark:border-gray-600">
-              <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">作品名</td>
-              <td className="py-2 text-gray-900 dark:text-gray-100">{song.info.work}</td>
+              <td className="py-2 text-gray-900 dark:text-gray-100">
+                {song.info.arranger}
+                <button
+                  className="ml-2 text-gray-500 hover:text-gray-700 dark:hover:text-gray-300"
+                  onClick={() => handleSearch(song.info?.arranger || "", onClose)}
+                >
+                  <Search size={16} />
+                </button>
+              </td>
             </tr>
           )}
           {song.info?.opEd && (
             <tr className="border-b border-gray-300 dark:border-gray-600">
               <td className="text-nowrap py-2 pr-4 font-semibold text-gray-700 dark:text-gray-300">OP/ED区分</td>
-              <td className="py-2 text-gray-900 dark:text-gray-100">{song.info.opEd}</td>
+              <td className="py-2 text-gray-900 dark:text-gray-100">
+                <OpEdBadge opEd={song.info.opEd} onClick={() => {
+                  handleSearch("#" + song.info?.opEd || "", onClose)
+                }} />
+              </td>
             </tr>
           )}
           </tbody>

@@ -5,11 +5,15 @@ import {getOpEdColors} from "@/lib/opEdColors";
 type Props = {
   opEd: string;
   onClick?: (tag: string) => void; // ✅ クリック時にジャンルを渡せる
+  onClose?: () => void;
 };
 
-const OpEdBadge: React.FC<Props> = ({ opEd, onClick }) => {
+const OpEdBadge: React.FC<Props> = ({ opEd, onClick, onClose }) => {
   const genreStyles = getOpEdColors(opEd);
 
+  if (!! onClose) {
+    onClose()
+  }
   if (!opEd) return null;
   return (
     <span

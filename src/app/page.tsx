@@ -21,6 +21,9 @@ export default function Home() {
   const handleGenreClick = (tag: string) => {
     setSearchQuery("#" + tag);
   };
+  const handleTextSearch = (q: string) => {
+    setSearchQuery(q);
+  };
 
   const smoothScrollToTop = () => {
     const scrollStep = () => {
@@ -52,6 +55,7 @@ export default function Home() {
         const songInfoObj: Record<string, SongInfo> = {};
         data.forEach((info) => {
           songInfoObj[info.title] = info;
+          console.log(info);
         });
 
         setSongInfoMap(songInfoObj);
@@ -137,6 +141,12 @@ export default function Home() {
     return (
       song.title.toLowerCase().includes(searchQuery.toLowerCase()) ||  // 曲名検索
       song.date.includes(searchQuery) ||  // 日付検索
+      song.work.toLowerCase().includes(searchQuery.toLowerCase()) ||  // 作品名
+      song.artist?.toLowerCase().includes(searchQuery.toLowerCase()) ||  // アーティスト
+      song.info?.lyricist?.toLowerCase().includes(searchQuery.toLowerCase()) ||  // 注釈
+      song.info?.composer?.toLowerCase().includes(searchQuery.toLowerCase()) ||  // 作曲
+      song.info?.arranger?.toLowerCase().includes(searchQuery.toLowerCase()) ||  // 編曲
+      song.note.toLowerCase().includes(searchQuery.toLowerCase()) ||  // 注釈
       (videoData?.snippet?.title?.toLowerCase() || "").includes(searchQuery.toLowerCase()) // 動画タイトル検索
     );
   });
@@ -217,6 +227,7 @@ export default function Home() {
                   <VideoCard
                     key={videoId} videoData={videos[videoId]} songs={songs}
                     handleGenreClick={handleGenreClick}
+                    handleTextSearch={handleTextSearch}
                   />
                 );
               })}

@@ -7,11 +7,12 @@ import React, {useEffect, useRef, useState} from "react";
 type Props = {
   videoData: YouTubeVideo;
   songs: Song[];
+  handleTextSearch: (q: string) => void; // ✅ クリック時に検索文字列を渡せる
   handleGenreClick: (tag: string) => void; // ✅ クリック時にジャンルを渡せる
 };
 
 // 1: 歌ってみた動画,
-const SingingVideoCard: React.FC<Props> = ({ videoData, songs, handleGenreClick }) => {
+const SingingVideoCard: React.FC<Props> = ({ videoData, songs, handleTextSearch, handleGenreClick }) => {
   const [openInfo, setOpenInfo] = useState<string | null>(null);
   // クリック外で閉じる
   useEffect(() => {
@@ -26,6 +27,7 @@ const SingingVideoCard: React.FC<Props> = ({ videoData, songs, handleGenreClick 
     };
   }, [openInfo]);
 
+  if (! videoData) return <></>
   return <div
     className={`p-4 border rounded-lg shadow-md transition-transform duration-300 ${
       "bg-gray-300 dark:bg-gray-700"}`}
@@ -75,6 +77,7 @@ const SingingVideoCard: React.FC<Props> = ({ videoData, songs, handleGenreClick 
       <SongInfoModal
         song={songs.find((s) => s.title === openInfo)!}
         onClose={() => setOpenInfo(null)} // ✅ モーダルを閉じる処理を渡す
+        onTextSearch={handleTextSearch}
       />
     )}
 
@@ -82,7 +85,7 @@ const SingingVideoCard: React.FC<Props> = ({ videoData, songs, handleGenreClick 
 }
 
 // 2: 配信
-const LiveStreamCard: React.FC<Props> = ({ videoData, songs, handleGenreClick }) => {
+const LiveStreamCard: React.FC<Props> = ({ videoData, songs, handleGenreClick, handleTextSearch }) => {
   const [openInfo, setOpenInfo] = useState<string | null>(null);
   const infoRef = useRef<HTMLDivElement>(null);
 
@@ -101,6 +104,7 @@ const LiveStreamCard: React.FC<Props> = ({ videoData, songs, handleGenreClick })
     };
   }, [openInfo]);
 
+  if (! videoData) return <></>
   return <div className="p-4 border rounded-lg shadow-md transition-transform duration-300
       bg-blue-100 dark:bg-blue-900 border-blue-500">{/*} hover:scale-105 スマホで悪さをするのでNG */}
     <a
@@ -161,6 +165,7 @@ const LiveStreamCard: React.FC<Props> = ({ videoData, songs, handleGenreClick })
               <SongInfoModal
                 song={songs.find((s) => s.title === openInfo)!}
                 onClose={() => setOpenInfo(null)} // ✅ モーダルを閉じる処理を渡す
+                onTextSearch={handleTextSearch}
               />
             )}
           </li>
@@ -170,10 +175,20 @@ const LiveStreamCard: React.FC<Props> = ({ videoData, songs, handleGenreClick })
   </div>
 }
 
-const VideoCard: React.FC<Props> = ({ videoData, songs, handleGenreClick }) => {
+const VideoCard: React.FC<Props> = ({ videoData, songs, handleGenreClick, handleTextSearch }) => {
   return songs[0]?.source === 1
-    ? <SingingVideoCard videoData={videoData} songs={songs} handleGenreClick={handleGenreClick} />
-    : <LiveStreamCard videoData={videoData} songs={songs} handleGenreClick={handleGenreClick} />
+    ? <SingingVideoCard
+      videoData={videoData}
+      songs={songs}
+      handleGenreClick={handleGenreClick}
+      handleTextSearch={handleTextSearch}
+    />
+    : <LiveStreamCard
+      videoData={videoData}
+      songs={songs}
+      handleGenreClick={handleGenreClick}
+      handleTextSearch={handleTextSearch}
+    />
 }
 
 export default VideoCard;

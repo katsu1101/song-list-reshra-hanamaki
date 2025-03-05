@@ -38,80 +38,109 @@ export async function scrapeSongList(url: string, source: number) {
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
 
+  // console.log(`url: ${url}`);
   await page.goto(url, { waitUntil: "domcontentloaded" });
+
+  // ブラウザの console.log を Node.js 側でキャッチ
+  page.on("console", (msg) => {
+    console.log(`BROWSER LOG: ${msg.text()}`);
+  });
 
   const data = await page.evaluate((source) => {
     let currentDate = ""; // 直前の日時を保存
-    let results: any[] = [];
+    // console.log(`source: ${source}`);
+    const results: any[] = [];
 
     const targetDiv = document.querySelector(".post-body.entry-content");
+    // console.log(`targetDiv: ${targetDiv}`);
     if (!targetDiv) return [];
-
     targetDiv.childNodes.forEach((node) => {
-      if (node.nodeType === Node.TEXT_NODE) {
-        // 直接のテキストノード (p, span の外にあるテキスト)
-        const text = node.textContent?.trim();
-        if (text) {
-          currentDate = text; // 日付として仮定
-        }
-      } else if (node instanceof Element && (node.tagName === "P" || node.tagName === "SPAN")) {
-        // <p> または <span> の処理
-        const text = Array.from(node.childNodes)
-          .filter(child => child.nodeType === Node.TEXT_NODE) // テキストノードのみ取得
-          .map(child => child.textContent?.trim()) // 空白を削除
-          .join('') // すべてのテキストを結合
 
-        if (!text) return; // 空なら処理をスキップ
+      if (node.nodeType !== Node.ELEMENT_NODE || !(node instanceof Element) || node.tagName !== "P") {
+        return
+      }
 
-        if (!text) return;
+      if (node.childNodes.length === 1) {
+        // 日付
+        currentDate = (node.childNodes[0] as Element).textContent?.trim() || "";
+        return
+      }
+      // `p` タグの内容を取得
 
-        const aTag = node.querySelector("a");
-        if (!aTag) {
-          currentDate = text; // 日付として保持
-          return;
-        }
+      let title = "";
+      let artist = "";
+      let work = "";
+      let note = "";
+      let videoUrl = "";
+      let videoId = "";
+      let timestamp = 0;
+      node.childNodes.forEach((child) => {
 
-        // YouTube URL の解析
-        const url = aTag.getAttribute("href") || "";
-        let videoId = "";
-        let rawTimestamp = "";
+        if (child.nodeType === Node.TEXT_NODE) {
+          // テキストノードの処理
+          const text = (child as Element).textContent?.trim();
+          if (! text) return;
 
-        try {
-          const parsedUrl = new URL(url);
-          const params = new URLSearchParams(parsedUrl.search);
-
-          if (parsedUrl.pathname.startsWith("/watch")) {
-            // 通常動画（https://www.youtube.com/watch?v=xxxx&t=xxxxs）
-            videoId = params.get("v") || "";
-            rawTimestamp = params.get("t") || "";
-          } else if (parsedUrl.pathname.startsWith("/live/")) {
-            // ライブ配信（https://www.youtube.com/live/xxxx?t=xxxxs）
-            videoId = parsedUrl.pathname.split("/").pop() || "";
-            rawTimestamp = params.get("t") || "";
+          if (text.startsWith("♪")) {
+            artist = text.replace("♪", "").trim();
+          } else if (text.startsWith("『") && text.endsWith("』")) {
+            work = text.replace(/『|』/g, "").trim();
+          } else if (text.startsWith("(") && text.endsWith(")")) {
+            note = text.replace(/\(|\)/g, "").trim();
+          } else {
+            title = text;
           }
-        } catch (e) {
-          console.error("Invalid URL:", url, e);
+        } else if (! (node instanceof Element)) {
+          return
+        } else if (child.nodeType === Node.ELEMENT_NODE) {
+          if ((child as Element).tagName === "BR") {
+            // `<br>` は単なる改行なので無視（処理の区切りには使わない）
+            return;
+          } else if ((child as Element).tagName === "A") {
+            // `<a>` タグの処理（YouTube URL 抽出）
+            const url = (child as Element).getAttribute("href") || "";
+            if (!url) return;
+
+            try {
+              const parsedUrl = new URL(url);
+              const params = new URLSearchParams(parsedUrl.search);
+
+              if (parsedUrl.pathname.startsWith("/watch")) {
+                videoId = params.get("v") || "";
+                timestamp = parseInt(params.get("t") || "0", 10);
+              } else if (parsedUrl.pathname.startsWith("/live/")) {
+                videoId = parsedUrl.pathname.split("/").pop() || "";
+                timestamp = parseInt(params.get("t") || "0", 10);
+              }
+
+              videoUrl = url;
+            } catch (e) {
+              console.error("Invalid URL:", url, e);
+            }
+          }
         }
+      });
 
-        const timestamp = rawTimestamp
-          ? parseInt(rawTimestamp.replace("s", ""), 10) || 0
-          : 0;
-
-        results.push({
+      results.push({
           date: currentDate, // 直前に取得した日付を適用
-          title: text,
-          url,
+          title,
+          artist,
+          work,
+          note,
+          url: videoUrl,
           videoId,
           timestamp,
           source,
-        });
-      }
-    });
+        })
+    }, source);
 
     return results;
   }, source);
 
   await browser.close();
+
+  // console.log(JSON.stringify(data, null, 2));
+
   return data;
 }
 

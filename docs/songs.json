@@ -3,6 +3,9 @@
     {
       "date": "2025年",
       "title": "Yume no Tojou",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=WucHdtn7gGo",
       "videoId": "WucHdtn7gGo",
       "timestamp": 0,
@@ -11,6 +14,9 @@
     {
       "date": "2024年",
       "title": "僕らは戸定建設員",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=lQd7OfNER5E",
       "videoId": "lQd7OfNER5E",
       "timestamp": 0,
@@ -18,7 +24,10 @@
     },
     {
       "date": "2024年",
-      "title": "青いベンチ（MCあり）[歌い出し]",
+      "title": "青いベンチ（MCあり）",
+      "artist": "サスケ",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=5nHXLuFuVv4",
       "videoId": "5nHXLuFuVv4",
       "timestamp": 0,
@@ -27,6 +36,9 @@
     {
       "date": "2024年",
       "title": "青いベンチ",
+      "artist": "サスケ",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=XtUs6qTZzqg",
       "videoId": "XtUs6qTZzqg",
       "timestamp": 0,
@@ -35,6 +47,9 @@
     {
       "date": "2023年",
       "title": "ハッピー☆ラッキー・バースデー！ ※メンバーシップ限定",
+      "artist": "ドラえもん(水田わさび)、のび太(大原めぐみ)、しずか(かかずゆみ)、ジャイアン(木村昴)、スネ夫(関智一)",
+      "work": "ドラえもん",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=bnbAYjUAkqo",
       "videoId": "bnbAYjUAkqo",
       "timestamp": 0,
@@ -43,6 +58,9 @@
     {
       "date": "2023年",
       "title": "君よ 気高くあれ",
+      "artist": "シユイ",
+      "work": "機動戦士ガンダム 水星の魔女",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=1DLndvFhPsY",
       "videoId": "1DLndvFhPsY",
       "timestamp": 0,
@@ -51,6 +69,9 @@
     {
       "date": "2023年",
       "title": "O・G・I・N・O！～世界最強のヲタク議員～ リミックス版",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=oqLbaRa190A",
       "videoId": "oqLbaRa190A",
       "timestamp": 0,
@@ -59,6 +80,9 @@
     {
       "date": "2023年",
       "title": "O・G・I・N・O！～世界最強のヲタク議員～",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=LI2WwrPNHFU",
       "videoId": "LI2WwrPNHFU",
       "timestamp": 0,
@@ -67,6 +91,9 @@
     {
       "date": "2023年",
       "title": "忘れてやらない",
+      "artist": "結束バンド",
+      "work": "ぼっち・ざ・ろっく！",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=U8N6UH53Dds",
       "videoId": "U8N6UH53Dds",
       "timestamp": 0,
@@ -75,6 +102,9 @@
     {
       "date": "2023年",
       "title": "僕たちの英語物語",
+      "artist": "戸定梨香",
+      "work": "英語物語",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=gZ28H27_S7I",
       "videoId": "gZ28H27_S7I",
       "timestamp": 0,
@@ -83,6 +113,9 @@
     {
       "date": "2022年",
       "title": "ガラスのくつ",
+      "artist": "いとうかなこ",
+      "work": "沙耶の唄",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=8LiU-deYM-s",
       "videoId": "8LiU-deYM-s",
       "timestamp": 0,
@@ -90,7 +123,21 @@
     },
     {
       "date": "2022年",
-      "title": "やだやだもん（24秒）",
+      "title": "",
+      "artist": "",
+      "work": "",
+      "note": "",
+      "url": "",
+      "videoId": "",
+      "timestamp": 0,
+      "source": 1
+    },
+    {
+      "date": "2022年",
+      "title": "やだやだもん (24秒)",
+      "artist": "名前は未だ無いです。 feat. 可不",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=fgZLWMUz6eM",
       "videoId": "fgZLWMUz6eM",
       "timestamp": 0,
@@ -99,6 +146,9 @@
     {
       "date": "2022年",
       "title": "あなたの頬が桃色になった",
+      "artist": "式浦。 feat. 歌愛ユキ",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=E6c6JrjJqbY",
       "videoId": "E6c6JrjJqbY",
       "timestamp": 0,
@@ -107,6 +157,9 @@
     {
       "date": "2022年",
       "title": "夏色えがおで1,2,Jump!",
+      "artist": "μ's",
+      "work": "ラブライブ！",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=tvqdUG5OE2I",
       "videoId": "tvqdUG5OE2I",
       "timestamp": 0,
@@ -115,6 +168,9 @@
     {
       "date": "2022年",
       "title": "命ばっかり",
+      "artist": "ぬゆり feat. flower、結月ゆかり",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=XV_4Iu50XFI",
       "videoId": "XV_4Iu50XFI",
       "timestamp": 0,
@@ -123,6 +179,9 @@
     {
       "date": "2022年",
       "title": "Never Ending Fantasy",
+      "artist": "ディアンサ(水瀬いのり)、リナリア(田中美海)、ハリエ(小倉唯)、ジオラ(高橋未奈美)、カンナ(内山夕実)",
+      "work": "グランブルーファンタジー",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=9ElTZFM3txw",
       "videoId": "9ElTZFM3txw",
       "timestamp": 0,
@@ -131,6 +190,9 @@
     {
       "date": "2022年",
       "title": "とても素敵な六月でした",
+      "artist": "Eight feat. 初音ミク",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=56JL0PpekUo",
       "videoId": "56JL0PpekUo",
       "timestamp": 0,
@@ -139,6 +201,9 @@
     {
       "date": "2022年",
       "title": "スシ食いねェ！",
+      "artist": "シブがき隊",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=CkU-8wS4_XY",
       "videoId": "CkU-8wS4_XY",
       "timestamp": 0,
@@ -147,6 +212,9 @@
     {
       "date": "2022年",
       "title": "EXPOSE ‘Burn out!!!'",
+      "artist": "RAISE A SUILEN",
+      "work": "BanG Dream!",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=b0mVX1XFD_g",
       "videoId": "b0mVX1XFD_g",
       "timestamp": 0,
@@ -155,6 +223,9 @@
     {
       "date": "2022年",
       "title": "ハッピー☆ラッキー・バースデー！ ※メンバーシップ限定",
+      "artist": "ドラえもん(水田わさび)、のび太(大原めぐみ)、しずか(かかずゆみ)、ジャイアン(木村昴)、スネ夫(関智一)",
+      "work": "ドラえもん",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=-SQ_lnWr33M",
       "videoId": "-SQ_lnWr33M",
       "timestamp": 0,
@@ -163,6 +234,9 @@
     {
       "date": "2022年",
       "title": "ピース！！",
+      "artist": "",
+      "work": "",
+      "note": "VTuber Fes Japan 2022 公式テーマソング",
       "url": "https://www.youtube.com/watch?v=UAMhYU9SHzo",
       "videoId": "UAMhYU9SHzo",
       "timestamp": 0,
@@ -171,6 +245,9 @@
     {
       "date": "2022年",
       "title": "私、アイドル宣言",
+      "artist": "CHiCO with HoneyWorks",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=bkQ_UtHdX2U",
       "videoId": "bkQ_UtHdX2U",
       "timestamp": 0,
@@ -179,6 +256,9 @@
     {
       "date": "2022年",
       "title": "サンタさん",
+      "artist": "ももいろクローバーZ",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=tW6lIBpI-94",
       "videoId": "tW6lIBpI-94",
       "timestamp": 0,
@@ -187,6 +267,9 @@
     {
       "date": "2022年",
       "title": "人生リセットボタン",
+      "artist": "kemu feat.GUMI",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=3s8X3lSS940",
       "videoId": "3s8X3lSS940",
       "timestamp": 0,
@@ -195,6 +278,9 @@
     {
       "date": "2022年",
       "title": "どこまでも～How Far I'll Go～",
+      "artist": "加藤ミリヤ",
+      "work": "モアナと伝説の海",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=hEA3JvnOvFQ",
       "videoId": "hEA3JvnOvFQ",
       "timestamp": 0,
@@ -203,6 +289,9 @@
     {
       "date": "2022年",
       "title": "レット・イット・ゴー～ありのままで～",
+      "artist": "",
+      "work": "アナと雪の女王",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=ql3Z-T7frgw",
       "videoId": "ql3Z-T7frgw",
       "timestamp": 0,
@@ -211,6 +300,9 @@
     {
       "date": "2021年",
       "title": "ファンサ",
+      "artist": "mona(夏川椎菜)",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=w9xYUVXxsYM",
       "videoId": "w9xYUVXxsYM",
       "timestamp": 0,
@@ -219,6 +311,9 @@
     {
       "date": "2021年",
       "title": "ハレ晴レユカイ",
+      "artist": "平野綾、茅原実里、後藤邑子",
+      "work": "涼宮ハルヒの憂鬱",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=i7Blu0Sc_a4",
       "videoId": "i7Blu0Sc_a4",
       "timestamp": 0,
@@ -227,6 +322,9 @@
     {
       "date": "2021年",
       "title": "うまぴょい伝説",
+      "artist": "ウマ娘",
+      "work": "ウマ娘 プリティーダービー",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=7Qa2D8oubMY",
       "videoId": "7Qa2D8oubMY",
       "timestamp": 0,
@@ -235,6 +333,9 @@
     {
       "date": "2021年",
       "title": "お願い！シンデレラ",
+      "artist": "CINDERELLA GIRLS!!",
+      "work": "アイドルマスター シンデレラガールズ",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=XPYQJo2v_r0",
       "videoId": "XPYQJo2v_r0",
       "timestamp": 0,
@@ -243,6 +344,9 @@
     {
       "date": "2021年",
       "title": "はなまるぴっぴはよいこだけ",
+      "artist": "A応P",
+      "work": "おそ松さん",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=I91fiV7iXAU",
       "videoId": "I91fiV7iXAU",
       "timestamp": 0,
@@ -251,6 +355,9 @@
     {
       "date": "2020年",
       "title": "暗殺プリンセス",
+      "artist": "Mitchie M feat. 初音ミク",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=c421y_seuJ0",
       "videoId": "c421y_seuJ0",
       "timestamp": 0,
@@ -259,6 +366,9 @@
     {
       "date": "2020年",
       "title": "はろうぃんないと",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "ASEのオリジナルソング",
       "url": "https://www.youtube.com/watch?v=neJqtiEr_4A",
       "videoId": "neJqtiEr_4A",
       "timestamp": 0,
@@ -267,6 +377,9 @@
     {
       "date": "2020年",
       "title": "青",
+      "artist": "164 feat. MAYU",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=7SCdNaOGoSM",
       "videoId": "7SCdNaOGoSM",
       "timestamp": 0,
@@ -275,6 +388,9 @@
     {
       "date": "2020年",
       "title": "打上花火",
+      "artist": "DAOKO×米津玄師",
+      "work": "打ち上げ花火、下から見るか？ 横から見るか？",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=UGeQtPbp6bc",
       "videoId": "UGeQtPbp6bc",
       "timestamp": 0,
@@ -283,6 +399,9 @@
     {
       "date": "2020年",
       "title": "Believe in yourself",
+      "artist": "阿部真央",
+      "work": "ベイビーステップ",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=x41mLZYsUkA",
       "videoId": "x41mLZYsUkA",
       "timestamp": 0,
@@ -291,6 +410,9 @@
     {
       "date": "2020年",
       "title": "幽霊東京",
+      "artist": "Ayase feat. 初音ミク",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=ON2eStO7YXc",
       "videoId": "ON2eStO7YXc",
       "timestamp": 0,
@@ -299,6 +421,9 @@
     {
       "date": "2020年",
       "title": "うちで踊ろう",
+      "artist": "星野源",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=tPwXqrts61w",
       "videoId": "tPwXqrts61w",
       "timestamp": 0,
@@ -307,6 +432,9 @@
     {
       "date": "2020年",
       "title": "アルカホリック・ランデヴー",
+      "artist": "くじら feat. v flower",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=U9zhM2xgH78",
       "videoId": "U9zhM2xgH78",
       "timestamp": 0,
@@ -315,6 +443,9 @@
     {
       "date": "2025/02/23",
       "title": "Rusty Nail",
+      "artist": "X JAPAN",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/qa0PSEJS10M?t=6s",
       "videoId": "qa0PSEJS10M",
       "timestamp": 6,
@@ -323,6 +454,9 @@
     {
       "date": "2025/02/23",
       "title": "ダンシング・ヒーロー (Eat You Up)",
+      "artist": "荻野目洋子",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/qa0PSEJS10M?t=495s",
       "videoId": "qa0PSEJS10M",
       "timestamp": 495,
@@ -331,6 +465,9 @@
     {
       "date": "2025/02/23",
       "title": "自由への扉",
+      "artist": "小此木麻里",
+      "work": "塔の上のラプンツェル",
+      "note": "",
       "url": "https://www.youtube.com/live/qa0PSEJS10M?t=1003s",
       "videoId": "qa0PSEJS10M",
       "timestamp": 1003,
@@ -339,6 +476,9 @@
     {
       "date": "2025/02/23",
       "title": "チバケンサンバ",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/qa0PSEJS10M?t=1366s",
       "videoId": "qa0PSEJS10M",
       "timestamp": 1366,
@@ -347,6 +487,9 @@
     {
       "date": "2024/12/31 (～2025/01/01)",
       "title": "チバケンサンバ",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/9Fw2quqkiEM?t=3258s",
       "videoId": "9Fw2quqkiEM",
       "timestamp": 3258,
@@ -355,6 +498,9 @@
     {
       "date": "2024/12/31 (～2025/01/01)",
       "title": "恋は最後のフェアリー・テール",
+      "artist": "すかんち",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/9Fw2quqkiEM?t=4726s",
       "videoId": "9Fw2quqkiEM",
       "timestamp": 4726,
@@ -363,6 +509,9 @@
     {
       "date": "2024/12/31 (～2025/01/01)",
       "title": "むぅむぅちゃんバースデー",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/9Fw2quqkiEM?t=5727s",
       "videoId": "9Fw2quqkiEM",
       "timestamp": 5727,
@@ -371,6 +520,9 @@
     {
       "date": "2024/12/31 (～2025/01/01)",
       "title": "僕らは戸定建設員",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/9Fw2quqkiEM?t=6612s",
       "videoId": "9Fw2quqkiEM",
       "timestamp": 6612,
@@ -378,7 +530,10 @@
     },
     {
       "date": "2024/12/24",
-      "title": "ジングル・ベル",
+      "title": "ジングルベル",
+      "artist": "",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/BE9vzRfX7Q4?t=517s",
       "videoId": "BE9vzRfX7Q4",
       "timestamp": 517,
@@ -387,6 +542,9 @@
     {
       "date": "2024/12/24",
       "title": "冬がはじまるよ",
+      "artist": "槇原敬之",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/BE9vzRfX7Q4?t=1004s",
       "videoId": "BE9vzRfX7Q4",
       "timestamp": 1004,
@@ -395,6 +553,9 @@
     {
       "date": "2024/12/24",
       "title": "クリスマス・イブ",
+      "artist": "山下達郎",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/BE9vzRfX7Q4?t=1567s",
       "videoId": "BE9vzRfX7Q4",
       "timestamp": 1567,
@@ -403,6 +564,9 @@
     {
       "date": "2024/12/24",
       "title": "いつか空に届いて",
+      "artist": "椎名恵",
+      "work": "機動戦士ガンダム0080 ポケットの中の戦争",
+      "note": "",
       "url": "https://www.youtube.com/live/BE9vzRfX7Q4?t=2141s",
       "videoId": "BE9vzRfX7Q4",
       "timestamp": 2141,
@@ -411,6 +575,9 @@
     {
       "date": "2024/12/24",
       "title": "あわてんぼうのサンタクロース",
+      "artist": "",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/BE9vzRfX7Q4?t=2725s",
       "videoId": "BE9vzRfX7Q4",
       "timestamp": 2725,
@@ -419,6 +586,9 @@
     {
       "date": "2024/12/24",
       "title": "いつかのメリークリスマス",
+      "artist": "B'z",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/BE9vzRfX7Q4?t=3655s",
       "videoId": "BE9vzRfX7Q4",
       "timestamp": 3655,
@@ -427,6 +597,9 @@
     {
       "date": "2024/12/24",
       "title": "僕たちの英語物語",
+      "artist": "戸定梨香",
+      "work": "英語物語",
+      "note": "",
       "url": "https://www.youtube.com/live/BE9vzRfX7Q4?t=4557s",
       "videoId": "BE9vzRfX7Q4",
       "timestamp": 4557,
@@ -435,6 +608,9 @@
     {
       "date": "2024/12/24",
       "title": "Snow Fairy Story",
+      "artist": "40mP feat. 初音ミク",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/BE9vzRfX7Q4?t=5041s",
       "videoId": "BE9vzRfX7Q4",
       "timestamp": 5041,
@@ -443,6 +619,9 @@
     {
       "date": "2024/12/24",
       "title": "雪の華",
+      "artist": "中島美嘉",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/BE9vzRfX7Q4?t=5738s",
       "videoId": "BE9vzRfX7Q4",
       "timestamp": 5738,
@@ -451,6 +630,9 @@
     {
       "date": "2024/12/24",
       "title": "You're My Only Shinin' Star",
+      "artist": "中山美穂",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/BE9vzRfX7Q4?t=6254s",
       "videoId": "BE9vzRfX7Q4",
       "timestamp": 6254,
@@ -459,6 +641,9 @@
     {
       "date": "2024/12/24",
       "title": "SWEET MEMORIES",
+      "artist": "松田聖子",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/BE9vzRfX7Q4?t=6838s",
       "videoId": "BE9vzRfX7Q4",
       "timestamp": 6838,
@@ -467,6 +652,9 @@
     {
       "date": "2024/12/08",
       "title": "遠い街のどこかで…",
+      "artist": "中山美穂",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/DSzcS9UJWP8?t=5760s",
       "videoId": "DSzcS9UJWP8",
       "timestamp": 5760,
@@ -475,86 +663,119 @@
     {
       "date": "2024/12/08",
       "title": "世界中の誰よりきっと",
+      "artist": "中山美穂＆WANDS",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/DSzcS9UJWP8?t=6835s",
       "videoId": "DSzcS9UJWP8",
       "timestamp": 6835,
       "source": 2
     },
     {
-      "date": "新酒フェスタwithコンテンツ体験＆ショー (高画質ver.)",
+      "date": "新酒フェスタwithコンテンツ体験＆ショー (高画質ver.) ※メンバーシップ限定",
       "title": "POP IN 2",
+      "artist": "B小町",
+      "work": "【推しの子】",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=mhMt_vJPWk0&t=169s",
       "videoId": "mhMt_vJPWk0",
       "timestamp": 169,
       "source": 2
     },
     {
-      "date": "新酒フェスタwithコンテンツ体験＆ショー (高画質ver.)",
+      "date": "新酒フェスタwithコンテンツ体験＆ショー (高画質ver.) ※メンバーシップ限定",
       "title": "こんなあたしはいかがですか",
+      "artist": "超ときめき♡宣伝部",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=mhMt_vJPWk0&t=262s",
       "videoId": "mhMt_vJPWk0",
       "timestamp": 262,
       "source": 2
     },
     {
-      "date": "新酒フェスタwithコンテンツ体験＆ショー (高画質ver.)",
+      "date": "新酒フェスタwithコンテンツ体験＆ショー (高画質ver.) ※メンバーシップ限定",
       "title": "チバケンサンバ",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=mhMt_vJPWk0&t=647s",
       "videoId": "mhMt_vJPWk0",
       "timestamp": 647,
       "source": 2
     },
     {
-      "date": "新酒フェスタwithコンテンツ体験＆ショー (高画質ver.)",
+      "date": "新酒フェスタwithコンテンツ体験＆ショー (高画質ver.) ※メンバーシップ限定",
       "title": "Yume no Tojou",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=mhMt_vJPWk0&t=1022s",
       "videoId": "mhMt_vJPWk0",
       "timestamp": 1022,
       "source": 2
     },
     {
-      "date": "戸定梨香生誕祭2024 第二部 (高画質ver.)",
+      "date": "戸定梨香生誕祭2024 第二部 (高画質ver.) ※メンバーシップ限定",
       "title": "サインはB ～ アイドル",
+      "artist": "B小町／YOASOBI",
+      "work": "【推しの子】",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=6-sHRAIXec4&t=16s",
       "videoId": "6-sHRAIXec4",
       "timestamp": 16,
       "source": 2
     },
     {
-      "date": "戸定梨香生誕祭2024 第二部 (高画質ver.)",
+      "date": "戸定梨香生誕祭2024 第二部 (高画質ver.) ※メンバーシップ限定",
       "title": "すきっ！",
+      "artist": "ときめき♡宣伝部",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=6-sHRAIXec4&t=338s",
       "videoId": "6-sHRAIXec4",
       "timestamp": 338,
       "source": 2
     },
     {
-      "date": "戸定梨香生誕祭2024 第二部 (高画質ver.)",
+      "date": "戸定梨香生誕祭2024 第二部 (高画質ver.) ※メンバーシップ限定",
       "title": "愛包ダンスホール",
+      "artist": "HIMEHINA",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=6-sHRAIXec4&t=746s",
       "videoId": "6-sHRAIXec4",
       "timestamp": 746,
       "source": 2
     },
     {
-      "date": "戸定梨香生誕祭2024 第二部 (高画質ver.)",
+      "date": "戸定梨香生誕祭2024 第二部 (高画質ver.) ※メンバーシップ限定",
       "title": "Realize!",
+      "artist": "i☆Ris",
+      "work": "プリパラ",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=6-sHRAIXec4&t=1087s",
       "videoId": "6-sHRAIXec4",
       "timestamp": 1087,
       "source": 2
     },
     {
-      "date": "戸定梨香生誕祭2024 第二部 (高画質ver.)",
+      "date": "戸定梨香生誕祭2024 第二部 (高画質ver.) ※メンバーシップ限定",
       "title": "わたしの一番かわいいところ",
+      "artist": "FRUITS ZIPPER",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=6-sHRAIXec4&t=1465s",
       "videoId": "6-sHRAIXec4",
       "timestamp": 1465,
       "source": 2
     },
     {
-      "date": "戸定梨香生誕祭2024 第二部 (高画質ver.)",
+      "date": "戸定梨香生誕祭2024 第二部 (高画質ver.) ※メンバーシップ限定",
       "title": "Yume no Tojou",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=6-sHRAIXec4&t=2098s",
       "videoId": "6-sHRAIXec4",
       "timestamp": 2098,
@@ -563,6 +784,9 @@
     {
       "date": "2024/11/23",
       "title": "POP IN 2",
+      "artist": "B小町",
+      "work": "【推しの子】",
+      "note": "",
       "url": "https://www.youtube.com/live/rFQC20uH9Ag?t=1767s",
       "videoId": "rFQC20uH9Ag",
       "timestamp": 1767,
@@ -571,6 +795,9 @@
     {
       "date": "2024/11/23",
       "title": "こんなあたしはいかがですか",
+      "artist": "超ときめき♡宣伝部",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/rFQC20uH9Ag?t=1860s",
       "videoId": "rFQC20uH9Ag",
       "timestamp": 1860,
@@ -579,6 +806,9 @@
     {
       "date": "2024/11/23",
       "title": "チバケンサンバ",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/rFQC20uH9Ag?t=2245s",
       "videoId": "rFQC20uH9Ag",
       "timestamp": 2245,
@@ -587,6 +817,9 @@
     {
       "date": "2024/11/23",
       "title": "Yume no Tojou",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/rFQC20uH9Ag?t=2620s",
       "videoId": "rFQC20uH9Ag",
       "timestamp": 2620,
@@ -595,6 +828,9 @@
     {
       "date": "2024/08/18",
       "title": "残酷な天使のテーゼ",
+      "artist": "高橋洋子",
+      "work": "新世紀エヴァンゲリオン",
+      "note": "",
       "url": "https://www.youtube.com/live/3AVnWTBf72w?t=2901s",
       "videoId": "3AVnWTBf72w",
       "timestamp": 2901,
@@ -603,6 +839,9 @@
     {
       "date": "2024/08/18",
       "title": "絶対アイドル辞めないで",
+      "artist": "=LOVE",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/3AVnWTBf72w?t=3256s",
       "videoId": "3AVnWTBf72w",
       "timestamp": 3256,
@@ -611,6 +850,9 @@
     {
       "date": "2024/08/18",
       "title": "風といっしょに",
+      "artist": "小林幸子",
+      "work": "劇場版ポケットモンスター ミュウツーの逆襲",
+      "note": "",
       "url": "https://www.youtube.com/live/3AVnWTBf72w?t=3583s",
       "videoId": "3AVnWTBf72w",
       "timestamp": 3583,
@@ -619,6 +861,9 @@
     {
       "date": "2024/08/18",
       "title": "Yume no Tojou",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/3AVnWTBf72w?t=3925s",
       "videoId": "3AVnWTBf72w",
       "timestamp": 3925,
@@ -627,6 +872,9 @@
     {
       "date": "2024/07/27",
       "title": "Please, please!",
+      "artist": "大橋彩香",
+      "work": "政宗くんのリベンジR",
+      "note": "",
       "url": "https://www.youtube.com/live/hsgO2LN9CFQ?t=12832s",
       "videoId": "hsgO2LN9CFQ",
       "timestamp": 12832,
@@ -635,6 +883,9 @@
     {
       "date": "2024/07/27",
       "title": "ETERNAL WIND ～ほほえみは光る風の中～",
+      "artist": "森口博子",
+      "work": "機動戦士ガンダムF91",
+      "note": "",
       "url": "https://www.youtube.com/live/hsgO2LN9CFQ?t=13075s",
       "videoId": "hsgO2LN9CFQ",
       "timestamp": 13075,
@@ -643,6 +894,9 @@
     {
       "date": "2024/07/27",
       "title": "回レ！雪月花",
+      "artist": "歌組雪月花",
+      "work": "機巧少女は傷つかない",
+      "note": "",
       "url": "https://www.youtube.com/live/hsgO2LN9CFQ?t=13553s",
       "videoId": "hsgO2LN9CFQ",
       "timestamp": 13553,
@@ -651,6 +905,9 @@
     {
       "date": "2024/07/04",
       "title": "私の夏",
+      "artist": "森高千里",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/qnA48zK-8zU?t=103s",
       "videoId": "qnA48zK-8zU",
       "timestamp": 103,
@@ -659,6 +916,9 @@
     {
       "date": "2024/07/04",
       "title": "夢をかなえてドラえもん",
+      "artist": "mao",
+      "work": "ドラえもん",
+      "note": "",
       "url": "https://www.youtube.com/live/qnA48zK-8zU?t=484s",
       "videoId": "qnA48zK-8zU",
       "timestamp": 484,
@@ -667,6 +927,9 @@
     {
       "date": "2024/07/04",
       "title": "星間飛行",
+      "artist": "ランカ・リー＝中島愛",
+      "work": "マクロスF",
+      "note": "",
       "url": "https://www.youtube.com/live/qnA48zK-8zU?t=877s",
       "videoId": "qnA48zK-8zU",
       "timestamp": 877,
@@ -675,6 +938,9 @@
     {
       "date": "2024/07/04",
       "title": "ドリドリ",
+      "artist": "中川翔子",
+      "work": "ポケットモンスター XY",
+      "note": "",
       "url": "https://www.youtube.com/live/qnA48zK-8zU?t=1220s",
       "videoId": "qnA48zK-8zU",
       "timestamp": 1220,
@@ -683,6 +949,9 @@
     {
       "date": "2024/07/04",
       "title": "僕らは戸定建設員",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/qnA48zK-8zU?t=1586s",
       "videoId": "qnA48zK-8zU",
       "timestamp": 1586,
@@ -691,6 +960,9 @@
     {
       "date": "2024/07/04",
       "title": "Yume no Tojou",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/qnA48zK-8zU?t=5177s",
       "videoId": "qnA48zK-8zU",
       "timestamp": 5177,
@@ -699,6 +971,9 @@
     {
       "date": "2024/07/04",
       "title": "サインはB ～ アイドル",
+      "artist": "B小町／YOASOBI",
+      "work": "【推しの子】",
+      "note": "",
       "url": "https://www.youtube.com/live/Kp3fODfTZuA?t=198s",
       "videoId": "Kp3fODfTZuA",
       "timestamp": 198,
@@ -707,6 +982,9 @@
     {
       "date": "2024/07/04",
       "title": "すきっ！",
+      "artist": "ときめき♡宣伝部",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/Kp3fODfTZuA?t=519s",
       "videoId": "Kp3fODfTZuA",
       "timestamp": 519,
@@ -715,6 +993,9 @@
     {
       "date": "2024/07/04",
       "title": "愛包ダンスホール",
+      "artist": "HIMEHINA",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/Kp3fODfTZuA?t=926s",
       "videoId": "Kp3fODfTZuA",
       "timestamp": 926,
@@ -723,6 +1004,9 @@
     {
       "date": "2024/07/04",
       "title": "Realize!",
+      "artist": "i☆Ris",
+      "work": "プリパラ",
+      "note": "",
       "url": "https://www.youtube.com/live/Kp3fODfTZuA?t=1268s",
       "videoId": "Kp3fODfTZuA",
       "timestamp": 1268,
@@ -731,6 +1015,9 @@
     {
       "date": "2024/07/04",
       "title": "わたしの一番かわいいところ",
+      "artist": "FRUITS ZIPPER",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/Kp3fODfTZuA?t=1646s",
       "videoId": "Kp3fODfTZuA",
       "timestamp": 1646,
@@ -739,6 +1026,9 @@
     {
       "date": "2024/07/04",
       "title": "Yume no Tojou",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/Kp3fODfTZuA?t=2280s",
       "videoId": "Kp3fODfTZuA",
       "timestamp": 2280,
@@ -747,6 +1037,9 @@
     {
       "date": "2024/06/29",
       "title": "Yume no Tojou",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/ghnta1lK2OQ?t=7198s",
       "videoId": "ghnta1lK2OQ",
       "timestamp": 7198,
@@ -755,6 +1048,9 @@
     {
       "date": "2024/06/14",
       "title": "ライオン",
+      "artist": "May'n／中島愛",
+      "work": "マクロスF",
+      "note": "",
       "url": "https://www.youtube.com/live/rESqPkLPjuA?t=1925s",
       "videoId": "rESqPkLPjuA",
       "timestamp": 1925,
@@ -763,6 +1059,9 @@
     {
       "date": "2024/06/06",
       "title": "むぅむぅちゃんバースデー",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=C1h1ml2QteI&t=3742s",
       "videoId": "C1h1ml2QteI",
       "timestamp": 3742,
@@ -771,6 +1070,9 @@
     {
       "date": "2024/05/22",
       "title": "ω猫",
+      "artist": "AZKi",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=qvdksXZxgCQ&t=760s",
       "videoId": "qvdksXZxgCQ",
       "timestamp": 760,
@@ -779,6 +1081,9 @@
     {
       "date": "2024/05/22",
       "title": "フリージア",
+      "artist": "Uru",
+      "work": "機動戦士ガンダム 鉄血のオルフェンズ",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=qvdksXZxgCQ&t=1496s",
       "videoId": "qvdksXZxgCQ",
       "timestamp": 1496,
@@ -787,6 +1092,9 @@
     {
       "date": "2024/05/22",
       "title": "晴る",
+      "artist": "ヨルシカ",
+      "work": "葬送のフリーレン",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=qvdksXZxgCQ&t=2458s",
       "videoId": "qvdksXZxgCQ",
       "timestamp": 2458,
@@ -795,6 +1103,9 @@
     {
       "date": "2024/05/22",
       "title": "Oneway Generation",
+      "artist": "本田美奈子",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=qvdksXZxgCQ&t=3131s",
       "videoId": "qvdksXZxgCQ",
       "timestamp": 3131,
@@ -803,6 +1114,9 @@
     {
       "date": "2024/05/22",
       "title": "Sincerely",
+      "artist": "TRUE",
+      "work": "ヴァイオレット・エヴァーガーデン",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=qvdksXZxgCQ&t=3704s",
       "videoId": "qvdksXZxgCQ",
       "timestamp": 3704,
@@ -811,6 +1125,9 @@
     {
       "date": "2024/05/22",
       "title": "ミッキーマウス・マーチ",
+      "artist": "",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=qvdksXZxgCQ&t=4369s",
       "videoId": "qvdksXZxgCQ",
       "timestamp": 4369,
@@ -819,6 +1136,9 @@
     {
       "date": "2024/05/22",
       "title": "風といっしょに",
+      "artist": "小林幸子",
+      "work": "劇場版ポケットモンスター ミュウツーの逆襲",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=qvdksXZxgCQ&t=4950s",
       "videoId": "qvdksXZxgCQ",
       "timestamp": 4950,
@@ -827,6 +1147,9 @@
     {
       "date": "2024/05/22",
       "title": "僕らは戸定建設員",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=qvdksXZxgCQ&t=5694s",
       "videoId": "qvdksXZxgCQ",
       "timestamp": 5694,
@@ -835,6 +1158,9 @@
     {
       "date": "2024/05/21 (～05/22)",
       "title": "影踏み",
+      "artist": "nano.RIPE",
+      "work": "劇場版 花咲くいろは HOME SWEET HOME",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=rCN36eYptjk&t=484s",
       "videoId": "rCN36eYptjk",
       "timestamp": 484,
@@ -843,6 +1169,9 @@
     {
       "date": "2024/05/21 (～05/22)",
       "title": "愛が生まれた日",
+      "artist": "藤谷美和子、大内義昭",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=rCN36eYptjk&t=1458s",
       "videoId": "rCN36eYptjk",
       "timestamp": 1458,
@@ -851,6 +1180,9 @@
     {
       "date": "2024/05/21 (～05/22)",
       "title": "輝く君へ",
+      "artist": "麻帆良学園中等部2-A かなかな組",
+      "work": "魔法先生ネギま！",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=rCN36eYptjk&t=2299s",
       "videoId": "rCN36eYptjk",
       "timestamp": 2299,
@@ -859,6 +1191,9 @@
     {
       "date": "2024/05/21 (～05/22)",
       "title": "眩暈",
+      "artist": "鬼束ちひろ",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=rCN36eYptjk&t=3326s",
       "videoId": "rCN36eYptjk",
       "timestamp": 3326,
@@ -867,6 +1202,9 @@
     {
       "date": "2024/05/21 (～05/22)",
       "title": "ありがとう",
+      "artist": "いきものがかり",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=rCN36eYptjk&t=4266s",
       "videoId": "rCN36eYptjk",
       "timestamp": 4266,
@@ -875,6 +1213,9 @@
     {
       "date": "2024/05/21 (～05/22)",
       "title": "Yume no Tojou",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=rCN36eYptjk&t=5152s",
       "videoId": "rCN36eYptjk",
       "timestamp": 5152,
@@ -883,6 +1224,9 @@
     {
       "date": "2024/04/29",
       "title": "ラ♡ブ♡リ♡",
+      "artist": "三浦あずさ(たかはし智秋)",
+      "work": "アイドルマスター",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=OcZKdH4I0C8&t=48s",
       "videoId": "OcZKdH4I0C8",
       "timestamp": 48,
@@ -891,6 +1235,9 @@
     {
       "date": "2024/04/29",
       "title": "キミの花",
+      "artist": "奥華子",
+      "work": "セイレン",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=OcZKdH4I0C8&t=308s",
       "videoId": "OcZKdH4I0C8",
       "timestamp": 308,
@@ -899,6 +1246,9 @@
     {
       "date": "2024/04/29",
       "title": "Wonderful World",
+      "artist": "Dream Ami",
+      "work": "",
+      "note": "鴨川シーワールド公式テーマソング",
       "url": "https://www.youtube.com/watch?v=OcZKdH4I0C8&t=966s",
       "videoId": "OcZKdH4I0C8",
       "timestamp": 966,
@@ -907,6 +1257,9 @@
     {
       "date": "2024/04/29",
       "title": "ホール・ニュー・ワールド",
+      "artist": "",
+      "work": "アラジン",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=OcZKdH4I0C8&t=1162s",
       "videoId": "OcZKdH4I0C8",
       "timestamp": 1162,
@@ -915,6 +1268,9 @@
     {
       "date": "2024/04/29",
       "title": "Yume no Tojou",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=OcZKdH4I0C8&t=1447s",
       "videoId": "OcZKdH4I0C8",
       "timestamp": 1447,
@@ -923,6 +1279,9 @@
     {
       "date": "2024/04/14",
       "title": "運命共同体！",
+      "artist": "音莉飴",
+      "work": "女神のカフェテラス",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=iEThgKK2HO4&t=177s",
       "videoId": "iEThgKK2HO4",
       "timestamp": 177,
@@ -931,6 +1290,9 @@
     {
       "date": "2024/04/14",
       "title": "Yume no Tojou",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=iEThgKK2HO4&t=409s",
       "videoId": "iEThgKK2HO4",
       "timestamp": 409,
@@ -939,6 +1301,9 @@
     {
       "date": "2024/04/14",
       "title": "可愛いあの子が気にゐらない",
+      "artist": "なるみや",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=iEThgKK2HO4&t=621s",
       "videoId": "iEThgKK2HO4",
       "timestamp": 621,
@@ -947,6 +1312,9 @@
     {
       "date": "2024/04/14",
       "title": "青いベンチ",
+      "artist": "サスケ",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=iEThgKK2HO4&t=826s",
       "videoId": "iEThgKK2HO4",
       "timestamp": 826,
@@ -955,6 +1323,9 @@
     {
       "date": "2024/04/14",
       "title": "START:DASH!!",
+      "artist": "μ's",
+      "work": "ラブライブ！",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=iEThgKK2HO4&t=2639s",
       "videoId": "iEThgKK2HO4",
       "timestamp": 2639,
@@ -963,6 +1334,9 @@
     {
       "date": "2024/04/14",
       "title": "dear...",
+      "artist": "馬場このみ(高橋未奈美)",
+      "work": "アイドルマスター ミリオンライブ！",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=iEThgKK2HO4&t=2904s",
       "videoId": "iEThgKK2HO4",
       "timestamp": 2904,
@@ -971,6 +1345,9 @@
     {
       "date": "2024/04/14",
       "title": "All Alone With You",
+      "artist": "EGOIST",
+      "work": "PSYCHO-PASS サイコパス",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=iEThgKK2HO4&t=3190s",
       "videoId": "iEThgKK2HO4",
       "timestamp": 3190,
@@ -979,6 +1356,9 @@
     {
       "date": "2024/04/14",
       "title": "Into the Sky",
+      "artist": "SawanoHiroyuki[nZk]",
+      "work": "機動戦士ガンダムユニコーン RE:0096",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=iEThgKK2HO4&t=3551s",
       "videoId": "iEThgKK2HO4",
       "timestamp": 3551,
@@ -987,6 +1367,9 @@
     {
       "date": "2024/04/14",
       "title": "僕たちの英語物語",
+      "artist": "戸定梨香",
+      "work": "英語物語",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=iEThgKK2HO4&t=8601s",
       "videoId": "iEThgKK2HO4",
       "timestamp": 8601,
@@ -995,6 +1378,9 @@
     {
       "date": "2024/04/14",
       "title": "アンダー・ザ・シー",
+      "artist": "",
+      "work": "リトル・マーメイド",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=iEThgKK2HO4&t=8784s",
       "videoId": "iEThgKK2HO4",
       "timestamp": 8784,
@@ -1003,6 +1389,9 @@
     {
       "date": "2024/04/14",
       "title": "STILL LOVE HER (失われた風景)",
+      "artist": "TM NETWORK",
+      "work": "シティーハンター2",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=iEThgKK2HO4&t=9063s",
       "videoId": "iEThgKK2HO4",
       "timestamp": 9063,
@@ -1011,6 +1400,9 @@
     {
       "date": "2024/04/14",
       "title": "僕らは戸定建設員",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=iEThgKK2HO4&t=9380s",
       "videoId": "iEThgKK2HO4",
       "timestamp": 9380,
@@ -1019,6 +1411,9 @@
     {
       "date": "2024/04/14",
       "title": "Yume no Tojou／僕らは戸定建設員",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=iEThgKK2HO4&t=11364s",
       "videoId": "iEThgKK2HO4",
       "timestamp": 11364,
@@ -1027,6 +1422,9 @@
     {
       "date": "2024/03/31",
       "title": "ススメ→トゥモロウ",
+      "artist": "高坂穂乃果(新田恵海)、南ことり(内田彩)、園田海未(三森すずこ)",
+      "work": "ラブライブ！",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=v-wZB12ExNU&t=402s",
       "videoId": "v-wZB12ExNU",
       "timestamp": 402,
@@ -1035,6 +1433,9 @@
     {
       "date": "2024/03/31",
       "title": "ふわふわ時間",
+      "artist": "桜高軽音部",
+      "work": "けいおん！",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=v-wZB12ExNU&t=986s",
       "videoId": "v-wZB12ExNU",
       "timestamp": 986,
@@ -1043,6 +1444,9 @@
     {
       "date": "2024/03/31",
       "title": "運命共同体！",
+      "artist": "音莉飴",
+      "work": "女神のカフェテラス",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=v-wZB12ExNU&t=1671s",
       "videoId": "v-wZB12ExNU",
       "timestamp": 1671,
@@ -1051,6 +1455,9 @@
     {
       "date": "2024/03/31",
       "title": "鳥の詩",
+      "artist": "Lia",
+      "work": "AIR",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=v-wZB12ExNU&t=2265s",
       "videoId": "v-wZB12ExNU",
       "timestamp": 2265,
@@ -1059,6 +1466,9 @@
     {
       "date": "2024/03/31",
       "title": "空も飛べるはず",
+      "artist": "スピッツ",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=v-wZB12ExNU&t=3066s",
       "videoId": "v-wZB12ExNU",
       "timestamp": 3066,
@@ -1067,6 +1477,9 @@
     {
       "date": "2024/03/31",
       "title": "motto☆いちごオレ",
+      "artist": "mona(夏川椎菜) feat. HoneyWorks",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=v-wZB12ExNU&t=3671s",
       "videoId": "v-wZB12ExNU",
       "timestamp": 3671,
@@ -1075,6 +1488,9 @@
     {
       "date": "2024/03/31",
       "title": "Enter Enter MISSION!",
+      "artist": "あんこうチーム",
+      "work": "ガールズ&パンツァー",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=v-wZB12ExNU&t=4394s",
       "videoId": "v-wZB12ExNU",
       "timestamp": 4394,
@@ -1083,6 +1499,9 @@
     {
       "date": "2024/03/31",
       "title": "my graduation",
+      "artist": "SPEED",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=v-wZB12ExNU&t=5069s",
       "videoId": "v-wZB12ExNU",
       "timestamp": 5069,
@@ -1091,6 +1510,9 @@
     {
       "date": "2024/03/31",
       "title": "卒業写真",
+      "artist": "荒井由実",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=v-wZB12ExNU&t=5678s",
       "videoId": "v-wZB12ExNU",
       "timestamp": 5678,
@@ -1099,6 +1521,9 @@
     {
       "date": "2024/03/31",
       "title": "アンインストール",
+      "artist": "石川智晶",
+      "work": "ぼくらの",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=v-wZB12ExNU&t=6120s",
       "videoId": "v-wZB12ExNU",
       "timestamp": 6120,
@@ -1107,6 +1532,9 @@
     {
       "date": "2024/03/31",
       "title": "光るなら",
+      "artist": "Goose house",
+      "work": "四月は君の嘘",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=v-wZB12ExNU&t=6573s",
       "videoId": "v-wZB12ExNU",
       "timestamp": 6573,
@@ -1115,6 +1543,9 @@
     {
       "date": "2024/03/10",
       "title": "勇者",
+      "artist": "YOASOBI",
+      "work": "葬送のフリーレン",
+      "note": "",
       "url": "https://www.youtube.com/live/fjTGIIBTLWY?t=7505s",
       "videoId": "fjTGIIBTLWY",
       "timestamp": 7505,
@@ -1123,6 +1554,9 @@
     {
       "date": "2024/03/10",
       "title": "Yume no Tojou",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/live/fjTGIIBTLWY?t=7720s",
       "videoId": "fjTGIIBTLWY",
       "timestamp": 7720,
@@ -1131,6 +1565,9 @@
     {
       "date": "2024/03/10",
       "title": "光るなら",
+      "artist": "Goose house",
+      "work": "四月は君の嘘",
+      "note": "",
       "url": "https://www.youtube.com/live/fjTGIIBTLWY?t=9323s",
       "videoId": "fjTGIIBTLWY",
       "timestamp": 9323,
@@ -1139,6 +1576,9 @@
     {
       "date": "2023/12/31 (～2024/01/01)",
       "title": "トレセン音頭",
+      "artist": "ウマ娘",
+      "work": "ウマ娘 プリティーダービー",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=QbfZgNR06O8&t=2732s",
       "videoId": "QbfZgNR06O8",
       "timestamp": 2732,
@@ -1147,6 +1587,9 @@
     {
       "date": "2023/12/31 (～2024/01/01)",
       "title": "走れ！自転車",
+      "artist": "子門真人",
+      "work": "",
+      "note": "松戸競輪テーマソング",
       "url": "https://www.youtube.com/watch?v=QbfZgNR06O8&t=3085s",
       "videoId": "QbfZgNR06O8",
       "timestamp": 3085,
@@ -1155,6 +1598,9 @@
     {
       "date": "2023/12/31 (～2024/01/01)",
       "title": "はっぴぃ にゅう にゃあ",
+      "artist": "芹沢文乃(伊藤かな恵)、梅ノ森千世(井口裕香)、霧谷希(竹達彩奈)",
+      "work": "迷い猫オーバーラン！",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=QbfZgNR06O8&t=4062s",
       "videoId": "QbfZgNR06O8",
       "timestamp": 4062,
@@ -1163,6 +1609,9 @@
     {
       "date": "2023/12/31 (～2024/01/01)",
       "title": "AURORA",
+      "artist": "藍井エイル",
+      "work": "機動戦士ガンダムAGE",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=QbfZgNR06O8&t=4820s",
       "videoId": "QbfZgNR06O8",
       "timestamp": 4820,
@@ -1171,6 +1620,9 @@
     {
       "date": "2023/12/31 (～2024/01/01)",
       "title": "irony",
+      "artist": "ClariS",
+      "work": "俺の妹がこんなに可愛いわけがない",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=QbfZgNR06O8&t=5415s",
       "videoId": "QbfZgNR06O8",
       "timestamp": 5415,
@@ -1179,6 +1631,9 @@
     {
       "date": "2023/12/31 (～2024/01/01)",
       "title": "Paradise",
+      "artist": "NiziU",
+      "work": "映画ドラえもん のび太と空の理想郷",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=QbfZgNR06O8&t=6169s",
       "videoId": "QbfZgNR06O8",
       "timestamp": 6169,
@@ -1187,6 +1642,9 @@
     {
       "date": "2023/12/31 (～2024/01/01)",
       "title": "僕たちの英語物語",
+      "artist": "戸定梨香",
+      "work": "英語物語",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=QbfZgNR06O8&t=6919s",
       "videoId": "QbfZgNR06O8",
       "timestamp": 6919,
@@ -1195,6 +1653,9 @@
     {
       "date": "2023/12/31 (～2024/01/01)",
       "title": "Thank You!",
+      "artist": "765 MILLIONSTARS",
+      "work": "アイドルマスター ミリオンライブ！",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=QbfZgNR06O8&t=7331s",
       "videoId": "QbfZgNR06O8",
       "timestamp": 7331,
@@ -1203,6 +1664,9 @@
     {
       "date": "2023/12/31 (～2024/01/01)",
       "title": "Yume no Tojou",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=QbfZgNR06O8&t=8075s",
       "videoId": "QbfZgNR06O8",
       "timestamp": 8075,
@@ -1211,6 +1675,9 @@
     {
       "date": "2023/12/31 (～2024/01/01)",
       "title": "僕らは戸定建設員",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=QbfZgNR06O8&t=8672s",
       "videoId": "QbfZgNR06O8",
       "timestamp": 8672,
@@ -1218,7 +1685,10 @@
     },
     {
       "date": "2023/12/25",
-      "title": "ジングル・ベル",
+      "title": "ジングルベル",
+      "artist": "",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=0yHu6hAZQRQ&t=212s",
       "videoId": "0yHu6hAZQRQ",
       "timestamp": 212,
@@ -1227,6 +1697,9 @@
     {
       "date": "2023/12/25",
       "title": "PRIDE",
+      "artist": "今井美樹",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=0yHu6hAZQRQ&t=7238s",
       "videoId": "0yHu6hAZQRQ",
       "timestamp": 7238,
@@ -1235,6 +1708,9 @@
     {
       "date": "2023/12/25",
       "title": "遠い街のどこかで…",
+      "artist": "中山美穂",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=0yHu6hAZQRQ&t=7887s",
       "videoId": "0yHu6hAZQRQ",
       "timestamp": 7887,
@@ -1243,6 +1719,9 @@
     {
       "date": "2023/12/24",
       "title": "SnowMix♪",
+      "artist": "まらしぃ feat. 初音ミク",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=r1HxmRsS19w&t=1140s",
       "videoId": "r1HxmRsS19w",
       "timestamp": 1140,
@@ -1251,6 +1730,9 @@
     {
       "date": "2023/12/24",
       "title": "City Hunter〜愛よ消えないで〜",
+      "artist": "小比類巻かほる",
+      "work": "シティーハンター",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=r1HxmRsS19w&t=1605s",
       "videoId": "r1HxmRsS19w",
       "timestamp": 1605,
@@ -1259,6 +1741,9 @@
     {
       "date": "2023/12/24",
       "title": "Memorial",
+      "artist": "i☆Ris",
+      "work": "アイドルタイムプリパラ",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=r1HxmRsS19w&t=2183s",
       "videoId": "r1HxmRsS19w",
       "timestamp": 2183,
@@ -1267,6 +1752,9 @@
     {
       "date": "2023/12/24",
       "title": "いつか空に届いて",
+      "artist": "椎名恵",
+      "work": "機動戦士ガンダム0080 ポケットの中の戦争",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=r1HxmRsS19w&t=2588s",
       "videoId": "r1HxmRsS19w",
       "timestamp": 2588,
@@ -1275,6 +1763,9 @@
     {
       "date": "2023/12/24",
       "title": "Love Destiny",
+      "artist": "堀江由衣",
+      "work": "シスター・プリンセス",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=r1HxmRsS19w&t=3035s",
       "videoId": "r1HxmRsS19w",
       "timestamp": 3035,
@@ -1283,6 +1774,9 @@
     {
       "date": "2023/12/24",
       "title": "Get Wild",
+      "artist": "TM NETWORK",
+      "work": "シティーハンター",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=r1HxmRsS19w&t=3690s",
       "videoId": "r1HxmRsS19w",
       "timestamp": 3690,
@@ -1291,6 +1785,9 @@
     {
       "date": "2023/12/24",
       "title": "恋人がサンタクロース",
+      "artist": "松任谷由実",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=r1HxmRsS19w&t=4235s",
       "videoId": "r1HxmRsS19w",
       "timestamp": 4235,
@@ -1299,6 +1796,9 @@
     {
       "date": "2023/12/24",
       "title": "あわてんぼうのサンタクロース",
+      "artist": "",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=r1HxmRsS19w&t=4844s",
       "videoId": "r1HxmRsS19w",
       "timestamp": 4844,
@@ -1307,6 +1807,9 @@
     {
       "date": "2023/12/24",
       "title": "STILL LOVE HER (失われた風景)",
+      "artist": "TM NETWORK",
+      "work": "シティーハンター2",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=r1HxmRsS19w&t=5405s",
       "videoId": "r1HxmRsS19w",
       "timestamp": 5405,
@@ -1315,6 +1818,9 @@
     {
       "date": "2023/12/24",
       "title": "M@STERPIECE",
+      "artist": "765PRO ALLSTARS",
+      "work": "THE IDOLM@STER MOVIE 輝きの向こう側へ！",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=r1HxmRsS19w&t=6201s",
       "videoId": "r1HxmRsS19w",
       "timestamp": 6201,
@@ -1323,6 +1829,9 @@
     {
       "date": "2023/12/17",
       "title": "SnowMix♪",
+      "artist": "まらしぃ feat. 初音ミク",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=6xCmM1Zy0HY&t=13934s",
       "videoId": "6xCmM1Zy0HY",
       "timestamp": 13934,
@@ -1331,6 +1840,9 @@
     {
       "date": "2023/12/17",
       "title": "KIRARI MAGIC SHOW",
+      "artist": "ウマ娘",
+      "work": "ウマ娘 プリティーダービー",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=6xCmM1Zy0HY&t=14266s",
       "videoId": "6xCmM1Zy0HY",
       "timestamp": 14266,
@@ -1339,6 +1851,9 @@
     {
       "date": "2023/12/17",
       "title": "irony",
+      "artist": "ClariS",
+      "work": "俺の妹がこんなに可愛いわけがない",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=6xCmM1Zy0HY&t=14652s",
       "videoId": "6xCmM1Zy0HY",
       "timestamp": 14652,
@@ -1347,6 +1862,9 @@
     {
       "date": "2023/12/17",
       "title": "Snow halation",
+      "artist": "μ's",
+      "work": "ラブライブ！",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=6xCmM1Zy0HY&t=15016s",
       "videoId": "6xCmM1Zy0HY",
       "timestamp": 15016,
@@ -1355,6 +1873,9 @@
     {
       "date": "2023/12/17",
       "title": "かわいいメモリアル",
+      "artist": "超ときめき♡宣伝部",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=u92rz4K8fvI&t=807s",
       "videoId": "u92rz4K8fvI",
       "timestamp": 807,
@@ -1363,6 +1884,9 @@
     {
       "date": "2023/12/17",
       "title": "ようこそジャパリパークへ",
+      "artist": "どうぶつビスケッツ×PPP",
+      "work": "けものフレンズ",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=u92rz4K8fvI&t=2672s",
       "videoId": "u92rz4K8fvI",
       "timestamp": 2672,
@@ -1371,6 +1895,9 @@
     {
       "date": "2023/12/17",
       "title": "誇り高きアイドル",
+      "artist": "mona(夏川椎菜) feat. HoneyWorks",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=u92rz4K8fvI&t=3734s",
       "videoId": "u92rz4K8fvI",
       "timestamp": 3734,
@@ -1379,6 +1906,9 @@
     {
       "date": "2023/10/31",
       "title": "はろうぃんないと",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "ASEのオリジナルソング",
       "url": "https://www.youtube.com/watch?v=QQarNQDB4aY&t=3988s",
       "videoId": "QQarNQDB4aY",
       "timestamp": 3988,
@@ -1387,6 +1917,9 @@
     {
       "date": "2023/10/26",
       "title": "SHINY DAYS",
+      "artist": "亜咲花",
+      "work": "ゆるキャン△",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=i3u917hGMvM&t=181s",
       "videoId": "i3u917hGMvM",
       "timestamp": 181,
@@ -1395,6 +1928,9 @@
     {
       "date": "2023/10/26",
       "title": "ゼリーフィッシュ",
+      "artist": "アイアンフリル",
+      "work": "ゾンビランドサガ",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=i3u917hGMvM&t=1381s",
       "videoId": "i3u917hGMvM",
       "timestamp": 1381,
@@ -1403,6 +1939,9 @@
     {
       "date": "2023/10/26",
       "title": "夜明けのShooting Star",
+      "artist": "林原めぐみ",
+      "work": "機動戦士ガンダム0080 ポケットの中の戦争",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=i3u917hGMvM&t=2069s",
       "videoId": "i3u917hGMvM",
       "timestamp": 2069,
@@ -1411,6 +1950,9 @@
     {
       "date": "2023/10/26",
       "title": "あんたにあっかんべ",
+      "artist": "一二三 feat. 初音ミク",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=i3u917hGMvM&t=3011s",
       "videoId": "i3u917hGMvM",
       "timestamp": 3011,
@@ -1419,6 +1961,9 @@
     {
       "date": "2023/10/26",
       "title": "緋色の空",
+      "artist": "川田まみ",
+      "work": "灼眼のシャナ",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=i3u917hGMvM&t=3877s",
       "videoId": "i3u917hGMvM",
       "timestamp": 3877,
@@ -1427,6 +1972,9 @@
     {
       "date": "2023/08/18",
       "title": "花火",
+      "artist": "aiko",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=Jrtvj8y3Xyo&t=708s",
       "videoId": "Jrtvj8y3Xyo",
       "timestamp": 708,
@@ -1435,6 +1983,9 @@
     {
       "date": "2023/08/18",
       "title": "金曜日のおはよう-another story-",
+      "artist": "HoneyWorks",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=Jrtvj8y3Xyo&t=1778s",
       "videoId": "Jrtvj8y3Xyo",
       "timestamp": 1778,
@@ -1443,6 +1994,9 @@
     {
       "date": "2023/08/18",
       "title": "slash",
+      "artist": "yama",
+      "work": "機動戦士ガンダム 水星の魔女",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=Jrtvj8y3Xyo&t=2666s",
       "videoId": "Jrtvj8y3Xyo",
       "timestamp": 2666,
@@ -1451,6 +2005,9 @@
     {
       "date": "2023/08/18",
       "title": "ちゅ、多様性。",
+      "artist": "ano",
+      "work": "チェンソーマン",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=Jrtvj8y3Xyo&t=3316s",
       "videoId": "Jrtvj8y3Xyo",
       "timestamp": 3316,
@@ -1459,6 +2016,9 @@
     {
       "date": "2023/08/13",
       "title": "HAPPY PARTY TRAIN",
+      "artist": "Aqours",
+      "work": "ラブライブ！サンシャイン！！",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=rFynGJ66MOA&t=7205s",
       "videoId": "rFynGJ66MOA",
       "timestamp": 7205,
@@ -1467,6 +2027,9 @@
     {
       "date": "2023/08/13",
       "title": "打上花火",
+      "artist": "DAOKO×米津玄師",
+      "work": "打ち上げ花火、下から見るか？ 横から見るか？",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=rFynGJ66MOA&t=7491s",
       "videoId": "rFynGJ66MOA",
       "timestamp": 7491,
@@ -1475,6 +2038,9 @@
     {
       "date": "2023/08/13",
       "title": "サインはB",
+      "artist": "B小町",
+      "work": "【推しの子】",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=rFynGJ66MOA&t=8091s",
       "videoId": "rFynGJ66MOA",
       "timestamp": 8091,
@@ -1483,6 +2049,9 @@
     {
       "date": "2023/07/23",
       "title": "SHOOT!",
+      "artist": "RO-KYU-BU!",
+      "work": "ロウきゅーぶ！",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=YathV3WTbkQ&t=113s",
       "videoId": "YathV3WTbkQ",
       "timestamp": 113,
@@ -1491,6 +2060,9 @@
     {
       "date": "2023/07/23",
       "title": "走れ！自転車",
+      "artist": "子門真人",
+      "work": "",
+      "note": "松戸競輪テーマソング",
       "url": "https://www.youtube.com/watch?v=YathV3WTbkQ&t=730s",
       "videoId": "YathV3WTbkQ",
       "timestamp": 730,
@@ -1499,6 +2071,9 @@
     {
       "date": "2023/07/23",
       "title": "僕が生まれた街",
+      "artist": "奥華子",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=YathV3WTbkQ&t=1124s",
       "videoId": "YathV3WTbkQ",
       "timestamp": 1124,
@@ -1507,6 +2082,9 @@
     {
       "date": "2023/07/23",
       "title": "北ウイング",
+      "artist": "中森明菜",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=YathV3WTbkQ&t=1699s",
       "videoId": "YathV3WTbkQ",
       "timestamp": 1699,
@@ -1515,6 +2093,9 @@
     {
       "date": "2023/07/23",
       "title": "アンダー・ザ・シー",
+      "artist": "",
+      "work": "リトル・マーメイド",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=YathV3WTbkQ&t=2371s",
       "videoId": "YathV3WTbkQ",
       "timestamp": 2371,
@@ -1523,6 +2104,9 @@
     {
       "date": "2023/07/23",
       "title": "想い出の九十九里浜",
+      "artist": "Mi-Ke",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=YathV3WTbkQ&t=2838s",
       "videoId": "YathV3WTbkQ",
       "timestamp": 2838,
@@ -1531,6 +2115,9 @@
     {
       "date": "2023/07/04",
       "title": "お願い！シンデレラ",
+      "artist": "CINDERELLA GIRLS!!",
+      "work": "アイドルマスター シンデレラガールズ",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=Fad_BSisNus&t=144s",
       "videoId": "Fad_BSisNus",
       "timestamp": 144,
@@ -1539,6 +2126,9 @@
     {
       "date": "2023/07/04",
       "title": "ダイスキ。",
+      "artist": "大橋彩香",
+      "work": "可愛ければ変態でも好きになってくれますか？",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=Fad_BSisNus&t=393s",
       "videoId": "Fad_BSisNus",
       "timestamp": 393,
@@ -1547,6 +2137,9 @@
     {
       "date": "2023/07/04",
       "title": "#超絶かわいい",
+      "artist": "mona(夏川椎菜) feat. HoneyWorks",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=Fad_BSisNus&t=639s",
       "videoId": "Fad_BSisNus",
       "timestamp": 639,
@@ -1555,6 +2148,9 @@
     {
       "date": "2023/07/04",
       "title": "HOT LIMIT",
+      "artist": "T.M.Revolution",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=Fad_BSisNus&t=882s",
       "videoId": "Fad_BSisNus",
       "timestamp": 882,
@@ -1563,6 +2159,9 @@
     {
       "date": "2023/07/04",
       "title": "サインはB",
+      "artist": "B小町",
+      "work": "【推しの子】",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=Fad_BSisNus&t=993s",
       "videoId": "Fad_BSisNus",
       "timestamp": 993,
@@ -1571,6 +2170,9 @@
     {
       "date": "2023/07/04",
       "title": "ユメヲカケル！",
+      "artist": "ウマ娘",
+      "work": "ウマ娘 プリティーダービー Season 2",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=Fad_BSisNus&t=4881s",
       "videoId": "Fad_BSisNus",
       "timestamp": 4881,
@@ -1579,6 +2181,9 @@
     {
       "date": "2023/07/04",
       "title": "Polaris",
+      "artist": "Wake Up, Girls!",
+      "work": "Wake Up, Girls! 新章",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=Fad_BSisNus&t=5163s",
       "videoId": "Fad_BSisNus",
       "timestamp": 5163,
@@ -1587,6 +2192,9 @@
     {
       "date": "2023/07/04",
       "title": "Believe in yourself",
+      "artist": "阿部真央",
+      "work": "ベイビーステップ",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=Fad_BSisNus&t=5535s",
       "videoId": "Fad_BSisNus",
       "timestamp": 5535,
@@ -1595,6 +2203,9 @@
     {
       "date": "2023/07/04",
       "title": "サインはB",
+      "artist": "B小町",
+      "work": "【推しの子】",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=Fad_BSisNus&t=5771s",
       "videoId": "Fad_BSisNus",
       "timestamp": 5771,
@@ -1603,6 +2214,9 @@
     {
       "date": "2023/07/04",
       "title": "W-B-X ～W-Boiled Extreme～",
+      "artist": "上木彩矢 w TAKUYA",
+      "work": "仮面ライダーW",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=Fad_BSisNus&t=7110s",
       "videoId": "Fad_BSisNus",
       "timestamp": 7110,
@@ -1611,6 +2225,9 @@
     {
       "date": "2023/07/04",
       "title": "走れ！自転車",
+      "artist": "小門真人",
+      "work": "",
+      "note": "松戸競輪テーマソング",
       "url": "https://www.youtube.com/watch?v=Fad_BSisNus&t=7369s",
       "videoId": "Fad_BSisNus",
       "timestamp": 7369,
@@ -1619,6 +2236,9 @@
     {
       "date": "2023/07/04",
       "title": "Yume no Tojou",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=Fad_BSisNus&t=7569s",
       "videoId": "Fad_BSisNus",
       "timestamp": 7569,
@@ -1627,14 +2247,31 @@
     {
       "date": "2023/07/04",
       "title": "僕らは戸定建設員",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=Fad_BSisNus&t=7820s",
       "videoId": "Fad_BSisNus",
       "timestamp": 7820,
       "source": 2
     },
     {
+      "date": "2023/07/04",
+      "title": "",
+      "artist": "",
+      "work": "",
+      "note": "",
+      "url": "",
+      "videoId": "",
+      "timestamp": 0,
+      "source": 2
+    },
+    {
       "date": "2023/06/26 ※メンバーシップ限定",
       "title": "Believe in yourself",
+      "artist": "阿部真央",
+      "work": "ベイビーステップ",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=8gy2jJsP0Yg&t=2393s",
       "videoId": "8gy2jJsP0Yg",
       "timestamp": 2393,
@@ -1643,6 +2280,9 @@
     {
       "date": "2023/06/26 ※メンバーシップ限定",
       "title": "ファンサ",
+      "artist": "mona(夏川椎菜)",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=8gy2jJsP0Yg&t=2715s",
       "videoId": "8gy2jJsP0Yg",
       "timestamp": 2715,
@@ -1651,6 +2291,9 @@
     {
       "date": "2023/06/06",
       "title": "ハッピー☆ラッキー・バースデー！",
+      "artist": "ドラえもん(水田わさび)、のび太(大原めぐみ)、しずか(かかずゆみ)、ジャイアン(木村昴)、スネ夫(関智一)",
+      "work": "ドラえもん",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=2DAwHJRqa5k&t=112s",
       "videoId": "2DAwHJRqa5k",
       "timestamp": 112,
@@ -1659,6 +2302,9 @@
     {
       "date": "2023/06/06",
       "title": "SOS",
+      "artist": "黛冬優子(幸村恵理)",
+      "work": "アイドルマスター シャイニーカラーズ",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=2DAwHJRqa5k&t=483s",
       "videoId": "2DAwHJRqa5k",
       "timestamp": 483,
@@ -1667,6 +2313,9 @@
     {
       "date": "2023/06/06",
       "title": "YUME日和",
+      "artist": "島谷ひとみ",
+      "work": "ドラえもん",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=2DAwHJRqa5k&t=768s",
       "videoId": "2DAwHJRqa5k",
       "timestamp": 768,
@@ -1675,6 +2324,9 @@
     {
       "date": "2023/06/06",
       "title": "コネクト",
+      "artist": "ClariS",
+      "work": "魔法少女まどか☆マギカ",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=2DAwHJRqa5k&t=1010s",
       "videoId": "2DAwHJRqa5k",
       "timestamp": 1010,
@@ -1683,6 +2335,9 @@
     {
       "date": "2023/06/06",
       "title": "君の知らない物語",
+      "artist": "supercell",
+      "work": "化物語",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=2DAwHJRqa5k&t=5653s",
       "videoId": "2DAwHJRqa5k",
       "timestamp": 5653,
@@ -1691,6 +2346,9 @@
     {
       "date": "2023/06/06",
       "title": "ユメヲカケル！",
+      "artist": "ウマ娘",
+      "work": "ウマ娘 プリティーダービー Season 2",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=2DAwHJRqa5k&t=6039s",
       "videoId": "2DAwHJRqa5k",
       "timestamp": 6039,
@@ -1699,6 +2357,9 @@
     {
       "date": "2023/05/27",
       "title": "SOS",
+      "artist": "黛冬優子(幸村恵理)",
+      "work": "アイドルマスター シャイニーカラーズ",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=V-OKw_3-wzc&t=7777s",
       "videoId": "V-OKw_3-wzc",
       "timestamp": 7777,
@@ -1707,6 +2368,9 @@
     {
       "date": "2023/05/27",
       "title": "新時代",
+      "artist": "Ado",
+      "work": "ONE PIECE FILM RED",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=V-OKw_3-wzc&t=8066s",
       "videoId": "V-OKw_3-wzc",
       "timestamp": 8066,
@@ -1715,6 +2379,9 @@
     {
       "date": "2023/05/27",
       "title": "#超絶かわいい",
+      "artist": "mona(夏川椎菜) feat. HoneyWorks",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=V-OKw_3-wzc&t=8452s",
       "videoId": "V-OKw_3-wzc",
       "timestamp": 8452,
@@ -1723,6 +2390,9 @@
     {
       "date": "2023/04/29",
       "title": "君よ 気高くあれ",
+      "artist": "シユイ",
+      "work": "機動戦士ガンダム 水星の魔女",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=gPsm_mPZkE8&t=7155s",
       "videoId": "gPsm_mPZkE8",
       "timestamp": 7155,
@@ -1731,6 +2401,9 @@
     {
       "date": "2023/04/14",
       "title": "#超絶かわいい",
+      "artist": "mona(夏川椎菜) feat. HoneyWorks",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=WjICNst2Ltc&t=188s",
       "videoId": "WjICNst2Ltc",
       "timestamp": 188,
@@ -1739,6 +2412,9 @@
     {
       "date": "2023/04/14",
       "title": "スーパーフェニックス〜光の世界へ〜",
+      "artist": "草尾毅",
+      "work": "スーパービックリマン",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=WjICNst2Ltc&t=3519s",
       "videoId": "WjICNst2Ltc",
       "timestamp": 3519,
@@ -1747,6 +2423,9 @@
     {
       "date": "2023/04/14",
       "title": "僕たちの英語物語",
+      "artist": "戸定梨香",
+      "work": "英語物語",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=WjICNst2Ltc&t=5145s",
       "videoId": "WjICNst2Ltc",
       "timestamp": 5145,
@@ -1755,6 +2434,9 @@
     {
       "date": "2023/04/14",
       "title": "O・G・I・N・O！～世界最強のヲタク議員～",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=WjICNst2Ltc&t=6480s",
       "videoId": "WjICNst2Ltc",
       "timestamp": 6480,
@@ -1763,6 +2445,9 @@
     {
       "date": "2023/04/14",
       "title": "チョコレーション",
+      "artist": "Tensions",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=WjICNst2Ltc&t=6702s",
       "videoId": "WjICNst2Ltc",
       "timestamp": 6702,
@@ -1771,6 +2456,9 @@
     {
       "date": "2023/04/14",
       "title": "ファンサ",
+      "artist": "mona(夏川椎菜)",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=WjICNst2Ltc&t=6988s",
       "videoId": "WjICNst2Ltc",
       "timestamp": 6988,
@@ -1779,6 +2467,9 @@
     {
       "date": "2023/02/14",
       "title": "お願い！シンデレラ",
+      "artist": "CINDERELLA GIRLS!!",
+      "work": "アイドルマスター シンデレラガールズ",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=GgR7sIG3bTI&t=502s",
       "videoId": "GgR7sIG3bTI",
       "timestamp": 502,
@@ -1787,6 +2478,9 @@
     {
       "date": "2023/02/14",
       "title": "Precious Memories",
+      "artist": "栗林みな実",
+      "work": "君が望む永遠",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=GgR7sIG3bTI&t=1605s",
       "videoId": "GgR7sIG3bTI",
       "timestamp": 1605,
@@ -1795,6 +2489,9 @@
     {
       "date": "2023/02/14",
       "title": "ギミチョコ！！",
+      "artist": "BABYMETAL",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=GgR7sIG3bTI&t=2382s",
       "videoId": "GgR7sIG3bTI",
       "timestamp": 2382,
@@ -1803,6 +2500,9 @@
     {
       "date": "2023/02/14",
       "title": "7 Senses",
+      "artist": "Wake Up, Girls",
+      "work": "Wake Up, Girls! 新章",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=GgR7sIG3bTI&t=3225s",
       "videoId": "GgR7sIG3bTI",
       "timestamp": 3225,
@@ -1811,6 +2511,9 @@
     {
       "date": "2023/02/14",
       "title": "バレンタイン・キッス",
+      "artist": "渡り廊下走り隊7",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=GgR7sIG3bTI&t=4575s",
       "videoId": "GgR7sIG3bTI",
       "timestamp": 4575,
@@ -1819,6 +2522,9 @@
     {
       "date": "2023/02/14",
       "title": "青春コンプレックス",
+      "artist": "結束バンド",
+      "work": "ぼっち・ざ・ろっく！",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=GgR7sIG3bTI&t=5437s",
       "videoId": "GgR7sIG3bTI",
       "timestamp": 5437,
@@ -1827,14 +2533,42 @@
     {
       "date": "2023/02/14",
       "title": "チョコレイト・ディスコ",
+      "artist": "Perfume",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=GgR7sIG3bTI&t=6056s",
       "videoId": "GgR7sIG3bTI",
       "timestamp": 6056,
       "source": 2
     },
     {
+      "date": "",
+      "title": "",
+      "artist": "",
+      "work": "",
+      "note": "",
+      "url": "",
+      "videoId": "",
+      "timestamp": 0,
+      "source": 2
+    },
+    {
+      "date": "2022/12/31 (～2023/01/01)",
+      "title": "",
+      "artist": "",
+      "work": "",
+      "note": "",
+      "url": "",
+      "videoId": "",
+      "timestamp": 0,
+      "source": 2
+    },
+    {
       "date": "2022/12/31 (～2023/01/01)",
       "title": "KIRARI MAGIC SHOW",
+      "artist": "ウマ娘",
+      "work": "ウマ娘 プリティーダービー",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=LKYWfNlyUCY&t=582s",
       "videoId": "LKYWfNlyUCY",
       "timestamp": 582,
@@ -1843,6 +2577,9 @@
     {
       "date": "2022/12/31 (～2023/01/01)",
       "title": "悲しみは雪のように",
+      "artist": "浜田省吾",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=LKYWfNlyUCY&t=1019s",
       "videoId": "LKYWfNlyUCY",
       "timestamp": 1019,
@@ -1851,6 +2588,9 @@
     {
       "date": "2022/12/31 (～2023/01/01)",
       "title": "可愛くてごめん",
+      "artist": "HoneyWorks",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=LKYWfNlyUCY&t=1539s",
       "videoId": "LKYWfNlyUCY",
       "timestamp": 1539,
@@ -1859,6 +2599,9 @@
     {
       "date": "2022/12/31 (～2023/01/01)",
       "title": "それを人は“青春\"と呼んだ",
+      "artist": "長瀬琴乃(橘美來)×川咲さくら(菅野真衣)×天動瑠依(雨宮天)×神崎莉央(戸松遥)",
+      "work": "IDOLY PRIDE",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=LKYWfNlyUCY&t=2859s",
       "videoId": "LKYWfNlyUCY",
       "timestamp": 2859,
@@ -1867,6 +2610,9 @@
     {
       "date": "2022/12/31 (～2023/01/01)",
       "title": "いかないで",
+      "artist": "想太 feat. 歌愛ユキ",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=LKYWfNlyUCY&t=4328s",
       "videoId": "LKYWfNlyUCY",
       "timestamp": 4328,
@@ -1875,6 +2621,9 @@
     {
       "date": "2022/12/31 (～2023/01/01)",
       "title": "冬がはじまるよ",
+      "artist": "槇原敬之",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=LKYWfNlyUCY&t=4900s",
       "videoId": "LKYWfNlyUCY",
       "timestamp": 4900,
@@ -1883,6 +2632,9 @@
     {
       "date": "2022/12/31 (～2023/01/01)",
       "title": "祝福",
+      "artist": "YOASOBI",
+      "work": "機動戦士ガンダム 水星の魔女",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=LKYWfNlyUCY&t=5399s",
       "videoId": "LKYWfNlyUCY",
       "timestamp": 5399,
@@ -1891,6 +2643,9 @@
     {
       "date": "2022/12/31 (～2023/01/01)",
       "title": "いつか空に届いて",
+      "artist": "椎名恵",
+      "work": "機動戦士ガンダム0080 ポケットの中の戦争",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=LKYWfNlyUCY&t=5842s",
       "videoId": "LKYWfNlyUCY",
       "timestamp": 5842,
@@ -1899,6 +2654,9 @@
     {
       "date": "2022/12/31 (～2023/01/01)",
       "title": "ファンサ",
+      "artist": "mona(夏川椎菜)",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=LKYWfNlyUCY&t=6409s",
       "videoId": "LKYWfNlyUCY",
       "timestamp": 6409,
@@ -1907,6 +2665,9 @@
     {
       "date": "2022/12/31 (～2023/01/01)",
       "title": "新時代",
+      "artist": "Ado",
+      "work": "ONE PIECE FILM RED",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=LKYWfNlyUCY&t=7022s",
       "videoId": "LKYWfNlyUCY",
       "timestamp": 7022,
@@ -1915,6 +2676,9 @@
     {
       "date": "2022/12/24",
       "title": "メリー",
+      "artist": "天海春香、星井美希、如月千早、高槻やよい、菊池真",
+      "work": "アイドルマスター ミリオンライブ！ シアターデイズ",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=t3jrCyhUXfU&t=521s",
       "videoId": "t3jrCyhUXfU",
       "timestamp": 521,
@@ -1923,6 +2687,9 @@
     {
       "date": "2022/12/24",
       "title": "翔べ！ガンダム",
+      "artist": "池田鴻",
+      "work": "機動戦士ガンダム",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=t3jrCyhUXfU&t=1187s",
       "videoId": "t3jrCyhUXfU",
       "timestamp": 1187,
@@ -1931,6 +2698,9 @@
     {
       "date": "2022/12/24",
       "title": "Rainbow",
+      "artist": "ROUND TABLE",
+      "work": "ARIA The ANIMATION",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=t3jrCyhUXfU&t=1480s",
       "videoId": "t3jrCyhUXfU",
       "timestamp": 1480,
@@ -1939,6 +2709,9 @@
     {
       "date": "2022/12/24",
       "title": "はじまりのSignal",
+      "artist": "メジロマックイーン",
+      "work": "ウマ娘 プリティーダービー",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=t3jrCyhUXfU&t=3629s",
       "videoId": "t3jrCyhUXfU",
       "timestamp": 3629,
@@ -1947,6 +2720,9 @@
     {
       "date": "2022/12/24",
       "title": "祝福",
+      "artist": "YOASOBI",
+      "work": "機動戦士ガンダム 水星の魔女",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=t3jrCyhUXfU&t=6184s",
       "videoId": "t3jrCyhUXfU",
       "timestamp": 6184,
@@ -1955,6 +2731,9 @@
     {
       "date": "2022/12/24",
       "title": "クリスマス・イブ",
+      "artist": "山下達郎",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=t3jrCyhUXfU&t=7120s",
       "videoId": "t3jrCyhUXfU",
       "timestamp": 7120,
@@ -1963,6 +2742,9 @@
     {
       "date": "2022/12/12",
       "title": "タチアガレ！",
+      "artist": "Wake Up, Girls!",
+      "work": "Wake Up, Girls! 七人のアイドル",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=wqa4x-g0aAU&t=2879s",
       "videoId": "wqa4x-g0aAU",
       "timestamp": 2879,
@@ -1971,6 +2753,9 @@
     {
       "date": "2022/12/12",
       "title": "Snow halation",
+      "artist": "μ's",
+      "work": "ラブライブ！",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=wqa4x-g0aAU&t=5216s",
       "videoId": "wqa4x-g0aAU",
       "timestamp": 5216,
@@ -1979,6 +2764,9 @@
     {
       "date": "2022/12/12",
       "title": "コネクト",
+      "artist": "ClariS",
+      "work": "魔法少女まどか☆マギカ",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=wqa4x-g0aAU&t=7741s",
       "videoId": "wqa4x-g0aAU",
       "timestamp": 7741,
@@ -1987,6 +2775,9 @@
     {
       "date": "2022/07/04",
       "title": "誕生日でも結婚式でも使える歌",
+      "artist": "ゴールデンボンバー",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=QdFRHQvSalE&t=107s",
       "videoId": "QdFRHQvSalE",
       "timestamp": 107,
@@ -1995,6 +2786,9 @@
     {
       "date": "2022/07/04",
       "title": "HAPPY HAPPY BIRTHDAY",
+      "artist": "DREAMS COME TRUE",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=QdFRHQvSalE&t=365s",
       "videoId": "QdFRHQvSalE",
       "timestamp": 365,
@@ -2003,6 +2797,9 @@
     {
       "date": "2022/07/04",
       "title": "ブルーウォーター",
+      "artist": "森川美穂",
+      "work": "ふしぎの海のナディア",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=QdFRHQvSalE&t=483s",
       "videoId": "QdFRHQvSalE",
       "timestamp": 483,
@@ -2011,6 +2808,9 @@
     {
       "date": "2022/07/04",
       "title": "初恋サイダー",
+      "artist": "Buono!",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=QdFRHQvSalE&t=751s",
       "videoId": "QdFRHQvSalE",
       "timestamp": 751,
@@ -2019,6 +2819,9 @@
     {
       "date": "2022/06/06",
       "title": "ハッピー☆ラッキー・バースデー！",
+      "artist": "ドラえもん(水田わさび)、のび太(大原めぐみ)、しずか(かかずゆみ)、ジャイアン(木村昴)、スネ夫(関智一)",
+      "work": "ドラえもん",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=Ec2Q_7chEW8&t=99s",
       "videoId": "Ec2Q_7chEW8",
       "timestamp": 99,
@@ -2027,6 +2830,9 @@
     {
       "date": "2022/05/16",
       "title": "美しい時間の中で",
+      "artist": "",
+      "work": "",
+      "note": "松戸市民の歌",
       "url": "https://www.youtube.com/watch?v=700shh60JwE&t=1032s",
       "videoId": "700shh60JwE",
       "timestamp": 1032,
@@ -2035,6 +2841,9 @@
     {
       "date": "2022/04/14",
       "title": "Q&Aリサイタル！",
+      "artist": "戸松遥",
+      "work": "となりの怪物くん",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=PO3KrMbmqkY&t=236s",
       "videoId": "PO3KrMbmqkY",
       "timestamp": 236,
@@ -2043,6 +2852,9 @@
     {
       "date": "2022/04/14",
       "title": "恋愛サーキュレーション",
+      "artist": "千石撫子(花澤香菜)",
+      "work": "化物語",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=PO3KrMbmqkY&t=524s",
       "videoId": "PO3KrMbmqkY",
       "timestamp": 524,
@@ -2051,6 +2863,9 @@
     {
       "date": "2022/04/14",
       "title": "夢をかなえてドラえもん",
+      "artist": "mao",
+      "work": "ドラえもん",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=PO3KrMbmqkY&t=1280s",
       "videoId": "PO3KrMbmqkY",
       "timestamp": 1280,
@@ -2059,6 +2874,9 @@
     {
       "date": "2022/04/14",
       "title": "DreamRiser",
+      "artist": "ChouCho",
+      "work": "ガールズ＆パンツァー",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=PO3KrMbmqkY&t=1541s",
       "videoId": "PO3KrMbmqkY",
       "timestamp": 1541,
@@ -2067,6 +2885,9 @@
     {
       "date": "2022/04/14",
       "title": "それは僕たちの奇跡",
+      "artist": "μ's",
+      "work": "ラブライブ！",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=PO3KrMbmqkY&t=3547s",
       "videoId": "PO3KrMbmqkY",
       "timestamp": 3547,
@@ -2074,7 +2895,10 @@
     },
     {
       "date": "2021/12/25",
-      "title": "ジングル・ベル",
+      "title": "ジングルベル",
+      "artist": "",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=GDCew9WE_FM&t=188s",
       "videoId": "GDCew9WE_FM",
       "timestamp": 188,
@@ -2083,6 +2907,9 @@
     {
       "date": "2021/12/25",
       "title": "きよしこの夜",
+      "artist": "",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=GDCew9WE_FM&t=292s",
       "videoId": "GDCew9WE_FM",
       "timestamp": 292,
@@ -2091,6 +2918,9 @@
     {
       "date": "2021/12/25",
       "title": "赤鼻のトナカイ",
+      "artist": "",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=GDCew9WE_FM&t=485s",
       "videoId": "GDCew9WE_FM",
       "timestamp": 485,
@@ -2099,6 +2929,9 @@
     {
       "date": "2021/11/23 ※メンバーシップ限定",
       "title": "今好きになる。",
+      "artist": "HoneyWorks feat.初音ミク",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=rdS84d7Qjj0&t=283s",
       "videoId": "rdS84d7Qjj0",
       "timestamp": 283,
@@ -2107,6 +2940,9 @@
     {
       "date": "2021/11/23 ※メンバーシップ限定",
       "title": "センパイ。",
+      "artist": "HoneyWorks meets TrySail",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=rdS84d7Qjj0&t=710s",
       "videoId": "rdS84d7Qjj0",
       "timestamp": 710,
@@ -2115,6 +2951,9 @@
     {
       "date": "2021/10/23",
       "title": "ファンサ",
+      "artist": "mona(夏川椎菜)",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=-eFruL7vZqk&t=3531s",
       "videoId": "-eFruL7vZqk",
       "timestamp": 3531,
@@ -2123,6 +2962,9 @@
     {
       "date": "2021/10/23",
       "title": "ファンサ",
+      "artist": "mona(夏川椎菜)",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=-eFruL7vZqk&t=4814s",
       "videoId": "-eFruL7vZqk",
       "timestamp": 4814,
@@ -2131,6 +2973,9 @@
     {
       "date": "2021/04/14",
       "title": "ハレ晴レユカイ",
+      "artist": "平野綾、茅原実里、後藤邑子",
+      "work": "涼宮ハルヒの憂鬱",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=rcvBmDzcw2o&t=447s",
       "videoId": "rcvBmDzcw2o",
       "timestamp": 447,
@@ -2139,6 +2984,9 @@
     {
       "date": "2021/04/14",
       "title": "うまぴょい伝説",
+      "artist": "ウマ娘",
+      "work": "ウマ娘 プリティーダービー",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=rcvBmDzcw2o&t=1189s",
       "videoId": "rcvBmDzcw2o",
       "timestamp": 1189,
@@ -2147,6 +2995,9 @@
     {
       "date": "2021/02/14",
       "title": "お願い！シンデレラ",
+      "artist": "CINDERELLA GIRLS!!",
+      "work": "アイドルマスター シンデレラガールズ",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=e7fopGa2-3U&t=208s",
       "videoId": "e7fopGa2-3U",
       "timestamp": 208,
@@ -2155,6 +3006,9 @@
     {
       "date": "2021/02/14",
       "title": "チョコレイト・ディスコ",
+      "artist": "Perfume",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=e7fopGa2-3U&t=835s",
       "videoId": "e7fopGa2-3U",
       "timestamp": 835,
@@ -2163,6 +3017,9 @@
     {
       "date": "2021/01/08",
       "title": "丸ノ内サディスティック",
+      "artist": "椎名林檎",
+      "work": "",
+      "note": "",
       "url": "https://www.youtube.com/watch?v=CL1fsKHRikk&t=3248s",
       "videoId": "CL1fsKHRikk",
       "timestamp": 3248,
@@ -2171,6 +3028,9 @@
     {
       "date": "2020/12/25",
       "title": "ホーリーナイトクリスマス",
+      "artist": "",
+      "work": "",
+      "note": "作曲: 龍崎一",
       "url": "https://www.youtube.com/watch?v=72bPx0Dp8j4&t=174s",
       "videoId": "72bPx0Dp8j4",
       "timestamp": 174,
@@ -2180,7 +3040,7 @@
   "videos": {
     "WucHdtn7gGo": {
       "kind": "youtube#video",
-      "etag": "-dFypEz2mXUHkStweY1T3koo5h4",
+      "etag": "y1SnHprjJN4PBIGhLosMJp7xNwI",
       "id": "WucHdtn7gGo",
       "snippet": {
         "publishedAt": "2025-01-01T03:00:08Z",
@@ -2232,7 +3092,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1744",
+        "viewCount": "1749",
         "likeCount": "200",
         "favoriteCount": "0",
         "commentCount": "19"
@@ -2240,7 +3100,7 @@
     },
     "lQd7OfNER5E": {
       "kind": "youtube#video",
-      "etag": "zqDjAVS1dqTxZvKrUpSWwedj7ao",
+      "etag": "Lz84YrN4AB5SodaULVIxJ42LmuY",
       "id": "lQd7OfNER5E",
       "snippet": {
         "publishedAt": "2024-07-04T12:00:07Z",
@@ -2312,7 +3172,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2061",
+        "viewCount": "2062",
         "likeCount": "307",
         "favoriteCount": "0",
         "commentCount": "16"
@@ -2320,7 +3180,7 @@
     },
     "5nHXLuFuVv4": {
       "kind": "youtube#video",
-      "etag": "DMleKxJ-lfgEvVj23I8F4u2cyPE",
+      "etag": "XpHzhxDr12DDPc9rz1_lSvqJYI4",
       "id": "5nHXLuFuVv4",
       "snippet": {
         "publishedAt": "2024-04-14T11:45:07Z",
@@ -2397,15 +3257,15 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "3126",
-        "likeCount": "282",
+        "viewCount": "3132",
+        "likeCount": "283",
         "favoriteCount": "0",
-        "commentCount": "18"
+        "commentCount": "19"
       }
     },
     "XtUs6qTZzqg": {
       "kind": "youtube#video",
-      "etag": "wWtU3HG9JvU7HU9vmuoYx61HcdA",
+      "etag": "Qj1oBEtmNZ42-1J9jcm9FqDz1Zc",
       "id": "XtUs6qTZzqg",
       "snippet": {
         "publishedAt": "2024-04-14T11:30:07Z",
@@ -2473,7 +3333,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1952",
+        "viewCount": "1955",
         "likeCount": "254",
         "favoriteCount": "0",
         "commentCount": "9"
@@ -2540,7 +3400,7 @@
     },
     "1DLndvFhPsY": {
       "kind": "youtube#video",
-      "etag": "ZEfUY2Hs_gdsxEPBwpSDRUYlMKE",
+      "etag": "Ffa5SNGSrhyHGaGENCeD-c2ZSVE",
       "id": "1DLndvFhPsY",
       "snippet": {
         "publishedAt": "2023-04-29T15:30:09Z",
@@ -2612,7 +3472,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "3199",
+        "viewCount": "3202",
         "likeCount": "251",
         "favoriteCount": "0",
         "commentCount": "22"
@@ -2620,7 +3480,7 @@
     },
     "oqLbaRa190A": {
       "kind": "youtube#video",
-      "etag": "dtFP8I5OUPjYsojvlA0DgtbxPSg",
+      "etag": "gyHnmd575LlGyyU4JBYuvLKMtS4",
       "id": "oqLbaRa190A",
       "snippet": {
         "publishedAt": "2023-04-22T07:45:35Z",
@@ -2682,7 +3542,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1192",
+        "viewCount": "1193",
         "likeCount": "82",
         "favoriteCount": "0",
         "commentCount": "9"
@@ -2690,7 +3550,7 @@
     },
     "LI2WwrPNHFU": {
       "kind": "youtube#video",
-      "etag": "NE1p9wWEhoi4mw2tZJxn0h8OH7s",
+      "etag": "iG6AAujByOQZNbRsckav3Sx0Rz0",
       "id": "LI2WwrPNHFU",
       "snippet": {
         "publishedAt": "2023-04-15T03:05:07Z",
@@ -2752,7 +3612,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "7469",
+        "viewCount": "7470",
         "likeCount": "422",
         "favoriteCount": "0",
         "commentCount": "25"
@@ -2831,7 +3691,7 @@
     },
     "gZ28H27_S7I": {
       "kind": "youtube#video",
-      "etag": "1zZRBp5iF9ZcsGorMm8wz7Bpqnk",
+      "etag": "w_FTMKxwzgb01C4yQLkCKpne1eo",
       "id": "gZ28H27_S7I",
       "snippet": {
         "publishedAt": "2023-04-01T11:15:07Z",
@@ -2884,15 +3744,15 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "29353",
-        "likeCount": "441",
+        "viewCount": "29488",
+        "likeCount": "442",
         "favoriteCount": "0",
         "commentCount": "39"
       }
     },
     "8LiU-deYM-s": {
       "kind": "youtube#video",
-      "etag": "YDdtSHgCyOXyWu9dpx1oAxeihIY",
+      "etag": "JUMZdzoKni5hlDHcNHDjxa9Q4Ig",
       "id": "8LiU-deYM-s",
       "snippet": {
         "publishedAt": "2022-09-28T11:30:13Z",
@@ -2950,7 +3810,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "5423",
+        "viewCount": "5448",
         "likeCount": "323",
         "favoriteCount": "0",
         "commentCount": "27"
@@ -3013,7 +3873,7 @@
     },
     "E6c6JrjJqbY": {
       "kind": "youtube#video",
-      "etag": "8LLC3tFHWx76DGaIc_hKj9FEv04",
+      "etag": "Wo74od9JP-iGWTq0ZnSWgGogie8",
       "id": "E6c6JrjJqbY",
       "snippet": {
         "publishedAt": "2022-09-12T08:31:34Z",
@@ -3072,7 +3932,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1059",
+        "viewCount": "1060",
         "likeCount": "166",
         "favoriteCount": "0",
         "commentCount": "16"
@@ -3080,7 +3940,7 @@
     },
     "tvqdUG5OE2I": {
       "kind": "youtube#video",
-      "etag": "--sB9zDtlhoGKFdw29zyGAZqjLg",
+      "etag": "oy55wYssobaN1fP6C9yD4TINjlk",
       "id": "tvqdUG5OE2I",
       "snippet": {
         "publishedAt": "2022-09-07T12:00:48Z",
@@ -3132,7 +3992,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "6934",
+        "viewCount": "6935",
         "likeCount": "404",
         "favoriteCount": "0",
         "commentCount": "32"
@@ -3140,7 +4000,7 @@
     },
     "XV_4Iu50XFI": {
       "kind": "youtube#video",
-      "etag": "yjy7xfLIJdyAaaIDb-7vhdOFUkE",
+      "etag": "MCgczfNVbmyLhdq5IO_sbvLc_E4",
       "id": "XV_4Iu50XFI",
       "snippet": {
         "publishedAt": "2022-07-24T11:00:13Z",
@@ -3192,8 +4052,8 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2359",
-        "likeCount": "206",
+        "viewCount": "2360",
+        "likeCount": "207",
         "favoriteCount": "0",
         "commentCount": "17"
       }
@@ -3260,7 +4120,7 @@
     },
     "56JL0PpekUo": {
       "kind": "youtube#video",
-      "etag": "JSYoPXSs3G8u1ipYrGogvFMDSBM",
+      "etag": "JhpLNubi89sm0_9YiaxnEDDhDUU",
       "id": "56JL0PpekUo",
       "snippet": {
         "publishedAt": "2022-06-24T11:00:14Z",
@@ -3312,7 +4172,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "5521",
+        "viewCount": "5522",
         "likeCount": "217",
         "favoriteCount": "0",
         "commentCount": "22"
@@ -3320,7 +4180,7 @@
     },
     "CkU-8wS4_XY": {
       "kind": "youtube#video",
-      "etag": "nCnO_Lzxs8fx46pcmOui4u9rKDw",
+      "etag": "r8FuXd-Psh17NLNgPi2pCJunCzA",
       "id": "CkU-8wS4_XY",
       "snippet": {
         "publishedAt": "2022-06-18T11:00:12Z",
@@ -3372,7 +4232,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2631",
+        "viewCount": "2633",
         "likeCount": "159",
         "favoriteCount": "0",
         "commentCount": "7"
@@ -3380,7 +4240,7 @@
     },
     "b0mVX1XFD_g": {
       "kind": "youtube#video",
-      "etag": "z2pLQi4VG8mSq7GjXtY1cuCTsPA",
+      "etag": "2eHI1AxvWVjIF1O5K9bd6z2dIJE",
       "id": "b0mVX1XFD_g",
       "snippet": {
         "publishedAt": "2022-06-15T11:30:12Z",
@@ -3432,7 +4292,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1724",
+        "viewCount": "1723",
         "likeCount": "93",
         "favoriteCount": "0",
         "commentCount": "7"
@@ -3499,7 +4359,7 @@
     },
     "UAMhYU9SHzo": {
       "kind": "youtube#video",
-      "etag": "qb1E4MNmMuU5Nzaqd11zyzJxP-8",
+      "etag": "WI7lGTx-G6ITELVJsJ7XPtyJSFA",
       "id": "UAMhYU9SHzo",
       "snippet": {
         "publishedAt": "2022-04-22T03:00:11Z",
@@ -3553,14 +4413,14 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "255993",
+        "viewCount": "256134",
         "favoriteCount": "0",
         "commentCount": "373"
       }
     },
     "bkQ_UtHdX2U": {
       "kind": "youtube#video",
-      "etag": "HdPphNL5T4xem7yYmUuz6nZ1CWw",
+      "etag": "2RbTpgG4nNON5AZW0ABdUZe4u18",
       "id": "bkQ_UtHdX2U",
       "snippet": {
         "publishedAt": "2022-03-18T12:00:50Z",
@@ -3612,7 +4472,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2149",
+        "viewCount": "2151",
         "likeCount": "171",
         "favoriteCount": "0",
         "commentCount": "11"
@@ -3620,7 +4480,7 @@
     },
     "tW6lIBpI-94": {
       "kind": "youtube#video",
-      "etag": "K5KxBvcPyk8kFj5pgwT9ycaad_I",
+      "etag": "na9sDRTENsJIx6Rk4D8dnx3rKF4",
       "id": "tW6lIBpI-94",
       "snippet": {
         "publishedAt": "2022-03-14T11:30:15Z",
@@ -3679,7 +4539,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1801",
+        "viewCount": "1802",
         "likeCount": "157",
         "favoriteCount": "0",
         "commentCount": "11"
@@ -3752,7 +4612,7 @@
     },
     "hEA3JvnOvFQ": {
       "kind": "youtube#video",
-      "etag": "ryKwGgpYvHFTypm4p-McUgPDQcY",
+      "etag": "DkSaFEzRiwnJSzxba-jyxVIlKzc",
       "id": "hEA3JvnOvFQ",
       "snippet": {
         "publishedAt": "2022-03-06T11:00:19Z",
@@ -3811,7 +4671,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1457",
+        "viewCount": "1459",
         "likeCount": "189",
         "favoriteCount": "0",
         "commentCount": "30"
@@ -3819,7 +4679,7 @@
     },
     "ql3Z-T7frgw": {
       "kind": "youtube#video",
-      "etag": "-2xHjUERGDwwR830dnZqEfi52X8",
+      "etag": "uu4H4nJCtsQ60FSbeBd4pW82hR0",
       "id": "ql3Z-T7frgw",
       "snippet": {
         "publishedAt": "2022-01-04T14:24:42Z",
@@ -3890,7 +4750,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "3019",
+        "viewCount": "3021",
         "likeCount": "383",
         "favoriteCount": "0",
         "commentCount": "36"
@@ -3898,7 +4758,7 @@
     },
     "w9xYUVXxsYM": {
       "kind": "youtube#video",
-      "etag": "qwm5AG3uNW5mFFU8lloH97v8h3I",
+      "etag": "tS3gE1sCuxJthm7zPEIFlGjCaoM",
       "id": "w9xYUVXxsYM",
       "snippet": {
         "publishedAt": "2021-12-17T11:00:13Z",
@@ -3956,7 +4816,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "21860",
+        "viewCount": "21865",
         "likeCount": "749",
         "favoriteCount": "0",
         "commentCount": "59"
@@ -4059,7 +4919,7 @@
     },
     "7Qa2D8oubMY": {
       "kind": "youtube#video",
-      "etag": "untZLYLNzsyQ7oVWaNeOyvZfhPU",
+      "etag": "GGXeTZ4wX8I5tjXZ0eZIkypTBPQ",
       "id": "7Qa2D8oubMY",
       "snippet": {
         "publishedAt": "2021-04-15T15:41:14Z",
@@ -4135,7 +4995,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "7115",
+        "viewCount": "7116",
         "likeCount": "384",
         "favoriteCount": "0",
         "commentCount": "17"
@@ -4143,7 +5003,7 @@
     },
     "XPYQJo2v_r0": {
       "kind": "youtube#video",
-      "etag": "kElCOqKerEhAFEtv8MHb22mwK14",
+      "etag": "CpgdJrQiA5pUnaq9P5jvXgGU5l4",
       "id": "XPYQJo2v_r0",
       "snippet": {
         "publishedAt": "2021-02-15T22:31:17Z",
@@ -4222,15 +5082,15 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "8788",
-        "likeCount": "373",
+        "viewCount": "8789",
+        "likeCount": "374",
         "favoriteCount": "0",
         "commentCount": "20"
       }
     },
     "I91fiV7iXAU": {
       "kind": "youtube#video",
-      "etag": "wzaWEetWIff2nFO3lVrfK1V-qvo",
+      "etag": "NHGeYcmx4t9XjRH5U4aVzx3tiwQ",
       "id": "I91fiV7iXAU",
       "snippet": {
         "publishedAt": "2020-12-31T15:00:11Z",
@@ -4295,7 +5155,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2930",
+        "viewCount": "2931",
         "likeCount": "134",
         "favoriteCount": "0",
         "commentCount": "6"
@@ -4383,7 +5243,7 @@
     },
     "neJqtiEr_4A": {
       "kind": "youtube#video",
-      "etag": "3H6nqzlR8ckppaY7fc0fAOd1gsQ",
+      "etag": "717ncU0pB7AnHngIbuqliS9_wJY",
       "id": "neJqtiEr_4A",
       "snippet": {
         "publishedAt": "2020-10-23T10:00:13Z",
@@ -4445,7 +5305,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "841",
+        "viewCount": "842",
         "likeCount": "54",
         "favoriteCount": "0",
         "commentCount": "3"
@@ -4453,7 +5313,7 @@
     },
     "7SCdNaOGoSM": {
       "kind": "youtube#video",
-      "etag": "6SDByvnaiMFBqM1ryHbS2rHTLUE",
+      "etag": "B67ZUPlNrUnCgr-vhE-paL3Nr40",
       "id": "7SCdNaOGoSM",
       "snippet": {
         "publishedAt": "2020-10-20T19:31:48Z",
@@ -4518,7 +5378,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "4698",
+        "viewCount": "4703",
         "likeCount": "175",
         "favoriteCount": "0",
         "commentCount": "12"
@@ -4526,7 +5386,7 @@
     },
     "UGeQtPbp6bc": {
       "kind": "youtube#video",
-      "etag": "e-xg48DvOfoEWBthADNLLIA5agU",
+      "etag": "7643sGafPuMbduto5cf01JQ5sqI",
       "id": "UGeQtPbp6bc",
       "snippet": {
         "publishedAt": "2020-09-30T12:00:19Z",
@@ -4587,7 +5447,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "3073",
+        "viewCount": "3074",
         "likeCount": "148",
         "favoriteCount": "0",
         "commentCount": "8"
@@ -4595,7 +5455,7 @@
     },
     "x41mLZYsUkA": {
       "kind": "youtube#video",
-      "etag": "1W3en8O1VyfQRDP5JyJLGute2Zs",
+      "etag": "oXYjmHYlpa4YyIkghZZjeBGXMFw",
       "id": "x41mLZYsUkA",
       "snippet": {
         "publishedAt": "2020-09-22T01:00:01Z",
@@ -4672,7 +5532,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "6171",
+        "viewCount": "6174",
         "likeCount": "252",
         "favoriteCount": "0",
         "commentCount": "14"
@@ -4762,7 +5622,7 @@
     },
     "tPwXqrts61w": {
       "kind": "youtube#video",
-      "etag": "lMR6a0WOV5N4oIfylfLyIl6Q3wo",
+      "etag": "6xDwIkvDg-_UE9ICFHm1qgC9FDk",
       "id": "tPwXqrts61w",
       "snippet": {
         "publishedAt": "2020-04-26T19:06:56Z",
@@ -4850,7 +5710,7 @@
     },
     "U9zhM2xgH78": {
       "kind": "youtube#video",
-      "etag": "IQoWDR5HS__PnsO0ZArduxn2W9I",
+      "etag": "D4OikZ7JkAEpVP-lDg6BRXlH2kE",
       "id": "U9zhM2xgH78",
       "snippet": {
         "publishedAt": "2020-04-24T21:19:41Z",
@@ -4924,7 +5784,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1740",
+        "viewCount": "1741",
         "likeCount": "80",
         "favoriteCount": "0",
         "commentCount": "8"
@@ -4932,7 +5792,7 @@
     },
     "qa0PSEJS10M": {
       "kind": "youtube#video",
-      "etag": "wsvbNvu049dRxHjj0QMzei-DgOI",
+      "etag": "5P1QPUGsk8sm9ZdIuCXcfmGeRXY",
       "id": "qa0PSEJS10M",
       "snippet": {
         "publishedAt": "2025-02-23T12:39:47Z",
@@ -4995,7 +5855,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "689",
+        "viewCount": "715",
         "likeCount": "195",
         "favoriteCount": "0",
         "commentCount": "5"
@@ -5003,7 +5863,7 @@
     },
     "9Fw2quqkiEM": {
       "kind": "youtube#video",
-      "etag": "nTwAjWw_-FzSurS_tYwE3R-4g0k",
+      "etag": "HQKIRFaRwl82AOHlwebkR98Mzf0",
       "id": "9Fw2quqkiEM",
       "snippet": {
         "publishedAt": "2024-12-31T16:50:14Z",
@@ -5065,7 +5925,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "566",
+        "viewCount": "573",
         "likeCount": "158",
         "favoriteCount": "0",
         "commentCount": "4"
@@ -5073,7 +5933,7 @@
     },
     "BE9vzRfX7Q4": {
       "kind": "youtube#video",
-      "etag": "TLdy1_h_5n99R7RjnlA9wgKHyGQ",
+      "etag": "4Wle6pagVsvZR6Ia1Ca4kcnAjQQ",
       "id": "BE9vzRfX7Q4",
       "snippet": {
         "publishedAt": "2024-12-24T15:12:45Z",
@@ -5141,7 +6001,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "452",
+        "viewCount": "459",
         "likeCount": "129",
         "favoriteCount": "0",
         "commentCount": "1"
@@ -5149,7 +6009,7 @@
     },
     "DSzcS9UJWP8": {
       "kind": "youtube#video",
-      "etag": "sgVMDCSQu66O0o0tcGz2sFp3dGo",
+      "etag": "wJFC73clww-S_ooSnlTK3LPH-Yc",
       "id": "DSzcS9UJWP8",
       "snippet": {
         "publishedAt": "2024-12-08T14:22:57Z",
@@ -5221,7 +6081,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "477",
+        "viewCount": "479",
         "likeCount": "165",
         "favoriteCount": "0",
         "commentCount": "4"
@@ -5347,7 +6207,7 @@
     },
     "rFQC20uH9Ag": {
       "kind": "youtube#video",
-      "etag": "3w0klLTUgZ6LNF-3F8JDpZ6dCXc",
+      "etag": "RW0j1DSU060AoCNOXS8mwsXyIOM",
       "id": "rFQC20uH9Ag",
       "snippet": {
         "publishedAt": "2024-11-24T02:44:06Z",
@@ -5411,15 +6271,15 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "510",
-        "likeCount": "137",
+        "viewCount": "512",
+        "likeCount": "136",
         "favoriteCount": "0",
         "commentCount": "4"
       }
     },
     "3AVnWTBf72w": {
       "kind": "youtube#video",
-      "etag": "CK9Idxd9j492cN13gwH3jy0onG8",
+      "etag": "o8QeprlxB0gR52LJ0Yx1Y9s4B5Y",
       "id": "3AVnWTBf72w",
       "snippet": {
         "publishedAt": "2024-08-19T03:53:21Z",
@@ -5490,7 +6350,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "284",
+        "viewCount": "286",
         "likeCount": "107",
         "favoriteCount": "0",
         "commentCount": "1"
@@ -5498,7 +6358,7 @@
     },
     "hsgO2LN9CFQ": {
       "kind": "youtube#video",
-      "etag": "njkJWa8xNMKIvLS9fudIkGjTzR0",
+      "etag": "Ij4UkxZ64c2xlRFG1swCGPMsclo",
       "id": "hsgO2LN9CFQ",
       "snippet": {
         "publishedAt": "2024-07-27T15:24:50Z",
@@ -5580,7 +6440,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1692",
+        "viewCount": "1694",
         "likeCount": "141",
         "favoriteCount": "0",
         "commentCount": "2"
@@ -5588,7 +6448,7 @@
     },
     "qnA48zK-8zU": {
       "kind": "youtube#video",
-      "etag": "jkpYjGrsWPK9UN5q6-gA1Wx8xoo",
+      "etag": "xBHZgUvorQZF5Iz-19FOCkqXaIs",
       "id": "qnA48zK-8zU",
       "snippet": {
         "publishedAt": "2024-07-04T14:11:04Z",
@@ -5660,7 +6520,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "797",
+        "viewCount": "800",
         "likeCount": "238",
         "favoriteCount": "0",
         "commentCount": "2"
@@ -5668,7 +6528,7 @@
     },
     "Kp3fODfTZuA": {
       "kind": "youtube#video",
-      "etag": "saUzeihQ0NmipwZzmGr8X6yEOTc",
+      "etag": "5QTEEO4ukrnDodDI7YyZSJhRqaU",
       "id": "Kp3fODfTZuA",
       "snippet": {
         "publishedAt": "2024-07-05T03:06:47Z",
@@ -5737,8 +6597,8 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "3977",
-        "likeCount": "992",
+        "viewCount": "3978",
+        "likeCount": "993",
         "favoriteCount": "0",
         "commentCount": "6"
       }
@@ -5817,7 +6677,7 @@
     },
     "rESqPkLPjuA": {
       "kind": "youtube#video",
-      "etag": "njlD3nXsYNpYcux1c4Ncm0dJJMQ",
+      "etag": "5ub7_IHwn5yTr8GelYPkuYZbIFY",
       "id": "rESqPkLPjuA",
       "snippet": {
         "publishedAt": "2024-06-15T01:09:20Z",
@@ -5874,7 +6734,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "328",
+        "viewCount": "329",
         "likeCount": "59",
         "favoriteCount": "0",
         "commentCount": "3"
@@ -5967,7 +6827,7 @@
     },
     "qvdksXZxgCQ": {
       "kind": "youtube#video",
-      "etag": "8ink2Pzoo9534AB7bktl2KZXGok",
+      "etag": "3wxuAAo87llTL7krhqa3BFbtCnA",
       "id": "qvdksXZxgCQ",
       "snippet": {
         "publishedAt": "2024-05-23T03:15:07Z",
@@ -6040,7 +6900,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "454",
+        "viewCount": "457",
         "likeCount": "107",
         "favoriteCount": "0",
         "commentCount": "6"
@@ -6048,7 +6908,7 @@
     },
     "rCN36eYptjk": {
       "kind": "youtube#video",
-      "etag": "LFmY4h5m1OTQ7WTBj214O7O6DWs",
+      "etag": "U8IHr9Y9RWuvuDVcXizGXDM35KI",
       "id": "rCN36eYptjk",
       "snippet": {
         "publishedAt": "2024-05-22T04:09:18Z",
@@ -6116,7 +6976,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "555",
+        "viewCount": "561",
         "likeCount": "164",
         "favoriteCount": "0",
         "commentCount": "4"
@@ -6124,7 +6984,7 @@
     },
     "OcZKdH4I0C8": {
       "kind": "youtube#video",
-      "etag": "BQiU0mUdepl6hgH_2dLgBam0Kh8",
+      "etag": "LdcYhvxTjB2sdeK6Z2579_cAkDc",
       "id": "OcZKdH4I0C8",
       "snippet": {
         "publishedAt": "2024-04-29T13:32:24Z",
@@ -6195,7 +7055,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "996",
+        "viewCount": "999",
         "likeCount": "214",
         "favoriteCount": "0",
         "commentCount": "5"
@@ -6203,7 +7063,7 @@
     },
     "iEThgKK2HO4": {
       "kind": "youtube#video",
-      "etag": "Wzw8DBvC565owsHt7dfqiSqJ08A",
+      "etag": "JnCdQF9Icm-F4C1Wr-QG4SuvCxY",
       "id": "iEThgKK2HO4",
       "snippet": {
         "publishedAt": "2024-04-14T15:47:22Z",
@@ -6274,7 +7134,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1144",
+        "viewCount": "1150",
         "likeCount": "253",
         "favoriteCount": "0",
         "commentCount": "11"
@@ -6282,7 +7142,7 @@
     },
     "v-wZB12ExNU": {
       "kind": "youtube#video",
-      "etag": "iUVo9cPZ2flfO89lppw9JGOmbcs",
+      "etag": "NE4RP73fS1pLKNHn8SCIHrrNvv0",
       "id": "v-wZB12ExNU",
       "snippet": {
         "publishedAt": "2024-03-31T14:47:14Z",
@@ -6351,7 +7211,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1046",
+        "viewCount": "1052",
         "likeCount": "156",
         "favoriteCount": "0",
         "commentCount": "2"
@@ -6359,7 +7219,7 @@
     },
     "fjTGIIBTLWY": {
       "kind": "youtube#video",
-      "etag": "w3FEiq666sMwyxa1gRuxohyAd-k",
+      "etag": "AKcn2hziANoxbNyP065VoCZpqs4",
       "id": "fjTGIIBTLWY",
       "snippet": {
         "publishedAt": "2024-03-09T15:21:02Z",
@@ -6423,7 +7283,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1197",
+        "viewCount": "1201",
         "likeCount": "130",
         "favoriteCount": "0",
         "commentCount": "4"
@@ -6431,7 +7291,7 @@
     },
     "QbfZgNR06O8": {
       "kind": "youtube#video",
-      "etag": "50kIC-8dGl4uoTds-N3ilzBritA",
+      "etag": "MOATBi3xhGNtkt3-4qsSNXbWCS0",
       "id": "QbfZgNR06O8",
       "snippet": {
         "publishedAt": "2023-12-31T16:55:54Z",
@@ -6502,7 +7362,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "687",
+        "viewCount": "692",
         "likeCount": "165",
         "favoriteCount": "0",
         "commentCount": "2"
@@ -6510,7 +7370,7 @@
     },
     "0yHu6hAZQRQ": {
       "kind": "youtube#video",
-      "etag": "y26r7YaMps8yUPuKF_OdZJiWS9k",
+      "etag": "aNEOMYZKpcZXWwAN0wcjnpYGx-s",
       "id": "0yHu6hAZQRQ",
       "snippet": {
         "publishedAt": "2023-12-25T15:47:51Z",
@@ -6573,7 +7433,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "460",
+        "viewCount": "461",
         "likeCount": "139",
         "favoriteCount": "0",
         "commentCount": "0"
@@ -6581,7 +7441,7 @@
     },
     "r1HxmRsS19w": {
       "kind": "youtube#video",
-      "etag": "72vV5JMeUE39-a3rKLybMjIglmY",
+      "etag": "rAzC9FRDof4vcaJDCqngBhyGIJo",
       "id": "r1HxmRsS19w",
       "snippet": {
         "publishedAt": "2023-12-24T14:47:53Z",
@@ -6648,7 +7508,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "750",
+        "viewCount": "754",
         "likeCount": "150",
         "favoriteCount": "0",
         "commentCount": "4"
@@ -6656,7 +7516,7 @@
     },
     "6xCmM1Zy0HY": {
       "kind": "youtube#video",
-      "etag": "5f6xgPpUiz7dUIHolW6TvOHtH4k",
+      "etag": "keR9J-W02z45D156WYCh0Frj9WU",
       "id": "6xCmM1Zy0HY",
       "snippet": {
         "publishedAt": "2023-12-14T10:10:47Z",
@@ -6713,7 +7573,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "267",
+        "viewCount": "268",
         "likeCount": "21",
         "favoriteCount": "0",
         "commentCount": "1"
@@ -6721,7 +7581,7 @@
     },
     "u92rz4K8fvI": {
       "kind": "youtube#video",
-      "etag": "k5lhMODW4Hupj4LjFdI9-BSqoek",
+      "etag": "XrzXJUm2gTUizLYrwdwx6_ZFDj8",
       "id": "u92rz4K8fvI",
       "snippet": {
         "publishedAt": "2023-12-18T03:38:45Z",
@@ -6773,7 +7633,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "297",
+        "viewCount": "299",
         "likeCount": "98",
         "favoriteCount": "0",
         "commentCount": "1"
@@ -6847,7 +7707,7 @@
     },
     "i3u917hGMvM": {
       "kind": "youtube#video",
-      "etag": "wxVOYRMeoLms7FeoYghRcFZhX7o",
+      "etag": "gQVbMj8fqyTjRt3wWkAO1m0SM-I",
       "id": "i3u917hGMvM",
       "snippet": {
         "publishedAt": "2023-10-27T01:56:44Z",
@@ -6899,7 +7759,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "515",
+        "viewCount": "517",
         "likeCount": "153",
         "favoriteCount": "0",
         "commentCount": "5"
@@ -6907,7 +7767,7 @@
     },
     "Jrtvj8y3Xyo": {
       "kind": "youtube#video",
-      "etag": "3zZj4uxUziDTNaF65oP8GUaovpo",
+      "etag": "MM9ec4_hG9VgEPDIQV3NnP-n-hM",
       "id": "Jrtvj8y3Xyo",
       "snippet": {
         "publishedAt": "2023-08-19T03:18:16Z",
@@ -6964,7 +7824,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "496",
+        "viewCount": "502",
         "likeCount": "135",
         "favoriteCount": "0",
         "commentCount": "3"
@@ -7037,7 +7897,7 @@
     },
     "YathV3WTbkQ": {
       "kind": "youtube#video",
-      "etag": "QFhHROeuiTWjHF-4WZHQDHJnTcs",
+      "etag": "vzDCC97BBSKkF2E00UBQ0X0Q5eE",
       "id": "YathV3WTbkQ",
       "snippet": {
         "publishedAt": "2023-07-23T06:04:00Z",
@@ -7100,7 +7960,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1023",
+        "viewCount": "1027",
         "likeCount": "211",
         "favoriteCount": "0",
         "commentCount": "6"
@@ -7108,7 +7968,7 @@
     },
     "Fad_BSisNus": {
       "kind": "youtube#video",
-      "etag": "nQTDm4jIDxxAQmQ6Jk5Fl_synp4",
+      "etag": "a6Npq2HIAsKkFk_Tcys78BrBXqw",
       "id": "Fad_BSisNus",
       "snippet": {
         "publishedAt": "2023-07-04T15:45:29Z",
@@ -7172,7 +8032,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2254",
+        "viewCount": "2261",
         "likeCount": "466",
         "favoriteCount": "0",
         "commentCount": "16"
@@ -7239,7 +8099,7 @@
     },
     "2DAwHJRqa5k": {
       "kind": "youtube#video",
-      "etag": "2rB2dCqBr4Q-rBHSaXeQIBPQjmQ",
+      "etag": "QIR5y_CQqpkcsqF_XDNcJCkhliM",
       "id": "2DAwHJRqa5k",
       "snippet": {
         "publishedAt": "2023-06-07T02:07:43Z",
@@ -7303,7 +8163,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "787",
+        "viewCount": "791",
         "likeCount": "165",
         "favoriteCount": "0",
         "commentCount": "4"
@@ -7311,7 +8171,7 @@
     },
     "V-OKw_3-wzc": {
       "kind": "youtube#video",
-      "etag": "o2Z1_fFV5JZ4XIPGDUOnTtfAgBY",
+      "etag": "_L3QtIesQ-nUfsd-lFxVOP8-BF8",
       "id": "V-OKw_3-wzc",
       "snippet": {
         "publishedAt": "2023-05-28T04:21:03Z",
@@ -7369,7 +8229,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1240",
+        "viewCount": "1243",
         "likeCount": "125",
         "favoriteCount": "0",
         "commentCount": "1"
@@ -7377,7 +8237,7 @@
     },
     "gPsm_mPZkE8": {
       "kind": "youtube#video",
-      "etag": "nxkEU8xt0FzAG3fkkvKslWDnAzs",
+      "etag": "gfSuwFzmD21td8pYzT7BIVb5SmI",
       "id": "gPsm_mPZkE8",
       "snippet": {
         "publishedAt": "2023-04-30T03:19:47Z",
@@ -7434,7 +8294,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "685",
+        "viewCount": "686",
         "likeCount": "92",
         "favoriteCount": "0",
         "commentCount": "3"
@@ -7442,7 +8302,7 @@
     },
     "WjICNst2Ltc": {
       "kind": "youtube#video",
-      "etag": "qcWIxG9WxtzW8wXpB62WHJjJOBw",
+      "etag": "VYValNT-qxYXM92ySlQ2JiYY-q0",
       "id": "WjICNst2Ltc",
       "snippet": {
         "publishedAt": "2023-04-14T14:19:13Z",
@@ -7506,7 +8366,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2018",
+        "viewCount": "2020",
         "likeCount": "328",
         "favoriteCount": "0",
         "commentCount": "18"
@@ -7514,7 +8374,7 @@
     },
     "GgR7sIG3bTI": {
       "kind": "youtube#video",
-      "etag": "n9A7Qv8hr4wIGwRU-YWoIWrqPxU",
+      "etag": "2JV7HU-cyyVhbIX6IZkW5ANcfG0",
       "id": "GgR7sIG3bTI",
       "snippet": {
         "publishedAt": "2023-02-14T13:53:27Z",
@@ -7585,7 +8445,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "439",
+        "viewCount": "442",
         "likeCount": "105",
         "favoriteCount": "0",
         "commentCount": "9"
@@ -7593,7 +8453,7 @@
     },
     "LKYWfNlyUCY": {
       "kind": "youtube#video",
-      "etag": "Tc5Q04SwDfC4g-dign5dPpOH9KE",
+      "etag": "0CMbzst2yAKWwxnKHv6Yrdk0LQk",
       "id": "LKYWfNlyUCY",
       "snippet": {
         "publishedAt": "2022-12-31T17:11:10Z",
@@ -7651,7 +8511,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1050",
+        "viewCount": "1054",
         "likeCount": "189",
         "favoriteCount": "0",
         "commentCount": "3"
@@ -7659,7 +8519,7 @@
     },
     "t3jrCyhUXfU": {
       "kind": "youtube#video",
-      "etag": "bwxbDWo2IgE9ui4rdhiptRXzHZY",
+      "etag": "BLEznZk6oR_g2d9D5urDXUjkDsk",
       "id": "t3jrCyhUXfU",
       "snippet": {
         "publishedAt": "2022-12-25T02:30:47Z",
@@ -7711,7 +8571,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "700",
+        "viewCount": "709",
         "likeCount": "185",
         "favoriteCount": "0",
         "commentCount": "3"
@@ -7719,7 +8579,7 @@
     },
     "wqa4x-g0aAU": {
       "kind": "youtube#video",
-      "etag": "AmeYmWx8l2TwqNYJvKDHRcBYyS0",
+      "etag": "7Dlfo6Lb6Gz6HjdMyT8lVAyt1Dk",
       "id": "wqa4x-g0aAU",
       "snippet": {
         "publishedAt": "2022-12-12T14:09:45Z",
@@ -7772,7 +8632,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "4388",
+        "viewCount": "4390",
         "likeCount": "261",
         "favoriteCount": "0",
         "commentCount": "16"
@@ -7780,7 +8640,7 @@
     },
     "QdFRHQvSalE": {
       "kind": "youtube#video",
-      "etag": "1l2zW5AIBI2yT_B9WQICgcNQuEI",
+      "etag": "LHy5-hecGNateX_w-2NFh0aJP6Y",
       "id": "QdFRHQvSalE",
       "snippet": {
         "publishedAt": "2022-07-04T16:12:39Z",
@@ -7832,7 +8692,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "3347",
+        "viewCount": "3351",
         "likeCount": "361",
         "favoriteCount": "0",
         "commentCount": "4"
@@ -7960,7 +8820,7 @@
     },
     "PO3KrMbmqkY": {
       "kind": "youtube#video",
-      "etag": "rbhJppuVoZHEeFyQh0WilIFIzrk",
+      "etag": "GE8SqQUYruD1FaVdQcVpmj6OJVM",
       "id": "PO3KrMbmqkY",
       "snippet": {
         "publishedAt": "2022-04-14T13:43:19Z",
@@ -8032,7 +8892,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "5159",
+        "viewCount": "5160",
         "likeCount": "395",
         "favoriteCount": "0",
         "commentCount": "11"
@@ -8297,7 +9157,7 @@
     },
     "e7fopGa2-3U": {
       "kind": "youtube#video",
-      "etag": "OMr_jrrGQTp9Cj7IaPxYhcQ7FVY",
+      "etag": "JjwXP5sZoYuS9ebvEelBQpWbMOs",
       "id": "e7fopGa2-3U",
       "snippet": {
         "publishedAt": "2021-02-14T23:53:03Z",
@@ -8371,7 +9231,7 @@
     },
     "CL1fsKHRikk": {
       "kind": "youtube#video",
-      "etag": "NZ1nCPhUpaByPomC5mAjlslJpqU",
+      "etag": "3vKYFccTwef5lavYAUe_OKfCvXw",
       "id": "CL1fsKHRikk",
       "snippet": {
         "publishedAt": "2021-01-09T00:59:18Z",
@@ -8450,7 +9310,7 @@
     },
     "72bPx0Dp8j4": {
       "kind": "youtube#video",
-      "etag": "Jwr6mD8HqkNkNcye-Xe9qm0z4lM",
+      "etag": "0knhNDcNFj7k427_FsEoelt5JqY",
       "id": "72bPx0Dp8j4",
       "snippet": {
         "publishedAt": "2020-12-26T00:04:41Z",
@@ -8521,7 +9381,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "329",
+        "viewCount": "335",
         "likeCount": "46",
         "favoriteCount": "0",
         "commentCount": "1"

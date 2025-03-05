@@ -1,4 +1,5 @@
 export type Song = {
+  artist?: string // アーティスト
   info?: SongInfo;      // 追加情報
   date: string;        // 日付（例: "2025/02/23"）
   title: string;       // 曲名
@@ -6,6 +7,8 @@ export type Song = {
   videoId: string;     // YouTube動画ID
   timestamp: number;   // 開始時間（秒, 0 の場合は先頭）
   source: number;      // 取得元（1: 歌ってみた動画, 2: 配信）
+  work: string;        // 作品名
+  note: string;        // 注釈
 };
 export type SongsList = Song[];
 
