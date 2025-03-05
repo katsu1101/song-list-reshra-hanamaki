@@ -38,7 +38,6 @@ export async function scrapeSongList(url: string, source: number) {
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
 
-  // console.log(`url: ${url}`);
   await page.goto(url, { waitUntil: "domcontentloaded" });
 
   // ブラウザの console.log を Node.js 側でキャッチ
@@ -48,11 +47,10 @@ export async function scrapeSongList(url: string, source: number) {
 
   const data = await page.evaluate((source) => {
     let currentDate = ""; // 直前の日時を保存
-    // console.log(`source: ${source}`);
     const results: any[] = [];
 
     const targetDiv = document.querySelector(".post-body.entry-content");
-    // console.log(`targetDiv: ${targetDiv}`);
+
     if (!targetDiv) return [];
     targetDiv.childNodes.forEach((node) => {
 
@@ -139,8 +137,58 @@ export async function scrapeSongList(url: string, source: number) {
 
   await browser.close();
 
-  // console.log(JSON.stringify(data, null, 2));
-
   return data;
 }
 
+export async function scrapeLinkList(url: string) {
+  const browser = await chromium.launch({ headless: true });
+  const page = await browser.newPage();
+
+  await page.goto(url, { waitUntil: "domcontentloaded" });
+
+  // ブラウザの console.log を Node.js 側でキャッチ
+  page.on("console", (msg) => {
+    console.log(`BROWSER LOG: ${msg.text()}`);
+  });
+
+  const data = await page.evaluate((): { title: string, url: string }[] => {
+    const results: { title: string, url: string }[] = [];
+    const targetDiv = document.querySelector(".post-body.entry-content");
+
+    if (!targetDiv) return [];
+
+    targetDiv.childNodes.forEach((node) => {
+
+      let title = "";
+      let url = "";
+      if (node.childNodes.length < 1) {
+        return
+      }
+
+      // `p` タグの内容を取得
+      node.childNodes.forEach((child) => {
+        if (child.nodeType === Node.TEXT_NODE) {
+          // テキストノードの処理
+          const text = (child as Element).textContent?.trim();
+          if (! text) return;
+          title = text;
+        } else if (child.nodeType === Node.ELEMENT_NODE) {
+          if ((child as Element).tagName === "A") {
+            // `<a>` タグの処理（YouTube URL 抽出）
+            url = (child as Element).getAttribute("href") || "";
+            if (!url) return;
+          }
+        }
+      });
+      if (title==="") return
+      results.push({
+        title,
+        url
+      })
+    });
+    return results;
+  });
+
+  await browser.close();
+  return data;
+}
