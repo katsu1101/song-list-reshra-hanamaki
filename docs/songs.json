@@ -1489,7 +1489,7 @@
       "date": "2024/03/31",
       "title": "Enter Enter MISSION!",
       "artist": "あんこうチーム",
-      "work": "ガールズ&パンツァー",
+      "work": "ガールズ＆パンツァー",
       "note": "",
       "url": "https://www.youtube.com/watch?v=v-wZB12ExNU&t=4394s",
       "videoId": "v-wZB12ExNU",
@@ -3040,7 +3040,7 @@
   "videos": {
     "WucHdtn7gGo": {
       "kind": "youtube#video",
-      "etag": "y1SnHprjJN4PBIGhLosMJp7xNwI",
+      "etag": "gaW-_XAwIpG5YU94hGOYZXZKasI",
       "id": "WucHdtn7gGo",
       "snippet": {
         "publishedAt": "2025-01-01T03:00:08Z",
@@ -3092,7 +3092,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1749",
+        "viewCount": "1750",
         "likeCount": "200",
         "favoriteCount": "0",
         "commentCount": "19"
@@ -3400,7 +3400,7 @@
     },
     "1DLndvFhPsY": {
       "kind": "youtube#video",
-      "etag": "Ffa5SNGSrhyHGaGENCeD-c2ZSVE",
+      "etag": "BwFrj8wjf7jF-MoLJaAS-iHey_U",
       "id": "1DLndvFhPsY",
       "snippet": {
         "publishedAt": "2023-04-29T15:30:09Z",
@@ -3472,7 +3472,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "3202",
+        "viewCount": "3203",
         "likeCount": "251",
         "favoriteCount": "0",
         "commentCount": "22"
@@ -3691,7 +3691,7 @@
     },
     "gZ28H27_S7I": {
       "kind": "youtube#video",
-      "etag": "w_FTMKxwzgb01C4yQLkCKpne1eo",
+      "etag": "0b-XggFe7TrhzteTspoI3hAw3l0",
       "id": "gZ28H27_S7I",
       "snippet": {
         "publishedAt": "2023-04-01T11:15:07Z",
@@ -3744,7 +3744,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "29488",
+        "viewCount": "29491",
         "likeCount": "442",
         "favoriteCount": "0",
         "commentCount": "39"
@@ -3752,7 +3752,7 @@
     },
     "8LiU-deYM-s": {
       "kind": "youtube#video",
-      "etag": "JUMZdzoKni5hlDHcNHDjxa9Q4Ig",
+      "etag": "rV3C3_KqFsIEhzI1orzjefpUMSk",
       "id": "8LiU-deYM-s",
       "snippet": {
         "publishedAt": "2022-09-28T11:30:13Z",
@@ -3810,7 +3810,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "5448",
+        "viewCount": "5449",
         "likeCount": "323",
         "favoriteCount": "0",
         "commentCount": "27"
@@ -4120,7 +4120,7 @@
     },
     "56JL0PpekUo": {
       "kind": "youtube#video",
-      "etag": "JhpLNubi89sm0_9YiaxnEDDhDUU",
+      "etag": "oVFjXzYIgjdsZ7DaChRV8w1Ie6Y",
       "id": "56JL0PpekUo",
       "snippet": {
         "publishedAt": "2022-06-24T11:00:14Z",
@@ -4172,7 +4172,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "5522",
+        "viewCount": "5523",
         "likeCount": "217",
         "favoriteCount": "0",
         "commentCount": "22"
@@ -4359,7 +4359,7 @@
     },
     "UAMhYU9SHzo": {
       "kind": "youtube#video",
-      "etag": "WI7lGTx-G6ITELVJsJ7XPtyJSFA",
+      "etag": "xSsnATfdVPN9aRmDdRvrBgTTId8",
       "id": "UAMhYU9SHzo",
       "snippet": {
         "publishedAt": "2022-04-22T03:00:11Z",
@@ -4413,7 +4413,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "256134",
+        "viewCount": "256141",
         "favoriteCount": "0",
         "commentCount": "373"
       }
@@ -5792,7 +5792,7 @@
     },
     "qa0PSEJS10M": {
       "kind": "youtube#video",
-      "etag": "5P1QPUGsk8sm9ZdIuCXcfmGeRXY",
+      "etag": "xWNYnyyGDQqrqhE_fIfWyfMdrcU",
       "id": "qa0PSEJS10M",
       "snippet": {
         "publishedAt": "2025-02-23T12:39:47Z",
@@ -5855,7 +5855,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "715",
+        "viewCount": "720",
         "likeCount": "195",
         "favoriteCount": "0",
         "commentCount": "5"
@@ -5863,7 +5863,7 @@
     },
     "9Fw2quqkiEM": {
       "kind": "youtube#video",
-      "etag": "HQKIRFaRwl82AOHlwebkR98Mzf0",
+      "etag": "IegAxiOSAAPzaqHiwsUO2rvqQG4",
       "id": "9Fw2quqkiEM",
       "snippet": {
         "publishedAt": "2024-12-31T16:50:14Z",
@@ -5925,7 +5925,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "573",
+        "viewCount": "574",
         "likeCount": "158",
         "favoriteCount": "0",
         "commentCount": "4"
@@ -5933,7 +5933,7 @@
     },
     "BE9vzRfX7Q4": {
       "kind": "youtube#video",
-      "etag": "4Wle6pagVsvZR6Ia1Ca4kcnAjQQ",
+      "etag": "f2Zos9DFdlybD5-SS7Doy-qK77s",
       "id": "BE9vzRfX7Q4",
       "snippet": {
         "publishedAt": "2024-12-24T15:12:45Z",
@@ -6001,7 +6001,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "459",
+        "viewCount": "463",
         "likeCount": "129",
         "favoriteCount": "0",
         "commentCount": "1"
@@ -6827,7 +6827,7 @@
     },
     "qvdksXZxgCQ": {
       "kind": "youtube#video",
-      "etag": "3wxuAAo87llTL7krhqa3BFbtCnA",
+      "etag": "oO0GGo54sPxXQuM0CoZsmTXogTs",
       "id": "qvdksXZxgCQ",
       "snippet": {
         "publishedAt": "2024-05-23T03:15:07Z",
@@ -6900,7 +6900,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "457",
+        "viewCount": "458",
         "likeCount": "107",
         "favoriteCount": "0",
         "commentCount": "6"
@@ -7063,7 +7063,7 @@
     },
     "iEThgKK2HO4": {
       "kind": "youtube#video",
-      "etag": "JnCdQF9Icm-F4C1Wr-QG4SuvCxY",
+      "etag": "5yCwvn-U3m4RNb6j__M9KOWBG9c",
       "id": "iEThgKK2HO4",
       "snippet": {
         "publishedAt": "2024-04-14T15:47:22Z",
@@ -7134,7 +7134,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1150",
+        "viewCount": "1151",
         "likeCount": "253",
         "favoriteCount": "0",
         "commentCount": "11"
@@ -9157,7 +9157,7 @@
     },
     "e7fopGa2-3U": {
       "kind": "youtube#video",
-      "etag": "JjwXP5sZoYuS9ebvEelBQpWbMOs",
+      "etag": "glBUP8F0hvRrPsyCvmm5p7x7WpU",
       "id": "e7fopGa2-3U",
       "snippet": {
         "publishedAt": "2021-02-14T23:53:03Z",
@@ -9223,7 +9223,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1192",
+        "viewCount": "1193",
         "likeCount": "92",
         "favoriteCount": "0",
         "commentCount": "4"
