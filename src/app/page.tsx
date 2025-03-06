@@ -141,7 +141,7 @@ export default function Home() {
       const query = searchQuery.slice(1).toLowerCase(); // 先頭の「#」を削除
       return (
         (song.info?.genre?.toLowerCase() === query) || // ✅ ジャンル完全一致
-        (song.info?.opEd?.toLowerCase() === query) // ✅ opEd完全一致
+        (song.info?.opEd?.toLowerCase() === query)     // ✅ opEd完全一致
       );
     }
 

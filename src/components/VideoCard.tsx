@@ -1,6 +1,7 @@
 import GenreBadge                  from "@/components/GenreBadge";
 import OpEdBadge                            from "@/components/OpEdBadge";
 import SongInfoModal from "@/components/SongInfoModal";
+import YTVideoInfoModal from "@/components/YTVideoInfoModal";
 import { Song, YouTubeVideo}          from "@/types";
 import React, {useEffect, useRef, useState} from "react";
 import Image from "next/image"
@@ -16,11 +17,15 @@ const VideoCard: React.FC<Props> = ({ videoData, songs, handleGenreClick, handle
   const [openInfo, setOpenInfo] = useState<string | null>(null);
   const infoRef = useRef<HTMLDivElement>(null);
 
+  // YouTubeVideoInfoModal 用の状態
+  const [openVideoInfo, setOpenVideoInfo] = useState(false);
+
   // クリック外で閉じる処理
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (infoRef.current && !infoRef.current.contains(event.target as Node)) {
         setOpenInfo(null);
+        setOpenVideoInfo(false)
       }
     };
     if (openInfo) {
@@ -59,9 +64,24 @@ const VideoCard: React.FC<Props> = ({ videoData, songs, handleGenreClick, handle
 
       {/* 🎥 動画タイトルの表示 */}
       {videoData?.snippet?.title && (
-        <p className="mt-2 text-center font-semibold text-lg text-gray-900 dark:text-gray-100">
+        <p className="mt-2 font-semibold text-lg text-gray-900 dark:text-gray-100">
+          {/* YouTubeVideoInfoModal を開くボタン */}
+          <button
+            onClick={() => setOpenVideoInfo(true)}
+            className="ml-2 px-2 pl-0 py-1 text-sm text-white rounded-md hover:bg-blue-700 focus:outline-none"
+          >
+            ✅
+          </button>
           {videoData.snippet.title}
         </p>
+      )}
+      {/* YTVideoInfoModal の表示 */}
+      {openVideoInfo && (
+        <YTVideoInfoModal
+          video={videoData}
+          onClose={() => setOpenVideoInfo(false)}
+          onTextSearch={handleTextSearch}
+        />
       )}
 
       {/* 曲情報の表示 */}
