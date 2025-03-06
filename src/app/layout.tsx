@@ -23,7 +23,7 @@ export const metadata = {
     url: "https://katsu1101.github.io/song-list-linca-tojou/",
     images: [
       {
-        url: `${basePath}/og-image.png`,
+        url: "og-image.png",
         width: 1200,
         height: 630,
         alt: "OG Image",
@@ -36,7 +36,7 @@ export const metadata = {
     creator: "@katsu1101",
     title: "戸定梨香ちゃんの歌リスト",
     description: "これは 戸定梨香ちゃんの歌リストアプリです",
-    images: [`${basePath}/og-image.png`],
+    images: ["og-image.png"],
   },
 };
 
