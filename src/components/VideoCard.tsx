@@ -3,6 +3,7 @@ import OpEdBadge                            from "@/components/OpEdBadge";
 import SongInfoModal from "@/components/SongInfoModal";
 import { Song, YouTubeVideo}          from "@/types";
 import React, {useEffect, useRef, useState} from "react";
+import Image from "next/image"
 
 type Props = {
   videoData: YouTubeVideo;
@@ -45,11 +46,14 @@ const VideoCard: React.FC<Props> = ({ videoData, songs, handleGenreClick, handle
         rel="noopener noreferrer"
         className="block"
       >
-        <img
+        <Image
           src={videoData?.snippet?.thumbnails?.high?.url || `https://img.youtube.com/vi/${videoData.id}/hqdefault.jpg`}
           alt={videoData?.snippet?.title || songs[0]?.title}
           className="w-full object-cover rounded-md"
-          style={{ height: isSingingVideo ? "12rem" : "8rem" }} // h-48(12rem) or h-32(8rem)
+          style={{ height: "14rem" }} // h-48(12rem) or h-32(8rem)
+          width={960}
+          height={720}
+          loading="lazy"
         />
       </a>
 

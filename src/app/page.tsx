@@ -2,6 +2,7 @@
 
 import Menu                           from "@/components/Menu";
 import VideoCard                      from "@/components/VideoCard";
+import {checkVersionAndUpdateCache}   from "@/lib/versionChecker";
 import {Song, SongInfo, YouTubeVideo} from "@/types";
 import { useEffect, useState }        from "react";
 import Papa                           from "papaparse";
@@ -41,6 +42,14 @@ export default function Home() {
     smoothScrollToTop(); // 🔝 なめらかにスクロール
     setSearchQuery(""); // 🔍 検索をリセット
   };
+
+  useEffect(() => {
+    // バージョンチェックを初期化処理として実行
+    const checkVersion = async () => {
+      await checkVersionAndUpdateCache();
+    };
+    checkVersion();
+  }, []);
 
   useEffect(() => {
     const fetchSongInfo = async () => {

@@ -5,8 +5,12 @@ export const checkVersionAndUpdateCache = async (): Promise<void> => {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
   try {
     const [buildRes, dataRes] = await Promise.all([
-      fetch(`${basePath}/build-version.json`),
-      fetch(`${basePath}/data-version.json`),
+      fetch(`${basePath}/build-version.json`, {
+        cache: "no-cache", // ✅ ブラウザキャッシュを無効化
+      }),
+      fetch(`${basePath}/data-version.json`, {
+        cache: "no-cache", // ✅ ブラウザキャッシュを無効化
+      }),
     ]);
 
     const newBuildVersion = (await buildRes.json()).version;
