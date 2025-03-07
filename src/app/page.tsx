@@ -4,15 +4,18 @@ import Menu                           from "@/components/Menu";
 import VideoCard                      from "@/components/VideoCard";
 import {checkVersionAndUpdateCache}   from "@/lib/versionChecker";
 import {Song, SongInfo, YouTubeVideo} from "@/types";
+import {useSearchParams}              from "next/navigation";
 import { useEffect, useState }        from "react";
 import Papa                           from "papaparse";
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 export default function Home() {
+  const searchParams = useSearchParams();
+  const query = searchParams.get("s") || "";
   const [songs, setSongs] = useState<Song[]>([]);
   const [videos, setVideos] = useState<Record<string, YouTubeVideo>>({});
-  const [searchQuery, setSearchQuery] = useState<string>("");
+  const [searchQuery, setSearchQuery] = useState<string>(query);
   const [songInfoMap, setSongInfoMap] = useState<Record<string, SongInfo> | null>(null);
   const [isScrolled, setIsScrolled] = useState(false); // スクロールの位置
   const [isClient, setIsClient] = useState(false);
@@ -174,6 +177,14 @@ export default function Home() {
   if (!isClient) {
     return <div>Loading...</div>; // SSR時に一旦「Loading...」を表示
   }
+  const encodedQuery = encodeURIComponent(searchQuery);
+  const currentUrl = "https://katsu1101.github.io/song-list-linca-tojou";
+  const linkUrl = `${currentUrl}/?s=${encodedQuery}`
+  const linkNote = encodeURIComponent(`#戸定梨香ちゃんの歌リスト の検索結果
+キーワード: ${searchQuery}
+
+#戸定梨香 #とじょりん \n\n
+`);
 
   return (
     <main className="max-w-4xl mx-auto p-4 text-gray-900 dark:text-gray-100 bg-white dark:bg-gray-900">
@@ -193,7 +204,7 @@ export default function Home() {
           </div>
 
           <div className="max-w-4xl mx-auto flex items-center w-full z-[998] p-0">
-             {/*左上のアイコン */}
+            {/*左上のアイコン */}
             <div className="mr-2 h-full p-1 cursor-pointer" onClick={handleResetSearch}>
               <img src={`${basePath}/icon-192x192.png`} alt="Logo" className="w-12 h-12" />
             </div>
@@ -219,23 +230,36 @@ export default function Home() {
                 </button>
               )}
             </div>
+            <div>
+              {/* AddToAny のシェアボタンコンテナ */}
+              <div title="検索結果をXでポスト！">
+                <a
+                  href={`https://www.addtoany.com/add_to/x?linkurl=${encodeURIComponent(linkUrl)}&linkname=${linkNote}`}
+
+                  target="_blank"
+                >
+                  <img src="https://static.addtoany.com/buttons/x.svg" width="32" height="32"
+                       style={{backgroundColor: "royalblue"}}/>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
       <div className="mt-24">
-      {Object.entries(groupedSongs).length == 0
-        ? <p className="text-center text-gray-500">検索結果がありません</p>
-        : Object.entries(groupedSongs).map(([date, videosByDate]) => (
-          <section key={date} className="mb-8">
-            <h2 className="text-2xl font-semibold border-b-2 pb-2">{date}</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
-              {Object.entries(videosByDate).map(([videoId, songs]) => {
-                return (
-                  <VideoCard
-                    key={videoId} videoData={videos[videoId]} songs={songs}
-                    handleGenreClick={handleGenreClick}
-                    handleTextSearch={handleTextSearch}
+        {Object.entries(groupedSongs).length == 0
+          ? <p className="text-center text-gray-500">検索結果がありません</p>
+          : Object.entries(groupedSongs).map(([date, videosByDate]) => (
+            <section key={date} className="mb-8">
+              <h2 className="text-2xl font-semibold border-b-2 pb-2">{date}</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                {Object.entries(videosByDate).map(([videoId, songs]) => {
+                  return (
+                    <VideoCard
+                      key={videoId} videoData={videos[videoId]} songs={songs}
+                      handleGenreClick={handleGenreClick}
+                      handleTextSearch={handleTextSearch}
                   />
                 );
               })}
