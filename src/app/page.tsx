@@ -183,8 +183,9 @@ export default function Home() {
   const linkNote = encodeURIComponent(`#戸定梨香ちゃんの歌リスト の検索結果
 キーワード: ${searchQuery}
 
-#戸定梨香 #とじょりん \n\n
-`);
+#戸定梨香 #とじょりん \n　\n　`);
+  const linkNote2 = encodeURIComponent(`#戸定梨香ちゃんの歌リスト
+#戸定梨香 #とじょりん \n　\n　`);
 
   return (
     <main className="max-w-4xl mx-auto p-4 text-gray-900 dark:text-gray-100 bg-white dark:bg-gray-900">
@@ -234,7 +235,10 @@ export default function Home() {
               {/* AddToAny のシェアボタンコンテナ */}
               <div title="検索結果をXでポスト！">
                 <a
-                  href={`https://www.addtoany.com/add_to/x?linkurl=${encodeURIComponent(linkUrl)}&linkname=${linkNote}`}
+                  href={searchQuery
+                    ? `https://www.addtoany.com/add_to/x?linkurl=${encodeURIComponent(linkUrl)}&linkname=${linkNote}`
+                    : `https://www.addtoany.com/add_to/x?linkurl=${encodeURIComponent(currentUrl)}&linkname=${linkNote2}`
+                }
 
                   target="_blank"
                 >
