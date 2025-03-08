@@ -1,44 +1,139 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 戸定梨香ちゃんの歌リスト
 
-## Getting Started
+このリポジトリは千葉県ご当地VTuber戸定梨香さんがYouTube上で歌った歌を管理検索するためのNext.jsアプリケーションです。
 
-First, run the development server:
+## サイトURL
 
-```bash
-yarn dev
+https://katsu1101.github.io/song-list-linca-tojou/
+![戸定梨香ちゃんの歌リスト（スクリーンショット）.png](%E6%88%B8%E5%AE%9A%E6%A2%A8%E9%A6%99%E3%81%A1%E3%82%83%E3%82%93%E3%81%AE%E6%AD%8C%E3%83%AA%E3%82%B9%E3%83%88%EF%BC%88%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%EF%BC%89.png)
+
+## 機能概要
+
+- 歌リスト取得スクリプト
+  - 「きっくーのメモ帳」から歌リストデータを取得し、歌リストに合わせてYouTubeから動画データも取得しファイル出力
+- PWAアプリケーション
+  - 文字検索、タグ検索、検索結果をXにポスト
+  - 動画再生（YouTubeリンク）
+  - 歌再生（秒数指定YouTubeリンク）
+  - 歌の付属情報（csvファイルを読み込んで付属情報を検索や表示に使用）
+
+## 必要環境
+
+- .envファイルでYouTube APIキーを設定
+
+# セットアップ
+
+1. リポジトリをクローン
+```shell
+git clone https://github.com/katsu1101/song-list-linca-tojou
+cd song-list-linca-tojou
 ```
 
-```bash
-npx playwright install
+2. 依存関係をインストール
+```shell
+npm install
+```
+または
+```shell
+yarn install
 ```
 
-```bash
-npm install @prisma/client
-npx prisma init
+3. .envファイルの用意
+.env.exampleがある場合はコピーして.envにリネーム
+APIキーやパスを追記
+
+## 実行方法
+
+### データ作成（json）
+きっくーのメモ帳、YouTubeから曲、YouTube動画の情報を取得し、`songs.json`ファイルをさくせい
+```shell
+npm run generate:json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 開発サーバ起動	
+ローカルでNext.jsの開発サーバを起動 (http://localhost:3000)
+```shell
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### ビルド	
+自動的に本番環境用の環境変数をセットして、ビルドを実行
+```dotenv
+NODE_ENV=production
+NEXT_PUBLIC_BASE_PATH=/song-list-linca-tojou
+```
+```shell
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ディレクトリ構成
+```
+.
+├─ build/                 // Build結果出力ディレクトリ
+├─ docs/                  // GitHubPages用公開ディレクトリ
+├─ public/                // 公開ディレクトリ(アイコンやsongs.jsonなど)
+├─ scripts/               // JSON生成などのスクリプト
+├─ src/
+│    ├─ app/              // アプリの本体
+│    ├─ components/       // Reactコンポーネント
+│    └─ Lib/              // アプリ側の共通処理
+├─ next.config.ts         // Next.jsの設定
+├─ tsconfig.json          // TypeScript設定
+└─ package.json
+```
 
-## Learn More
+## 環境変数について
 
-To learn more about Next.js, take a look at the following resources:
+```dotenv
+YOUTUBE_API_KEY=　#YouTubeのAPI KEYを用意してここにセット
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## デプロイ方法
+### データのみをデプロイする場合
+1. データ更新
+```shell
+npm run generate:json
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. docsにコピー
+   docsディレクトリ内のファイルをすべて削除し、 
+   buildディレクトリ内のファイルをすべてdocsディレクトリにコピー
+   docsディレクトリ内のファイルをgitに追加
 
-## Deploy on Vercel
+3. push
+   git commit 
+   git push
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### アプリ全体をデプロイする場合
+1. データ更新
+```shell
+npm run generate:json
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. build
+```shell
+npm run build
+```
 
+3. docsにコピー
+   docsディレクトリ内のファイルをすべて削除し、
+   buildディレクトリ内のファイルをすべてdocsディレクトリにコピー
+   docsディレクトリ内のファイルをgitに追加
 
-Open [http://localhost:3000/api/scrape](http://localhost:3000/api/scrape)
+4. push
+   git commit
+   git push
+
+## ライセンス
+
+このプロジェクトは [MIT License](./LICENSE) のもとで公開しています。  
+詳しくは `LICENSE` ファイルをご確認ください。
+
+## 作者 / 関係者
+
+- [かつき](https://x.com/katsu1101)：開発担当
+- [きっくーさん](https://x.com/kicku_tw)：データ提供
+
+## メモ
 
 https://chatgpt.com/c/67bc054e-a8f0-8007-bcab-ecffd71b1d74
