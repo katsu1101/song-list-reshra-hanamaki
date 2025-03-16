@@ -16,5 +16,11 @@
       "sizes": "512x512",
       "type": "image/png"
     }
+  ],
+  "protocol_handlers": [
+    {
+      "protocol": "web+songlistlinca",
+      "url": "/?open=%s"
+    }
   ]
 }

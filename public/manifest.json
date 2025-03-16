@@ -16,5 +16,11 @@
       "sizes": "512x512",
       "type": "image/png"
     }
+  ],
+  "protocol_handlers": [
+    {
+      "protocol": "web+songlistlincatojou",
+      "url": "https://katsu1101.github.io/song-list-linca-tojou/?s=%s"
+    }
   ]
 }
