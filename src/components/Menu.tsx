@@ -14,8 +14,6 @@ const Menu: React.FC<Props> = ({ menuOpen, onClick }) => {
     { name: "LINEスタンプ", url: "https://store.line.me/stickershop/product/20411879/ja"},
     { name: "ローソンプリント", url: "https://lawson-print.com/products/categories/vase"},
     { name: "ファミマプリント", url: "https://famima-print.family.co.jp/vtuber/vase-59tnz" },
-    { name: "セブンプリント（GT6551）L", url: "https://www.contents-catalog.com/categories/titles/CGDzmfx2hn4TYsIXXTO9pURw=="},
-    { name: "セブンプリント（GT6551）2L", url: "https://www.contents-catalog.com/categories/titles/CGb8SBp1L9YhcKqZVds7vMtQ=="},
 
     { name: "VASE 公式サイト", url: "https://www.vase.tokyo/" },
     { name: "ASE OFFICIAL STORE", url: "https://ase-store.com/?category_id=67888c9a6e449503ebae7c96" },
