@@ -98,3 +98,15 @@ define(['./workbox-e43f5367'], (function (workbox) { 'use strict';
   }), 'GET');
 
 }));
+self.addEventListener("install", (event) => {
+  console.log("✅ Service Worker インストール完了");
+  self.skipWaiting();
+});
+
+self.addEventListener("activate", (event) => {
+  console.log("✅ Service Worker 有効化完了");
+});
+
+self.addEventListener("fetch", (event) => {
+  console.log("✅ リクエスト:", event.request.url);
+});
