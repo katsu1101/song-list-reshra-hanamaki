@@ -9,14 +9,13 @@ const Menu: React.FC<Props> = ({ menuOpen, onClick }) => {
     { name: "YouTube（戸定梨香）", url: "https://youtube.com/@linca_tojou?si=tDAbk7IO_RccPD5m" },
     { name: "𝕏（戸定梨香）", url: "https://x.com/Tojou_Linca" },
     { name: "Fanitia（戸定梨香のとじょりんワールド）", url: "https://fantia.jp/fanclubs/70005" },
+    { name: "ASE OFFICIAL STORE", url: "https://ase-store.com/?category_id=67888c9a6e449503ebae7c96" },
     { name: "SUZURI（とじょりんがいっぱい）", url: "https://suzuri.jp/lincatojou" },
+    { name: "VASE 公式サイト", url: "https://www.vase.tokyo/" },
 
     { name: "LINEスタンプ", url: "https://store.line.me/stickershop/product/20411879/ja"},
     { name: "ローソンプリント", url: "https://lawson-print.com/products/categories/vase"},
     { name: "ファミマプリント", url: "https://famima-print.family.co.jp/vtuber/vase-59tnz" },
-
-    { name: "VASE 公式サイト", url: "https://www.vase.tokyo/" },
-    { name: "ASE OFFICIAL STORE", url: "https://ase-store.com/?category_id=67888c9a6e449503ebae7c96" },
 
     { name: "きっくーのメモ帳（データ提供元）", url: "https://kicku-tw.blogspot.com/" },
     { name: "𝕏（かつき）", url: "https://x.com/katsu1101" },
