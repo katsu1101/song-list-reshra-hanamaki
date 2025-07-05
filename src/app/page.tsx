@@ -152,7 +152,7 @@ export default function Home() {
     return (
       song.title.toLowerCase().includes(searchQuery.toLowerCase()) ||  // 曲名検索
       song.date.includes(searchQuery) ||  // 日付検索
-      song.work.toLowerCase().includes(searchQuery.toLowerCase()) ||  // 作品名
+      song.info?.work?.toLowerCase().includes(searchQuery.toLowerCase()) ||  // 作品名
       song.artist?.toLowerCase().includes(searchQuery.toLowerCase()) ||  // アーティスト
       song.info?.lyricist?.toLowerCase().includes(searchQuery.toLowerCase()) ||  // 注釈
       song.info?.composer?.toLowerCase().includes(searchQuery.toLowerCase()) ||  // 作曲

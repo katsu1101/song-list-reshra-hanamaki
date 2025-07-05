@@ -452,6 +452,127 @@
       "source": 1
     },
     {
+      "date": "2025/07/04",
+      "title": "Yume no Tojou",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=hmbNPSmFcqs&t=470s",
+      "videoId": "hmbNPSmFcqs",
+      "timestamp": 470,
+      "source": 2
+    },
+    {
+      "date": "2025/07/04",
+      "title": "少女レイ",
+      "artist": "みきとP feat. 初音ミク",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=hmbNPSmFcqs&t=670s",
+      "videoId": "hmbNPSmFcqs",
+      "timestamp": 670,
+      "source": 2
+    },
+    {
+      "date": "2025/07/04",
+      "title": "My Days for You",
+      "artist": "真野恵里菜",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=hmbNPSmFcqs&t=1000s",
+      "videoId": "hmbNPSmFcqs",
+      "timestamp": 1000,
+      "source": 2
+    },
+    {
+      "date": "2025/07/04",
+      "title": "世界でいちばんアイドル",
+      "artist": "超ときめき♡宣伝部",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=hmbNPSmFcqs&t=1265s",
+      "videoId": "hmbNPSmFcqs",
+      "timestamp": 1265,
+      "source": 2
+    },
+    {
+      "date": "2025/07/04",
+      "title": "恋のヒメヒメぺったんこ",
+      "artist": "姫野湖鳥",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=hmbNPSmFcqs&t=1645s",
+      "videoId": "hmbNPSmFcqs",
+      "timestamp": 1645,
+      "source": 2
+    },
+    {
+      "date": "2025/07/04",
+      "title": "irony",
+      "artist": "ClariS",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=hmbNPSmFcqs&t=1890s",
+      "videoId": "hmbNPSmFcqs",
+      "timestamp": 1890,
+      "source": 2
+    },
+    {
+      "date": "2025/07/04",
+      "title": "男の勲章",
+      "artist": "嶋大輔",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=hmbNPSmFcqs&t=2150s",
+      "videoId": "hmbNPSmFcqs",
+      "timestamp": 2150,
+      "source": 2
+    },
+    {
+      "date": "2025/07/04",
+      "title": "ツッパリHigh School Rock'n Roll（登校編）",
+      "artist": "横浜銀蝿",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=hmbNPSmFcqs&t=2330s",
+      "videoId": "hmbNPSmFcqs",
+      "timestamp": 2330,
+      "source": 2
+    },
+    {
+      "date": "2025/07/04",
+      "title": "美女と野獣",
+      "artist": "",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=hmbNPSmFcqs&t=2695s",
+      "videoId": "hmbNPSmFcqs",
+      "timestamp": 2695,
+      "source": 2
+    },
+    {
+      "date": "2025/07/04",
+      "title": "もうどうなってもいいや",
+      "artist": "星街すいせい",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=hmbNPSmFcqs&t=2920s",
+      "videoId": "hmbNPSmFcqs",
+      "timestamp": 2920,
+      "source": 2
+    },
+    {
+      "date": "2025/07/04",
+      "title": "チバケンサンバ",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=hmbNPSmFcqs&t=3210s",
+      "videoId": "hmbNPSmFcqs",
+      "timestamp": 3210,
+      "source": 2
+    },
+    {
       "date": "2025/07/03 (～07/04)",
       "title": "ハッピー☆ラッキー・バースデー！",
       "artist": "ドラえもん、のび太、しずか、ジャイアン、スネ夫",
@@ -3392,7 +3513,7 @@
   "videos": {
     "g2WQIfTREfM": {
       "kind": "youtube#video",
-      "etag": "crbT8ngwDNIq8XHSR57t8p5QK3o",
+      "etag": "SHcRhyKR180H6GIz_rSL1MpW8D0",
       "id": "g2WQIfTREfM",
       "snippet": {
         "publishedAt": "2025-03-18T11:30:07Z",
@@ -3454,7 +3575,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1272",
+        "viewCount": "1276",
         "likeCount": "243",
         "favoriteCount": "0",
         "commentCount": "19"
@@ -3462,7 +3583,7 @@
     },
     "WucHdtn7gGo": {
       "kind": "youtube#video",
-      "etag": "D7CEZTCtBXKHUk3xASvGkdfuZz8",
+      "etag": "cKcBThiIXGEaV6WHzBPF5iQUpYo",
       "id": "WucHdtn7gGo",
       "snippet": {
         "publishedAt": "2025-01-01T03:00:08Z",
@@ -3514,7 +3635,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2258",
+        "viewCount": "2260",
         "likeCount": "215",
         "favoriteCount": "0",
         "commentCount": "19"
@@ -3522,7 +3643,7 @@
     },
     "lQd7OfNER5E": {
       "kind": "youtube#video",
-      "etag": "B_-6AskAwsTi0G9hGlyLlYlf4iw",
+      "etag": "wohraX-Z54LYUYewezrR-IQftfQ",
       "id": "lQd7OfNER5E",
       "snippet": {
         "publishedAt": "2024-07-04T12:00:07Z",
@@ -3594,7 +3715,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2365",
+        "viewCount": "2367",
         "likeCount": "310",
         "favoriteCount": "0",
         "commentCount": "16"
@@ -3602,7 +3723,7 @@
     },
     "5nHXLuFuVv4": {
       "kind": "youtube#video",
-      "etag": "Aw1LeOrxCF3dxnJC17N_WCpZs7Q",
+      "etag": "W7mjogIO4UE2a0w-752bmsneJU4",
       "id": "5nHXLuFuVv4",
       "snippet": {
         "publishedAt": "2024-04-14T11:45:07Z",
@@ -3679,7 +3800,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "3360",
+        "viewCount": "3361",
         "likeCount": "282",
         "favoriteCount": "0",
         "commentCount": "19"
@@ -3822,7 +3943,7 @@
     },
     "1DLndvFhPsY": {
       "kind": "youtube#video",
-      "etag": "qjSbOVhOVTWc8y6etTrRk1V5tak",
+      "etag": "QI15KPD1Oh2EsO7x3829hY24tnQ",
       "id": "1DLndvFhPsY",
       "snippet": {
         "publishedAt": "2023-04-29T15:30:09Z",
@@ -3894,7 +4015,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "3355",
+        "viewCount": "3356",
         "likeCount": "253",
         "favoriteCount": "0",
         "commentCount": "21"
@@ -3972,7 +4093,7 @@
     },
     "LI2WwrPNHFU": {
       "kind": "youtube#video",
-      "etag": "0nlpyuqEmHWPT5H4zswj-XyqIw0",
+      "etag": "F85FldUSSL1CGNiEAM5Wcn7Jzqg",
       "id": "LI2WwrPNHFU",
       "snippet": {
         "publishedAt": "2023-04-15T03:05:07Z",
@@ -4034,7 +4155,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "7788",
+        "viewCount": "7794",
         "likeCount": "429",
         "favoriteCount": "0",
         "commentCount": "26"
@@ -4042,7 +4163,7 @@
     },
     "U8N6UH53Dds": {
       "kind": "youtube#video",
-      "etag": "wWJMqVf7URof1QwpZanlIO7_9-8",
+      "etag": "eEAjrJeoIoAj_MaoBc73eTZgMTA",
       "id": "U8N6UH53Dds",
       "snippet": {
         "publishedAt": "2023-04-14T10:00:09Z",
@@ -4105,7 +4226,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2673",
+        "viewCount": "2674",
         "likeCount": "196",
         "favoriteCount": "0",
         "commentCount": "24"
@@ -4113,7 +4234,7 @@
     },
     "gZ28H27_S7I": {
       "kind": "youtube#video",
-      "etag": "cBWMRDDNAqDD6FX9go2qq46G91w",
+      "etag": "zEd-SceKScjarhLRpl9txYz47x0",
       "id": "gZ28H27_S7I",
       "snippet": {
         "publishedAt": "2023-04-01T11:15:07Z",
@@ -4166,7 +4287,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "35035",
+        "viewCount": "35068",
         "likeCount": "455",
         "favoriteCount": "0",
         "commentCount": "40"
@@ -4174,7 +4295,7 @@
     },
     "8LiU-deYM-s": {
       "kind": "youtube#video",
-      "etag": "i47Lj6Tp485GBQg_dnkQvCNzGk4",
+      "etag": "v2A1wstNsIsYITpq5nrIR9szY4U",
       "id": "8LiU-deYM-s",
       "snippet": {
         "publishedAt": "2022-09-28T11:30:13Z",
@@ -4232,7 +4353,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "6271",
+        "viewCount": "6283",
         "likeCount": "343",
         "favoriteCount": "0",
         "commentCount": "28"
@@ -4781,7 +4902,7 @@
     },
     "UAMhYU9SHzo": {
       "kind": "youtube#video",
-      "etag": "p46Oz5z3B2gBJrYm4_k41OwB_6g",
+      "etag": "FMzPIqlLaXZmTNB3RCw7TLwQt4w",
       "id": "UAMhYU9SHzo",
       "snippet": {
         "publishedAt": "2022-04-22T03:00:11Z",
@@ -4835,14 +4956,14 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "262259",
+        "viewCount": "262312",
         "favoriteCount": "0",
         "commentCount": "372"
       }
     },
     "bkQ_UtHdX2U": {
       "kind": "youtube#video",
-      "etag": "7u4yVGRqs79KOOr7ciBYnpZW-pw",
+      "etag": "bUAOhCxtHDU454y5YGk5SRo89Bo",
       "id": "bkQ_UtHdX2U",
       "snippet": {
         "publishedAt": "2022-03-18T12:00:50Z",
@@ -4894,7 +5015,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2175",
+        "viewCount": "2176",
         "likeCount": "170",
         "favoriteCount": "0",
         "commentCount": "11"
@@ -5034,7 +5155,7 @@
     },
     "hEA3JvnOvFQ": {
       "kind": "youtube#video",
-      "etag": "KX_IJfm11VwjG4lbyacmxGejGcE",
+      "etag": "kTgm9iN7JOwdoixIJaiLKpY5zqk",
       "id": "hEA3JvnOvFQ",
       "snippet": {
         "publishedAt": "2022-03-06T11:00:19Z",
@@ -5093,7 +5214,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1477",
+        "viewCount": "1478",
         "likeCount": "189",
         "favoriteCount": "0",
         "commentCount": "30"
@@ -5180,7 +5301,7 @@
     },
     "w9xYUVXxsYM": {
       "kind": "youtube#video",
-      "etag": "t0RiOmvkNKiY1ZzcFvSXKhZ5wMU",
+      "etag": "-Qlv3It0S0pn9UevK4bJhiSYY2c",
       "id": "w9xYUVXxsYM",
       "snippet": {
         "publishedAt": "2021-12-17T11:00:13Z",
@@ -5238,7 +5359,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "21981",
+        "viewCount": "21984",
         "likeCount": "749",
         "favoriteCount": "0",
         "commentCount": "59"
@@ -5341,7 +5462,7 @@
     },
     "7Qa2D8oubMY": {
       "kind": "youtube#video",
-      "etag": "s95p4qHL1t6nJ-8gTHf6HJbCYCY",
+      "etag": "ZNoFPR-W4tZPlkPjKLmWBfO0bus",
       "id": "7Qa2D8oubMY",
       "snippet": {
         "publishedAt": "2021-04-15T15:41:14Z",
@@ -5417,7 +5538,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "7149",
+        "viewCount": "7150",
         "likeCount": "385",
         "favoriteCount": "0",
         "commentCount": "17"
@@ -5425,7 +5546,7 @@
     },
     "XPYQJo2v_r0": {
       "kind": "youtube#video",
-      "etag": "_TaErzb3J8wSgqCpcpHdIiI_sl8",
+      "etag": "ttceL7RTdK6G6zDch28BeMBBJQU",
       "id": "XPYQJo2v_r0",
       "snippet": {
         "publishedAt": "2021-02-15T22:31:17Z",
@@ -5504,7 +5625,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "8817",
+        "viewCount": "8818",
         "likeCount": "374",
         "favoriteCount": "0",
         "commentCount": "20"
@@ -5877,7 +5998,7 @@
     },
     "x41mLZYsUkA": {
       "kind": "youtube#video",
-      "etag": "QdjfsEF2_YhiRNTAD-pbL0KN_AU",
+      "etag": "-VOuHbSJ7m4V0GOSyxkC9jBM4MU",
       "id": "x41mLZYsUkA",
       "snippet": {
         "publishedAt": "2020-09-22T01:00:01Z",
@@ -5954,7 +6075,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "6415",
+        "viewCount": "6422",
         "likeCount": "255",
         "favoriteCount": "0",
         "commentCount": "14"
@@ -6212,38 +6333,115 @@
         "commentCount": "8"
       }
     },
+    "hmbNPSmFcqs": {
+      "kind": "youtube#video",
+      "etag": "a5ab5YJY0-NCd6uuGd1eg8wU8Tg",
+      "id": "hmbNPSmFcqs",
+      "snippet": {
+        "publishedAt": "2025-07-04T02:37:02Z",
+        "channelId": "UCeUxaSLRzywNh8v78SDKP8A",
+        "title": "【#戸定梨香生誕祭2025】ありがとうありがとうありがとう🐨🎀",
+        "description": "ミッション達成のお陰で、歌って踊らせていただきます(n*´ω`*n)🌟\n本当にどうもありがとうございます🐯💕\n\n🐨🎀￤最新情報\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🕶ミッション🕶\n7/12戸定梨香生誕祭公演\n『『1部74票 / 2部74票を獲得せよ！』』\nhttps://ase-store.com/items/683eb3958b04062c7494f968\n\n🎶戸定梨香の今までの歌がぜ～んぶ聴けます🎶\nご提供：かつきさん＆きっくーさん🐨🎀\nhttps://katsu1101.github.io/song-list-linca-tojou/\n\nめいどりーみんコラボグッズが限定発売中❣❣\n🎅残るはアクスタのみ❣❣\nhttps://ase-store.com/items/67a327ca900a5105833a656e\n\nとじょりんにプレゼントできるの🎁\nhttps://ase-store.com/items/67a33117044f8901428540d9\n\n\n🐨🎀￤ファンクラブ\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\nとじょりんのファンクラブ（ファンティア）があるの🐶🌟\n０円(無料）～の７コースがずらっと揃っています。\n応援がとてもとてもとっても励みになります。\n月に１度のお名前コールでは、希望者さんのお宅訪問（X)あり🐻💛\nいつもどうもありがとう🐈💓\n\n☄戸定梨香ファンティア\nhttps://fantia.jp/fanclubs/70005\n\n\n🐨🎀￤オススメグッズ\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\nアパレル中心👘\nとじょりんがいっぱい（SUZURI）\nhttps://suzuri.jp/lincatojou\n\nとじょりんのLINEスタンプ🐨🎀\nhttps://store.line.me/stickershop/product/20411879/ja?from=sticker\n\n梨香初のオリジナルCD🎤💓\nhttps://ase-store.com/items/67a347059d5f2b0261b0525d\n\n\n🐨🎀￤メンバーシップ\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🐨戸定梨香のメンバーシップ🐨\n「とじょりんワールドにゃ！」\n入ってくださりどうもありがとうなの🐈💞\nhttps://www.youtube.com/channel/UCeUxaSLRzywNh8v78SDKP8A/join\n\n■専用のバッジ、絵文字スタンプが使用できるよ！\n■メンバーシップ限定ライブ配信もあるよ！\n\n\n🐨🎀￤コンビニプリント\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🎀🐨全国のローソンプリント＆ファミマプリント🐨🎀\n❥L判300円　2L判500円　A4判1000円\n店内にあるマルチコピー機「ローソンプリント」「ファミマプリント」から印刷してね💕\n\nファミマプリント\nhttps://famima-print.family.co.jp/search?s=%E6%88%B8%E5%AE%9A%E6%A2%A8%E9%A6%99\n\nローソンプリント\nhttps://lawson-print.com/products/categories/vase\n\n\n🐨🎀￤その他\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n「ちばサイクルール」をしっかり守ろうね！\n【3分間動画】交通安全PR「松戸警察、松戸東警察からのお願いです！」\nhttps://www.youtube.com/watch?v=2eSdrs9Svvs\n\n警察署長とお友達！？　ご当地キャラクターとＶＴｕｂｅｒが松戸トーク　\n戸定梨香×ばけごろう　【ちばドル図鑑】（１５）\nhttps://www.chibanippo.co.jp/news/local/816849\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n配信後には、感想をコメント残してね🐈🌟\n\nファンアート：#とじょりんアート\nファンネーム：#とじょみん\nグッズお迎え：#とじょりんグッズ\nご当地クッキング：#とじょりんクッキング\n千葉ご紹介：#とじょりん特派員\nガンダム：#とじょみんとガンダム\n推しマーク：🐨🎀\n推しカラー：赤をふりふり\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n所属事務所 VASE\nhttps://www.vase.tokyo/\n\nVASEグッズ販売\nhttps://ase-store.com/\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\nとじょみんだいすき(/ω＼)💖",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hmbNPSmFcqs/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hmbNPSmFcqs/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hmbNPSmFcqs/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/hmbNPSmFcqs/sddefault_live.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/hmbNPSmFcqs/maxresdefault_live.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "tags": [
+          "戸定梨香",
+          "生誕祭",
+          "かわいい",
+          "アイドル",
+          "嬉しい",
+          "ダンス",
+          "生",
+          "配信",
+          "ライブ",
+          "せいたん",
+          "誕生日",
+          "当日",
+          "3D",
+          "歌って",
+          "踊る"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "【#戸定梨香生誕祭2025】ありがとうありがとうありがとう🐨🎀",
+          "description": "ミッション達成のお陰で、歌って踊らせていただきます(n*´ω`*n)🌟\n本当にどうもありがとうございます🐯💕\n\n🐨🎀￤最新情報\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🕶ミッション🕶\n7/12戸定梨香生誕祭公演\n『『1部74票 / 2部74票を獲得せよ！』』\nhttps://ase-store.com/items/683eb3958b04062c7494f968\n\n🎶戸定梨香の今までの歌がぜ～んぶ聴けます🎶\nご提供：かつきさん＆きっくーさん🐨🎀\nhttps://katsu1101.github.io/song-list-linca-tojou/\n\nめいどりーみんコラボグッズが限定発売中❣❣\n🎅残るはアクスタのみ❣❣\nhttps://ase-store.com/items/67a327ca900a5105833a656e\n\nとじょりんにプレゼントできるの🎁\nhttps://ase-store.com/items/67a33117044f8901428540d9\n\n\n🐨🎀￤ファンクラブ\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\nとじょりんのファンクラブ（ファンティア）があるの🐶🌟\n０円(無料）～の７コースがずらっと揃っています。\n応援がとてもとてもとっても励みになります。\n月に１度のお名前コールでは、希望者さんのお宅訪問（X)あり🐻💛\nいつもどうもありがとう🐈💓\n\n☄戸定梨香ファンティア\nhttps://fantia.jp/fanclubs/70005\n\n\n🐨🎀￤オススメグッズ\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\nアパレル中心👘\nとじょりんがいっぱい（SUZURI）\nhttps://suzuri.jp/lincatojou\n\nとじょりんのLINEスタンプ🐨🎀\nhttps://store.line.me/stickershop/product/20411879/ja?from=sticker\n\n梨香初のオリジナルCD🎤💓\nhttps://ase-store.com/items/67a347059d5f2b0261b0525d\n\n\n🐨🎀￤メンバーシップ\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🐨戸定梨香のメンバーシップ🐨\n「とじょりんワールドにゃ！」\n入ってくださりどうもありがとうなの🐈💞\nhttps://www.youtube.com/channel/UCeUxaSLRzywNh8v78SDKP8A/join\n\n■専用のバッジ、絵文字スタンプが使用できるよ！\n■メンバーシップ限定ライブ配信もあるよ！\n\n\n🐨🎀￤コンビニプリント\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🎀🐨全国のローソンプリント＆ファミマプリント🐨🎀\n❥L判300円　2L判500円　A4判1000円\n店内にあるマルチコピー機「ローソンプリント」「ファミマプリント」から印刷してね💕\n\nファミマプリント\nhttps://famima-print.family.co.jp/search?s=%E6%88%B8%E5%AE%9A%E6%A2%A8%E9%A6%99\n\nローソンプリント\nhttps://lawson-print.com/products/categories/vase\n\n\n🐨🎀￤その他\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n「ちばサイクルール」をしっかり守ろうね！\n【3分間動画】交通安全PR「松戸警察、松戸東警察からのお願いです！」\nhttps://www.youtube.com/watch?v=2eSdrs9Svvs\n\n警察署長とお友達！？　ご当地キャラクターとＶＴｕｂｅｒが松戸トーク　\n戸定梨香×ばけごろう　【ちばドル図鑑】（１５）\nhttps://www.chibanippo.co.jp/news/local/816849\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n配信後には、感想をコメント残してね🐈🌟\n\nファンアート：#とじょりんアート\nファンネーム：#とじょみん\nグッズお迎え：#とじょりんグッズ\nご当地クッキング：#とじょりんクッキング\n千葉ご紹介：#とじょりん特派員\nガンダム：#とじょみんとガンダム\n推しマーク：🐨🎀\n推しカラー：赤をふりふり\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n所属事務所 VASE\nhttps://www.vase.tokyo/\n\nVASEグッズ販売\nhttps://ase-store.com/\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\nとじょみんだいすき(/ω＼)💖"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT1H4M37S",
+        "dimension": "2d",
+        "definition": "sd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "611",
+        "likeCount": "218",
+        "favoriteCount": "0",
+        "commentCount": "4"
+      }
+    },
     "3Q5-cZX0Dxs": {
       "kind": "youtube#video",
-      "etag": "rc0HHS2xeFg4djWtzgIv_HneYdc",
+      "etag": "9NTENh2hBFRv6y9Kk7HyPM6Z_4k",
       "id": "3Q5-cZX0Dxs",
       "snippet": {
-        "publishedAt": "2025-07-01T16:17:33Z",
+        "publishedAt": "2025-07-04T04:31:32Z",
         "channelId": "UCeUxaSLRzywNh8v78SDKP8A",
         "title": "【#お誕生日カウントダウン】💓どっきどっきどっき❤",
         "description": "カウントダウンきっちゃあああああ❣❣❣\n\n🐨🎀￤最新情報\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🕶ミッション🕶\n①7/4当日に3Dライブ＆オリジナル背景\n『『千葉県お出かけチェキ74枚達成せよ！』』\nhttps://ase-store.com/items/685510b207e36730bd65ceb5\n\n②7/12戸定梨香生誕祭公演\n『『1部74票 / 2部74票を獲得せよ！』』\nhttps://ase-store.com/items/683eb3958b04062c7494f968\n\n🎶戸定梨香の今までの歌がぜ～んぶ聴けます🎶\nご提供：かつきさん＆きっくーさん🐨🎀\nhttps://katsu1101.github.io/song-list-linca-tojou/\n\nめいどりーみんコラボグッズが限定発売中❣❣\n🎅残るはアクスタのみ❣❣\nhttps://ase-store.com/items/67a327ca900a5105833a656e\n\nとじょりんにプレゼントできるの🎁\nhttps://ase-store.com/items/67a33117044f8901428540d9\n\n\n🐨🎀￤ファンクラブ\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\nとじょりんのファンクラブ（ファンティア）があるの🐶🌟\n０円(無料）～の７コースがずらっと揃っています。\n応援がとてもとてもとっても励みになります。\n月に１度のお名前コールでは、希望者さんのお宅訪問（X)あり🐻💛\nいつもどうもありがとう🐈💓\n\n☄戸定梨香ファンティア\nhttps://fantia.jp/fanclubs/70005\n\n\n🐨🎀￤オススメグッズ\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\nアパレル中心👘\nとじょりんがいっぱい（SUZURI）\nhttps://suzuri.jp/lincatojou\n\nとじょりんのLINEスタンプ🐨🎀\nhttps://store.line.me/stickershop/product/20411879/ja?from=sticker\n\n梨香初のオリジナルCD🎤💓\nhttps://ase-store.com/items/67a347059d5f2b0261b0525d\n\n\n🐨🎀￤メンバーシップ\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🐨戸定梨香のメンバーシップ🐨\n「とじょりんワールドにゃ！」\n入ってくださりどうもありがとうなの🐈💞\nhttps://www.youtube.com/channel/UCeUxaSLRzywNh8v78SDKP8A/join\n\n■専用のバッジ、絵文字スタンプが使用できるよ！\n■メンバーシップ限定ライブ配信もあるよ！\n\n\n🐨🎀￤コンビニプリント\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🎀🐨全国のローソンプリント＆ファミマプリント🐨🎀\n❥L判300円　2L判500円　A4判1000円\n店内にあるマルチコピー機「ローソンプリント」「ファミマプリント」から印刷してね💕\n\nファミマプリント\nhttps://famima-print.family.co.jp/search?s=%E6%88%B8%E5%AE%9A%E6%A2%A8%E9%A6%99\n\nローソンプリント\nhttps://lawson-print.com/products/categories/vase\n\n\n🐨🎀￤その他\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n「ちばサイクルール」をしっかり守ろうね！\n【3分間動画】交通安全PR「松戸警察、松戸東警察からのお願いです！」\nhttps://www.youtube.com/watch?v=2eSdrs9Svvs\n\n警察署長とお友達！？　ご当地キャラクターとＶＴｕｂｅｒが松戸トーク　\n戸定梨香×ばけごろう　【ちばドル図鑑】（１５）\nhttps://www.chibanippo.co.jp/news/local/816849\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n配信後には、感想をコメント残してね🐈🌟\n\nファンアート：#とじょりんアート\nファンネーム：#とじょみん\nグッズお迎え：#とじょりんグッズ\nご当地クッキング：#とじょりんクッキング\n千葉ご紹介：#とじょりん特派員\nガンダム：#とじょみんとガンダム\n推しマーク：🐨🎀\n推しカラー：赤をふりふり\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n所属事務所 VASE\nhttps://www.vase.tokyo/\n\nVASEグッズ販売\nhttps://ase-store.com/\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\nとじょみんだいすき(/ω＼)💖",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/3Q5-cZX0Dxs/default_live.jpg",
+            "url": "https://i.ytimg.com/vi/3Q5-cZX0Dxs/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/3Q5-cZX0Dxs/mqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/3Q5-cZX0Dxs/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/3Q5-cZX0Dxs/hqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/3Q5-cZX0Dxs/hqdefault.jpg",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/3Q5-cZX0Dxs/sddefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/3Q5-cZX0Dxs/sddefault.jpg",
             "width": 640,
             "height": 480
           },
           "maxres": {
-            "url": "https://i.ytimg.com/vi/3Q5-cZX0Dxs/maxresdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/3Q5-cZX0Dxs/maxresdefault.jpg",
             "width": 1280,
             "height": 720
           }
@@ -6270,24 +6468,24 @@
         }
       },
       "contentDetails": {
-        "duration": "PT1H47M4S",
+        "duration": "PT1H47M10S",
         "dimension": "2d",
-        "definition": "sd",
+        "definition": "hd",
         "caption": "false",
         "licensedContent": true,
         "contentRating": {},
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "239",
-        "likeCount": "126",
+        "viewCount": "432",
+        "likeCount": "136",
         "favoriteCount": "0",
-        "commentCount": "0"
+        "commentCount": "4"
       }
     },
     "Vx1pdB1FFYc": {
       "kind": "youtube#video",
-      "etag": "DzpL959uBBXi5WadhhdA5v7Qv2A",
+      "etag": "bOVoqwEHW40MAZAOTyCIj_e5LfI",
       "id": "Vx1pdB1FFYc",
       "snippet": {
         "publishedAt": "2025-06-07T03:08:20Z",
@@ -6360,7 +6558,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "357",
+        "viewCount": "361",
         "likeCount": "123",
         "favoriteCount": "0",
         "commentCount": "7"
@@ -6427,7 +6625,7 @@
     },
     "Ov0uQA-ux0c": {
       "kind": "youtube#video",
-      "etag": "1a9wUEaq1P2gjSIsf1BiviKCKdQ",
+      "etag": "eqNZzcCZtSfUofe7WqNUoidYIH0",
       "id": "Ov0uQA-ux0c",
       "snippet": {
         "publishedAt": "2025-04-15T01:52:44Z",
@@ -6498,7 +6696,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "6354",
+        "viewCount": "6391",
         "likeCount": "314",
         "favoriteCount": "0",
         "commentCount": "13"
@@ -6636,7 +6834,7 @@
     },
     "9Fw2quqkiEM": {
       "kind": "youtube#video",
-      "etag": "hEiNB0iHeibace5UTgUWfvQuLh4",
+      "etag": "Kw97GaGvNRb1_gk2NflcMNzPAS8",
       "id": "9Fw2quqkiEM",
       "snippet": {
         "publishedAt": "2024-12-31T16:50:14Z",
@@ -6698,10 +6896,10 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "597",
+        "viewCount": "603",
         "likeCount": "160",
         "favoriteCount": "0",
-        "commentCount": "4"
+        "commentCount": "5"
       }
     },
     "BE9vzRfX7Q4": {
@@ -7052,7 +7250,7 @@
     },
     "3AVnWTBf72w": {
       "kind": "youtube#video",
-      "etag": "IqgPKeHlGQHfmTSounk6BIJ-fH8",
+      "etag": "ArJW_7v4iI2WRWxIMxYATeb6YJ8",
       "id": "3AVnWTBf72w",
       "snippet": {
         "publishedAt": "2024-08-19T03:53:21Z",
@@ -7123,7 +7321,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "296",
+        "viewCount": "297",
         "likeCount": "107",
         "favoriteCount": "0",
         "commentCount": "1"
@@ -7131,7 +7329,7 @@
     },
     "hsgO2LN9CFQ": {
       "kind": "youtube#video",
-      "etag": "59tcPfUhpPofhEm6BGUfEl6diLw",
+      "etag": "uDn6OV7bycS-HdDwpz5tFZOu0tI",
       "id": "hsgO2LN9CFQ",
       "snippet": {
         "publishedAt": "2024-07-27T15:24:50Z",
@@ -7213,7 +7411,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1728",
+        "viewCount": "1731",
         "likeCount": "141",
         "favoriteCount": "0",
         "commentCount": "2"
@@ -7221,7 +7419,7 @@
     },
     "qnA48zK-8zU": {
       "kind": "youtube#video",
-      "etag": "Tu1Pd0cl5x0vwtk4h34cvMgGtSU",
+      "etag": "Xhz3P6n6VFkSuUDxImxyZ3Z9Lpc",
       "id": "qnA48zK-8zU",
       "snippet": {
         "publishedAt": "2024-07-04T14:11:04Z",
@@ -7293,7 +7491,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "817",
+        "viewCount": "818",
         "likeCount": "238",
         "favoriteCount": "0",
         "commentCount": "2"
@@ -7301,7 +7499,7 @@
     },
     "Kp3fODfTZuA": {
       "kind": "youtube#video",
-      "etag": "zXqFEER5zCLNnrdysiqWe3v4BQ4",
+      "etag": "fERpnl1D01uTaZiZGJvOhmnPC6A",
       "id": "Kp3fODfTZuA",
       "snippet": {
         "publishedAt": "2024-07-05T03:06:47Z",
@@ -7370,7 +7568,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "4016",
+        "viewCount": "4017",
         "likeCount": "978",
         "favoriteCount": "0",
         "commentCount": "6"
@@ -7600,7 +7798,7 @@
     },
     "qvdksXZxgCQ": {
       "kind": "youtube#video",
-      "etag": "fNt4SmHO73h8xNXuW7ioKEvJqFQ",
+      "etag": "tRF3XTtG5bUog-9R889lwehVUj4",
       "id": "qvdksXZxgCQ",
       "snippet": {
         "publishedAt": "2024-05-23T03:15:07Z",
@@ -7673,7 +7871,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "484",
+        "viewCount": "485",
         "likeCount": "108",
         "favoriteCount": "0",
         "commentCount": "6"
@@ -7681,7 +7879,7 @@
     },
     "rCN36eYptjk": {
       "kind": "youtube#video",
-      "etag": "oM3C3RPSAW5jxzA9uBrr99ZLv0E",
+      "etag": "VOIq0WyTolumuZaV_UbBlKs5mA0",
       "id": "rCN36eYptjk",
       "snippet": {
         "publishedAt": "2024-05-22T04:09:18Z",
@@ -7749,7 +7947,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "580",
+        "viewCount": "581",
         "likeCount": "163",
         "favoriteCount": "0",
         "commentCount": "3"
@@ -7836,7 +8034,7 @@
     },
     "iEThgKK2HO4": {
       "kind": "youtube#video",
-      "etag": "jOwZ2DBK1psIy_MEkY87Ivgd8v0",
+      "etag": "sT1j9fD0diwaGYmy7f24j8SLAOE",
       "id": "iEThgKK2HO4",
       "snippet": {
         "publishedAt": "2024-04-14T15:47:22Z",
@@ -7907,7 +8105,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1185",
+        "viewCount": "1186",
         "likeCount": "252",
         "favoriteCount": "0",
         "commentCount": "10"
@@ -7915,7 +8113,7 @@
     },
     "v-wZB12ExNU": {
       "kind": "youtube#video",
-      "etag": "rejw8Pm3u-HZdNKbGpunjs23oyk",
+      "etag": "kGrb_UkmTYYbR5W7zBEe7eYy0rQ",
       "id": "v-wZB12ExNU",
       "snippet": {
         "publishedAt": "2024-03-31T14:47:14Z",
@@ -7984,7 +8182,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1063",
+        "viewCount": "1066",
         "likeCount": "156",
         "favoriteCount": "0",
         "commentCount": "2"
@@ -8064,7 +8262,7 @@
     },
     "QbfZgNR06O8": {
       "kind": "youtube#video",
-      "etag": "XvzIHEdK5W_7q-LgTg0vRgZ-2fU",
+      "etag": "FfuMmlUK3ZiDnzMgdja75jErDTc",
       "id": "QbfZgNR06O8",
       "snippet": {
         "publishedAt": "2023-12-31T16:55:54Z",
@@ -8135,7 +8333,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "698",
+        "viewCount": "700",
         "likeCount": "164",
         "favoriteCount": "0",
         "commentCount": "2"
@@ -8143,13 +8341,13 @@
     },
     "0yHu6hAZQRQ": {
       "kind": "youtube#video",
-      "etag": "QvWvDqzJjppZPtQczogCG8q3a9A",
+      "etag": "HdVZHcHwZgyi0c-ZcMuuWVDbtfc",
       "id": "0yHu6hAZQRQ",
       "snippet": {
         "publishedAt": "2023-12-25T15:47:51Z",
         "channelId": "UCeUxaSLRzywNh8v78SDKP8A",
         "title": "【#メリクりんか】とじょりんクリスマス4日目🎄🌟最終日はまったりと過ごそう(*ﾉωﾉ)💓",
-        "description": "#メリクりんか\nこちらのハッシュタグでいただいたポストを紹介させていただきます🐨🎀\nみんなのクリスマスどうだったかな❓❓教えてね🐯\n\nサムネイラスト：きっくーさん（@きっくー_tjm ）\nどうもありがとうございます🐨🎀💓\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🎀梨香のファンクラブ🎀\nとじょりんのファンクラブ（ファンティア）があるの🐶🌟\n０円(無料）～の７コースがずらっと揃っています。\n応援がとてもとてもとっても励みになります。\n月に１度のお名前コールでは、お宅訪問あり🐻💛\nいつもどうもありがとう🐈💓\n\n☄戸定梨香ファンティア\nhttps://fantia.jp/fanclubs/70005\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🎂梨香おすすめグッズ🎂\n\nとじょりんのLINEスタンプが登場したよ🐨🎀\nhttps://store.line.me/stickershop/product/20411879/ja?from=sticker\n\n初めてのオリジナルソング・生誕グッズ🎂\n（A)https://vase.booth.pm/items/4907503\n（B)https://vase.booth.pm/items/4907549\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🐨戸定梨香のメンバーシップ🐨\n「とじょりんワールドにゃ！」\n入ってくださりどうもありがとうなの🐈💞\nhttps://www.youtube.com/channel/UCeUxaSLRzywNh8v78SDKP8A/join\n\n■専用のバッジ、絵文字スタンプが使用できるよ！\n■メンバーシップ限定ライブ配信もあるよ！\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n「ちばサイクルール」をしっかり守ろうね！\n【3分間動画】交通安全PR「松戸警察、松戸東警察からのお願いです！」\nhttps://www.youtube.com/watch?v=2eSdrs9Svvs\n\n警察署長とお友達！？　ご当地キャラクターとＶＴｕｂｅｒが松戸トーク　\n戸定梨香×ばけごろう　【ちばドル図鑑】（１５）\nhttps://www.chibanippo.co.jp/news/local/816849\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n配信後には、感想をコメント残してね🐈🌟\n\nファンアート：#とじょりんアート\nファンネーム：#とじょみん\nグッズお迎え：#とじょりんグッズ\nご当地クッキング：#とじょりんクッキング\n千葉ご紹介：#とじょりん特派員\n推しマーク：🐨🎀\n推しカラー：赤をふりふり\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🐨戸定梨香🐨\nφX(旧Twitter）\nhttps://twitter.com/tojou_linca\nφYouTube\nhttps://www.youtube.com/channel/UCeUxaSLRzywNh8v78SDKP8A?sub_confirmation=1\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n所属事務所 VASE\nhttps://www.vase.tokyo/\n\nVASEグッズ販売\nhttps://vase.booth.pm/\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🎀🐨全国のローソンプリント＆ファミマプリント🐨🎀\n❥L判300円　2L判500円　A4判1000円\n店内にあるマルチコピー機「ローソンプリント」「ファミマプリント」から印刷してね💕\n\nファミマプリント\nVASE　https://fp.famima.com/vtuber/vase-59tnz\n\nローソンプリント\nVASE　https://lawson-print.com/products/categories/vase\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🎀🐨VASEオフィシャルグッズ🐨🎀\n\n梨香にプレゼントできちゃうんだって❣❣(*ﾉωﾉ)🌠🌠💖\n届いたらXで載せさせていただいているよ🌟\nhttps://vase.booth.pm/items/3848380\n\n❥アクリルキーホルダー\nhttps://vase.booth.pm/items/2254828\n❥スマホケース\nhttps://vase.booth.pm/items/3645260\nhttps://vase.booth.pm/items/4990293\n❥フォトアルバム\nhttps://vase.booth.pm/items/5240734\n❥ランチョンマット\nhttps://vase.booth.pm/items/5240501\n❥キャンバスアート\nhttps://vase.booth.pm/items/4863080\n❥梨香＆むぅむぅマグカップ\nhttps://vase.booth.pm/items/3337279\n❥梨香とV2トーク（マンツーマントークなの♪）\nhttps://vase.booth.pm/items/5219205\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n使用ありがとうございます🌟\nわんコメ：https://onecomme.com/\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\nとじょみんだいすき(/ω＼)💖",
+        "description": "#メリクりんか\nこちらのハッシュタグでいただいたポストを紹介させていただきます🐨🎀\nみんなのクリスマスどうだったかな❓❓教えてね🐯\n\nサムネイラスト：きっくーさん（@きっくー_TJM ）\nどうもありがとうございます🐨🎀💓\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🎀梨香のファンクラブ🎀\nとじょりんのファンクラブ（ファンティア）があるの🐶🌟\n０円(無料）～の７コースがずらっと揃っています。\n応援がとてもとてもとっても励みになります。\n月に１度のお名前コールでは、お宅訪問あり🐻💛\nいつもどうもありがとう🐈💓\n\n☄戸定梨香ファンティア\nhttps://fantia.jp/fanclubs/70005\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🎂梨香おすすめグッズ🎂\n\nとじょりんのLINEスタンプが登場したよ🐨🎀\nhttps://store.line.me/stickershop/product/20411879/ja?from=sticker\n\n初めてのオリジナルソング・生誕グッズ🎂\n（A)https://vase.booth.pm/items/4907503\n（B)https://vase.booth.pm/items/4907549\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🐨戸定梨香のメンバーシップ🐨\n「とじょりんワールドにゃ！」\n入ってくださりどうもありがとうなの🐈💞\nhttps://www.youtube.com/channel/UCeUxaSLRzywNh8v78SDKP8A/join\n\n■専用のバッジ、絵文字スタンプが使用できるよ！\n■メンバーシップ限定ライブ配信もあるよ！\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n「ちばサイクルール」をしっかり守ろうね！\n【3分間動画】交通安全PR「松戸警察、松戸東警察からのお願いです！」\nhttps://www.youtube.com/watch?v=2eSdrs9Svvs\n\n警察署長とお友達！？　ご当地キャラクターとＶＴｕｂｅｒが松戸トーク　\n戸定梨香×ばけごろう　【ちばドル図鑑】（１５）\nhttps://www.chibanippo.co.jp/news/local/816849\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n配信後には、感想をコメント残してね🐈🌟\n\nファンアート：#とじょりんアート\nファンネーム：#とじょみん\nグッズお迎え：#とじょりんグッズ\nご当地クッキング：#とじょりんクッキング\n千葉ご紹介：#とじょりん特派員\n推しマーク：🐨🎀\n推しカラー：赤をふりふり\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🐨戸定梨香🐨\nφX(旧Twitter）\nhttps://twitter.com/tojou_linca\nφYouTube\nhttps://www.youtube.com/channel/UCeUxaSLRzywNh8v78SDKP8A?sub_confirmation=1\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n所属事務所 VASE\nhttps://www.vase.tokyo/\n\nVASEグッズ販売\nhttps://vase.booth.pm/\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🎀🐨全国のローソンプリント＆ファミマプリント🐨🎀\n❥L判300円　2L判500円　A4判1000円\n店内にあるマルチコピー機「ローソンプリント」「ファミマプリント」から印刷してね💕\n\nファミマプリント\nVASE　https://fp.famima.com/vtuber/vase-59tnz\n\nローソンプリント\nVASE　https://lawson-print.com/products/categories/vase\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🎀🐨VASEオフィシャルグッズ🐨🎀\n\n梨香にプレゼントできちゃうんだって❣❣(*ﾉωﾉ)🌠🌠💖\n届いたらXで載せさせていただいているよ🌟\nhttps://vase.booth.pm/items/3848380\n\n❥アクリルキーホルダー\nhttps://vase.booth.pm/items/2254828\n❥スマホケース\nhttps://vase.booth.pm/items/3645260\nhttps://vase.booth.pm/items/4990293\n❥フォトアルバム\nhttps://vase.booth.pm/items/5240734\n❥ランチョンマット\nhttps://vase.booth.pm/items/5240501\n❥キャンバスアート\nhttps://vase.booth.pm/items/4863080\n❥梨香＆むぅむぅマグカップ\nhttps://vase.booth.pm/items/3337279\n❥梨香とV2トーク（マンツーマントークなの♪）\nhttps://vase.booth.pm/items/5219205\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n使用ありがとうございます🌟\nわんコメ：https://onecomme.com/\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\nとじょみんだいすき(/ω＼)💖",
         "thumbnails": {
           "default": {
             "url": "https://i.ytimg.com/vi/0yHu6hAZQRQ/default.jpg",
@@ -8193,7 +8391,7 @@
         "liveBroadcastContent": "none",
         "localized": {
           "title": "【#メリクりんか】とじょりんクリスマス4日目🎄🌟最終日はまったりと過ごそう(*ﾉωﾉ)💓",
-          "description": "#メリクりんか\nこちらのハッシュタグでいただいたポストを紹介させていただきます🐨🎀\nみんなのクリスマスどうだったかな❓❓教えてね🐯\n\nサムネイラスト：きっくーさん（@きっくー_tjm ）\nどうもありがとうございます🐨🎀💓\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🎀梨香のファンクラブ🎀\nとじょりんのファンクラブ（ファンティア）があるの🐶🌟\n０円(無料）～の７コースがずらっと揃っています。\n応援がとてもとてもとっても励みになります。\n月に１度のお名前コールでは、お宅訪問あり🐻💛\nいつもどうもありがとう🐈💓\n\n☄戸定梨香ファンティア\nhttps://fantia.jp/fanclubs/70005\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🎂梨香おすすめグッズ🎂\n\nとじょりんのLINEスタンプが登場したよ🐨🎀\nhttps://store.line.me/stickershop/product/20411879/ja?from=sticker\n\n初めてのオリジナルソング・生誕グッズ🎂\n（A)https://vase.booth.pm/items/4907503\n（B)https://vase.booth.pm/items/4907549\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🐨戸定梨香のメンバーシップ🐨\n「とじょりんワールドにゃ！」\n入ってくださりどうもありがとうなの🐈💞\nhttps://www.youtube.com/channel/UCeUxaSLRzywNh8v78SDKP8A/join\n\n■専用のバッジ、絵文字スタンプが使用できるよ！\n■メンバーシップ限定ライブ配信もあるよ！\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n「ちばサイクルール」をしっかり守ろうね！\n【3分間動画】交通安全PR「松戸警察、松戸東警察からのお願いです！」\nhttps://www.youtube.com/watch?v=2eSdrs9Svvs\n\n警察署長とお友達！？　ご当地キャラクターとＶＴｕｂｅｒが松戸トーク　\n戸定梨香×ばけごろう　【ちばドル図鑑】（１５）\nhttps://www.chibanippo.co.jp/news/local/816849\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n配信後には、感想をコメント残してね🐈🌟\n\nファンアート：#とじょりんアート\nファンネーム：#とじょみん\nグッズお迎え：#とじょりんグッズ\nご当地クッキング：#とじょりんクッキング\n千葉ご紹介：#とじょりん特派員\n推しマーク：🐨🎀\n推しカラー：赤をふりふり\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🐨戸定梨香🐨\nφX(旧Twitter）\nhttps://twitter.com/tojou_linca\nφYouTube\nhttps://www.youtube.com/channel/UCeUxaSLRzywNh8v78SDKP8A?sub_confirmation=1\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n所属事務所 VASE\nhttps://www.vase.tokyo/\n\nVASEグッズ販売\nhttps://vase.booth.pm/\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🎀🐨全国のローソンプリント＆ファミマプリント🐨🎀\n❥L判300円　2L判500円　A4判1000円\n店内にあるマルチコピー機「ローソンプリント」「ファミマプリント」から印刷してね💕\n\nファミマプリント\nVASE　https://fp.famima.com/vtuber/vase-59tnz\n\nローソンプリント\nVASE　https://lawson-print.com/products/categories/vase\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🎀🐨VASEオフィシャルグッズ🐨🎀\n\n梨香にプレゼントできちゃうんだって❣❣(*ﾉωﾉ)🌠🌠💖\n届いたらXで載せさせていただいているよ🌟\nhttps://vase.booth.pm/items/3848380\n\n❥アクリルキーホルダー\nhttps://vase.booth.pm/items/2254828\n❥スマホケース\nhttps://vase.booth.pm/items/3645260\nhttps://vase.booth.pm/items/4990293\n❥フォトアルバム\nhttps://vase.booth.pm/items/5240734\n❥ランチョンマット\nhttps://vase.booth.pm/items/5240501\n❥キャンバスアート\nhttps://vase.booth.pm/items/4863080\n❥梨香＆むぅむぅマグカップ\nhttps://vase.booth.pm/items/3337279\n❥梨香とV2トーク（マンツーマントークなの♪）\nhttps://vase.booth.pm/items/5219205\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n使用ありがとうございます🌟\nわんコメ：https://onecomme.com/\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\nとじょみんだいすき(/ω＼)💖"
+          "description": "#メリクりんか\nこちらのハッシュタグでいただいたポストを紹介させていただきます🐨🎀\nみんなのクリスマスどうだったかな❓❓教えてね🐯\n\nサムネイラスト：きっくーさん（@きっくー_TJM ）\nどうもありがとうございます🐨🎀💓\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🎀梨香のファンクラブ🎀\nとじょりんのファンクラブ（ファンティア）があるの🐶🌟\n０円(無料）～の７コースがずらっと揃っています。\n応援がとてもとてもとっても励みになります。\n月に１度のお名前コールでは、お宅訪問あり🐻💛\nいつもどうもありがとう🐈💓\n\n☄戸定梨香ファンティア\nhttps://fantia.jp/fanclubs/70005\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🎂梨香おすすめグッズ🎂\n\nとじょりんのLINEスタンプが登場したよ🐨🎀\nhttps://store.line.me/stickershop/product/20411879/ja?from=sticker\n\n初めてのオリジナルソング・生誕グッズ🎂\n（A)https://vase.booth.pm/items/4907503\n（B)https://vase.booth.pm/items/4907549\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🐨戸定梨香のメンバーシップ🐨\n「とじょりんワールドにゃ！」\n入ってくださりどうもありがとうなの🐈💞\nhttps://www.youtube.com/channel/UCeUxaSLRzywNh8v78SDKP8A/join\n\n■専用のバッジ、絵文字スタンプが使用できるよ！\n■メンバーシップ限定ライブ配信もあるよ！\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n「ちばサイクルール」をしっかり守ろうね！\n【3分間動画】交通安全PR「松戸警察、松戸東警察からのお願いです！」\nhttps://www.youtube.com/watch?v=2eSdrs9Svvs\n\n警察署長とお友達！？　ご当地キャラクターとＶＴｕｂｅｒが松戸トーク　\n戸定梨香×ばけごろう　【ちばドル図鑑】（１５）\nhttps://www.chibanippo.co.jp/news/local/816849\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n配信後には、感想をコメント残してね🐈🌟\n\nファンアート：#とじょりんアート\nファンネーム：#とじょみん\nグッズお迎え：#とじょりんグッズ\nご当地クッキング：#とじょりんクッキング\n千葉ご紹介：#とじょりん特派員\n推しマーク：🐨🎀\n推しカラー：赤をふりふり\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🐨戸定梨香🐨\nφX(旧Twitter）\nhttps://twitter.com/tojou_linca\nφYouTube\nhttps://www.youtube.com/channel/UCeUxaSLRzywNh8v78SDKP8A?sub_confirmation=1\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n所属事務所 VASE\nhttps://www.vase.tokyo/\n\nVASEグッズ販売\nhttps://vase.booth.pm/\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🎀🐨全国のローソンプリント＆ファミマプリント🐨🎀\n❥L判300円　2L判500円　A4判1000円\n店内にあるマルチコピー機「ローソンプリント」「ファミマプリント」から印刷してね💕\n\nファミマプリント\nVASE　https://fp.famima.com/vtuber/vase-59tnz\n\nローソンプリント\nVASE　https://lawson-print.com/products/categories/vase\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n🎀🐨VASEオフィシャルグッズ🐨🎀\n\n梨香にプレゼントできちゃうんだって❣❣(*ﾉωﾉ)🌠🌠💖\n届いたらXで載せさせていただいているよ🌟\nhttps://vase.booth.pm/items/3848380\n\n❥アクリルキーホルダー\nhttps://vase.booth.pm/items/2254828\n❥スマホケース\nhttps://vase.booth.pm/items/3645260\nhttps://vase.booth.pm/items/4990293\n❥フォトアルバム\nhttps://vase.booth.pm/items/5240734\n❥ランチョンマット\nhttps://vase.booth.pm/items/5240501\n❥キャンバスアート\nhttps://vase.booth.pm/items/4863080\n❥梨香＆むぅむぅマグカップ\nhttps://vase.booth.pm/items/3337279\n❥梨香とV2トーク（マンツーマントークなの♪）\nhttps://vase.booth.pm/items/5219205\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\n使用ありがとうございます🌟\nわんコメ：https://onecomme.com/\n\n⋈ －－－－－－－－－－－－－－－－－－－－－⋈\n\nとじょみんだいすき(/ω＼)💖"
         }
       },
       "contentDetails": {
@@ -8289,7 +8487,7 @@
     },
     "6xCmM1Zy0HY": {
       "kind": "youtube#video",
-      "etag": "hqdhkRuKxtcrMhk11d3OVNOpVO8",
+      "etag": "E5gVsR44Exoc5UWpsIpzI8LdSQA",
       "id": "6xCmM1Zy0HY",
       "snippet": {
         "publishedAt": "2023-12-14T10:10:47Z",
@@ -8346,7 +8544,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "269",
+        "viewCount": "270",
         "likeCount": "21",
         "favoriteCount": "0",
         "commentCount": "1"
@@ -8354,7 +8552,7 @@
     },
     "u92rz4K8fvI": {
       "kind": "youtube#video",
-      "etag": "qSUCYY60sFb6qoZ5LqAI8nnC810",
+      "etag": "FqE1NC-JVGOU-TZ2F2U8n9bFLyQ",
       "id": "u92rz4K8fvI",
       "snippet": {
         "publishedAt": "2023-12-18T03:38:45Z",
@@ -8406,10 +8604,10 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "299",
+        "viewCount": "305",
         "likeCount": "98",
         "favoriteCount": "0",
-        "commentCount": "1"
+        "commentCount": "2"
       }
     },
     "QQarNQDB4aY": {
@@ -8873,7 +9071,7 @@
     },
     "2DAwHJRqa5k": {
       "kind": "youtube#video",
-      "etag": "aTXwizmUUK5YmVNg-k-8OcYp0D0",
+      "etag": "CwYnClA5wxjpTs7-J2I3HwsP0T8",
       "id": "2DAwHJRqa5k",
       "snippet": {
         "publishedAt": "2023-06-07T02:07:43Z",
@@ -8937,15 +9135,15 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "793",
+        "viewCount": "809",
         "likeCount": "165",
         "favoriteCount": "0",
-        "commentCount": "4"
+        "commentCount": "5"
       }
     },
     "V-OKw_3-wzc": {
       "kind": "youtube#video",
-      "etag": "maVOtE9InBr0HY-E7xPfCHERCiE",
+      "etag": "chhf4ENa1sMIaeYemgcuSjX8Niw",
       "id": "V-OKw_3-wzc",
       "snippet": {
         "publishedAt": "2023-05-28T04:21:03Z",
@@ -9674,7 +9872,7 @@
     },
     "GDCew9WE_FM": {
       "kind": "youtube#video",
-      "etag": "W8MEuQKOw2eDiL9tVpsndAWiyWE",
+      "etag": "n8ptlLf9msAOeQQIkE9alqMu0L0",
       "id": "GDCew9WE_FM",
       "snippet": {
         "publishedAt": "2021-12-25T13:15:41Z",
@@ -9721,7 +9919,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "7478",
+        "viewCount": "7479",
         "likeCount": "1277",
         "favoriteCount": "0",
         "commentCount": "25"
