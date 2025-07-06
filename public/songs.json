@@ -452,6 +452,127 @@
       "source": 1
     },
     {
+      "date": "2025/07/05",
+      "title": "Yume no Tojou",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=u1EtGFtC9lk&t=92s",
+      "videoId": "u1EtGFtC9lk",
+      "timestamp": 92,
+      "source": 2
+    },
+    {
+      "date": "2025/07/05",
+      "title": "少女レイ",
+      "artist": "みきとP feat. 初音ミク",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=u1EtGFtC9lk&t=291s",
+      "videoId": "u1EtGFtC9lk",
+      "timestamp": 291,
+      "source": 2
+    },
+    {
+      "date": "2025/07/05",
+      "title": "My Days for You",
+      "artist": "真野恵里菜",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=u1EtGFtC9lk&t=625s",
+      "videoId": "u1EtGFtC9lk",
+      "timestamp": 625,
+      "source": 2
+    },
+    {
+      "date": "2025/07/05",
+      "title": "世界でいちばんアイドル",
+      "artist": "超ときめき♡宣伝部",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=u1EtGFtC9lk&t=885s",
+      "videoId": "u1EtGFtC9lk",
+      "timestamp": 885,
+      "source": 2
+    },
+    {
+      "date": "2025/07/05",
+      "title": "恋のヒメヒメぺったんこ",
+      "artist": "姫野湖鳥",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=u1EtGFtC9lk&t=1268s",
+      "videoId": "u1EtGFtC9lk",
+      "timestamp": 1268,
+      "source": 2
+    },
+    {
+      "date": "2025/07/05",
+      "title": "irony",
+      "artist": "ClariS",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=u1EtGFtC9lk&t=1513s",
+      "videoId": "u1EtGFtC9lk",
+      "timestamp": 1513,
+      "source": 2
+    },
+    {
+      "date": "2025/07/05",
+      "title": "男の勲章",
+      "artist": "嶋大輔",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=u1EtGFtC9lk&t=1777s",
+      "videoId": "u1EtGFtC9lk",
+      "timestamp": 1777,
+      "source": 2
+    },
+    {
+      "date": "2025/07/05",
+      "title": "ツッパリHigh School Rock'n Roll（登校編）",
+      "artist": "横浜銀蝿",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=u1EtGFtC9lk&t=1954s",
+      "videoId": "u1EtGFtC9lk",
+      "timestamp": 1954,
+      "source": 2
+    },
+    {
+      "date": "2025/07/05",
+      "title": "美女と野獣",
+      "artist": "",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=u1EtGFtC9lk&t=2317s",
+      "videoId": "u1EtGFtC9lk",
+      "timestamp": 2317,
+      "source": 2
+    },
+    {
+      "date": "2025/07/05",
+      "title": "もうどうなってもいいや",
+      "artist": "星街すいせい",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=u1EtGFtC9lk&t=2543s",
+      "videoId": "u1EtGFtC9lk",
+      "timestamp": 2543,
+      "source": 2
+    },
+    {
+      "date": "2025/07/05",
+      "title": "チバケンサンバ",
+      "artist": "戸定梨香",
+      "work": "",
+      "note": "",
+      "url": "https://www.youtube.com/watch?v=u1EtGFtC9lk&t=2834s",
+      "videoId": "u1EtGFtC9lk",
+      "timestamp": 2834,
+      "source": 2
+    },
+    {
       "date": "2025/07/04",
       "title": "Yume no Tojou",
       "artist": "戸定梨香",
@@ -3583,7 +3704,7 @@
     },
     "WucHdtn7gGo": {
       "kind": "youtube#video",
-      "etag": "XME33vfDZblxw1N0-SvXywqKQBY",
+      "etag": "6NHNo66pMU08obSrux-2iTY2LZ4",
       "id": "WucHdtn7gGo",
       "snippet": {
         "publishedAt": "2025-01-01T03:00:08Z",
@@ -3635,7 +3756,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2261",
+        "viewCount": "2263",
         "likeCount": "216",
         "favoriteCount": "0",
         "commentCount": "19"
@@ -3723,7 +3844,7 @@
     },
     "5nHXLuFuVv4": {
       "kind": "youtube#video",
-      "etag": "ElyMLgGuQ3SWzaU2VKMw426wgKE",
+      "etag": "L9GXK2wpLrhgEwBN-oM24CczEQY",
       "id": "5nHXLuFuVv4",
       "snippet": {
         "publishedAt": "2024-04-14T11:45:07Z",
@@ -3800,7 +3921,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "3362",
+        "viewCount": "3363",
         "likeCount": "282",
         "favoriteCount": "0",
         "commentCount": "19"
@@ -4163,7 +4284,7 @@
     },
     "U8N6UH53Dds": {
       "kind": "youtube#video",
-      "etag": "eEAjrJeoIoAj_MaoBc73eTZgMTA",
+      "etag": "gyRX9toGSn4kftfAZyvGhI7OPKs",
       "id": "U8N6UH53Dds",
       "snippet": {
         "publishedAt": "2023-04-14T10:00:09Z",
@@ -4226,7 +4347,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2674",
+        "viewCount": "2676",
         "likeCount": "196",
         "favoriteCount": "0",
         "commentCount": "24"
@@ -4234,7 +4355,7 @@
     },
     "gZ28H27_S7I": {
       "kind": "youtube#video",
-      "etag": "pWObKYWRF_2JS7_ElI7ZeieSvK8",
+      "etag": "-5Bx5Xq47HWwzoBHN2a6FTqVymI",
       "id": "gZ28H27_S7I",
       "snippet": {
         "publishedAt": "2023-04-01T11:15:07Z",
@@ -4287,7 +4408,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "35088",
+        "viewCount": "35102",
         "likeCount": "455",
         "favoriteCount": "0",
         "commentCount": "40"
@@ -4295,7 +4416,7 @@
     },
     "8LiU-deYM-s": {
       "kind": "youtube#video",
-      "etag": "qDaVDuEvOArCpCdevKkBlQcjwFo",
+      "etag": "MhrrGviE39KFUOkwaQkGiTwnFV8",
       "id": "8LiU-deYM-s",
       "snippet": {
         "publishedAt": "2022-09-28T11:30:13Z",
@@ -4353,7 +4474,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "6287",
+        "viewCount": "6289",
         "likeCount": "343",
         "favoriteCount": "0",
         "commentCount": "28"
@@ -4543,7 +4664,7 @@
     },
     "XV_4Iu50XFI": {
       "kind": "youtube#video",
-      "etag": "tDPAhoVin7IcCD03cWX3t0nXojg",
+      "etag": "4IddM5DN0coS9me5bLlocLvD01c",
       "id": "XV_4Iu50XFI",
       "snippet": {
         "publishedAt": "2022-07-24T11:00:13Z",
@@ -4595,7 +4716,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2441",
+        "viewCount": "2442",
         "likeCount": "208",
         "favoriteCount": "0",
         "commentCount": "17"
@@ -4902,7 +5023,7 @@
     },
     "UAMhYU9SHzo": {
       "kind": "youtube#video",
-      "etag": "1hMdaVOelX5Bc5fCvky-yB48nLI",
+      "etag": "GO8h6Qr2VBcp4K8yAevw6HlQouw",
       "id": "UAMhYU9SHzo",
       "snippet": {
         "publishedAt": "2022-04-22T03:00:11Z",
@@ -4956,7 +5077,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "262327",
+        "viewCount": "262335",
         "favoriteCount": "0",
         "commentCount": "372"
       }
@@ -5301,7 +5422,7 @@
     },
     "w9xYUVXxsYM": {
       "kind": "youtube#video",
-      "etag": "-Qlv3It0S0pn9UevK4bJhiSYY2c",
+      "etag": "Pfl8LR-g7pAEuTr8W6aEj5rAoj4",
       "id": "w9xYUVXxsYM",
       "snippet": {
         "publishedAt": "2021-12-17T11:00:13Z",
@@ -5359,7 +5480,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "21984",
+        "viewCount": "21986",
         "likeCount": "749",
         "favoriteCount": "0",
         "commentCount": "59"
@@ -5856,7 +5977,7 @@
     },
     "7SCdNaOGoSM": {
       "kind": "youtube#video",
-      "etag": "86BR-TvivMPErl7ND23FRFAvyF8",
+      "etag": "QrGUxnOYUCWaI05pZg4KmZSWbTE",
       "id": "7SCdNaOGoSM",
       "snippet": {
         "publishedAt": "2020-10-20T19:31:48Z",
@@ -5921,7 +6042,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "4790",
+        "viewCount": "4791",
         "likeCount": "175",
         "favoriteCount": "0",
         "commentCount": "12"
@@ -5929,7 +6050,7 @@
     },
     "UGeQtPbp6bc": {
       "kind": "youtube#video",
-      "etag": "hEQyQ4jXSz7If4XTffPo5LNl6_I",
+      "etag": "TAO0fp6pHw6J3NKx26PS1vVg8M4",
       "id": "UGeQtPbp6bc",
       "snippet": {
         "publishedAt": "2020-09-30T12:00:19Z",
@@ -5990,7 +6111,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "3096",
+        "viewCount": "3097",
         "likeCount": "148",
         "favoriteCount": "0",
         "commentCount": "8"
@@ -5998,7 +6119,7 @@
     },
     "x41mLZYsUkA": {
       "kind": "youtube#video",
-      "etag": "nvLh_QUMjLnLuvXnO2I20waG998",
+      "etag": "4gq2oOgG6Y7km0a07sZvmdI_l3Y",
       "id": "x41mLZYsUkA",
       "snippet": {
         "publishedAt": "2020-09-22T01:00:01Z",
@@ -6075,7 +6196,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "6427",
+        "viewCount": "6429",
         "likeCount": "255",
         "favoriteCount": "0",
         "commentCount": "14"
@@ -6333,9 +6454,84 @@
         "commentCount": "8"
       }
     },
+    "u1EtGFtC9lk": {
+      "kind": "youtube#video",
+      "etag": "MkrmBf3o0P2dN__n8E37CQUIMBg",
+      "id": "u1EtGFtC9lk",
+      "snippet": {
+        "publishedAt": "2025-07-05T13:00:06Z",
+        "channelId": "UCeUxaSLRzywNh8v78SDKP8A",
+        "title": "【高画質】【#戸定梨香生誕祭2025】振り返り3Dライブ💃🎤",
+        "description": "7月4日は、 #戸定梨香生誕祭2025 でライブをさせていただきました💃💕\nどうもありがとうございます❣❣\n配信だと高画質にできないので、こちらはライブの高画質版をプレミア公開させていただきました (n*´ω`*n)🌟",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/u1EtGFtC9lk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/u1EtGFtC9lk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/u1EtGFtC9lk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/u1EtGFtC9lk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/u1EtGFtC9lk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "戸定梨香【VASE】千葉県ご当地VTuber",
+        "tags": [
+          "高画質",
+          "生誕祭",
+          "誕生日",
+          "ライブ",
+          "かわいい",
+          "アイドル",
+          "VTuber",
+          "ヴイチューバー"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "【高画質】【#戸定梨香生誕祭2025】振り返り3Dライブ💃🎤",
+          "description": "7月4日は、 #戸定梨香生誕祭2025 でライブをさせていただきました💃💕\nどうもありがとうございます❣❣\n配信だと高画質にできないので、こちらはライブの高画質版をプレミア公開させていただきました (n*´ω`*n)🌟"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT54M35S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "regionRestriction": {
+          "blocked": [
+            "RU"
+          ]
+        },
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "458",
+        "likeCount": "156",
+        "favoriteCount": "0",
+        "commentCount": "3"
+      }
+    },
     "hmbNPSmFcqs": {
       "kind": "youtube#video",
-      "etag": "ZU7Lqy70nQokUFzkuhAiGL8Syeg",
+      "etag": "ZncW6p5nkLv031wgH-risSnTWJ4",
       "id": "hmbNPSmFcqs",
       "snippet": {
         "publishedAt": "2025-07-05T02:12:20Z",
@@ -6409,15 +6605,15 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "692",
-        "likeCount": "228",
+        "viewCount": "666",
+        "likeCount": "233",
         "favoriteCount": "0",
         "commentCount": "7"
       }
     },
     "3Q5-cZX0Dxs": {
       "kind": "youtube#video",
-      "etag": "9NTENh2hBFRv6y9Kk7HyPM6Z_4k",
+      "etag": "75NQAONgN3SKzKirT6hEAWklK5M",
       "id": "3Q5-cZX0Dxs",
       "snippet": {
         "publishedAt": "2025-07-04T04:31:32Z",
@@ -6482,8 +6678,8 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "432",
-        "likeCount": "136",
+        "viewCount": "436",
+        "likeCount": "139",
         "favoriteCount": "0",
         "commentCount": "4"
       }
@@ -6630,7 +6826,7 @@
     },
     "Ov0uQA-ux0c": {
       "kind": "youtube#video",
-      "etag": "BPiXgIRlRrzO2ciO0zLIBAdxkiM",
+      "etag": "lgBlqllxmFOVq09MUCtFtr87MlI",
       "id": "Ov0uQA-ux0c",
       "snippet": {
         "publishedAt": "2025-04-15T01:52:44Z",
@@ -6701,7 +6897,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "6411",
+        "viewCount": "6433",
         "likeCount": "314",
         "favoriteCount": "0",
         "commentCount": "13"
@@ -6709,7 +6905,7 @@
     },
     "EAGDdlBZjGE": {
       "kind": "youtube#video",
-      "etag": "3BKjvw6EBgdFoQYFLuYG7Aswkh0",
+      "etag": "_j86P8OjtNG3G37CkrpVX7zYEMA",
       "id": "EAGDdlBZjGE",
       "snippet": {
         "publishedAt": "2025-03-16T14:40:06Z",
@@ -6763,7 +6959,7 @@
       "statistics": {
         "likeCount": "20",
         "favoriteCount": "0",
-        "commentCount": "5"
+        "commentCount": "6"
       }
     },
     "qa0PSEJS10M": {
@@ -7504,7 +7700,7 @@
     },
     "Kp3fODfTZuA": {
       "kind": "youtube#video",
-      "etag": "EzulQE_8tjklhWYY7tUU1arnBtE",
+      "etag": "x1RK4gFIL3neJnC7EG8WAc89i9g",
       "id": "Kp3fODfTZuA",
       "snippet": {
         "publishedAt": "2024-07-05T03:06:47Z",
@@ -7574,7 +7770,7 @@
       },
       "statistics": {
         "viewCount": "4019",
-        "likeCount": "978",
+        "likeCount": "977",
         "favoriteCount": "0",
         "commentCount": "6"
       }
