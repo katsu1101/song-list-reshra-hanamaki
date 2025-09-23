@@ -15,16 +15,16 @@ const geistMono = Geist_Mono({
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export const metadata = {
-  title: "戸定梨香ちゃんの歌リスト",
-  metadataBase: new URL("https://katsu1101.github.io/song-list-linca-tojou/"),
+  title: "花巻レシュラちゃんの歌リスト",
+  metadataBase: new URL("https://katsu1101.github.io/song-list-reshra-hanamaki/"),
   description:
-    "戸定梨香さんが配信で歌った最新の歌情報を更新。かわいいVTuber戸定梨香さんの歌声の魅力を堪能できるサイトです。",
-  keywords: ["戸定梨香", "VTuber", "かわいい", "j-pop", "アニソン"],
+    "花巻レシュラさんが配信で歌った最新の歌情報を更新。かわいいVTuber花巻レシュラさんの歌声の魅力を堪能できるサイトです。",
+  keywords: ["花巻レシュラ", "VTuber", "かわいい", "j-pop", "アニソン"],
   openGraph: {
-    title: "戸定梨香ちゃんの歌リスト",
-    description: "これは 戸定梨香ちゃんの歌リストアプリです",
+    title: "花巻レシュラちゃんの歌リスト",
+    description: "これは 花巻レシュラちゃんの歌リストアプリです",
     type: "website",
-    url: "https://katsu1101.github.io/song-list-linca-tojou/",
+    url: "https://katsu1101.github.io/song-list-reshra-hanamaki/",
     images: [
       {
         url: "og-image.png",
@@ -38,8 +38,8 @@ export const metadata = {
     card: "summary_large_image",
     site: "@katsu1101",
     creator: "@katsu1101",
-    title: "戸定梨香ちゃんの歌リスト",
-    description: "これは 戸定梨香ちゃんの歌リストアプリです",
+    title: "花巻レシュラちゃんの歌リスト",
+    description: "これは 花巻レシュラちゃんの歌リストアプリです",
     images: ["og-image.png"],
   },
 };
@@ -63,10 +63,10 @@ export default function RootLayout({
       />
       <meta
         name="apple-mobile-web-app-title"
-        content="戸定梨香ちゃんの歌リスト"
+        content="花巻レシュラちゃんの歌リスト"
       />
       <meta name="mobile-web-app-capable" content="yes" />
-      <meta name="theme-color" content="#FF0000" />
+      <meta name="theme-color" content="#9882A6" />
 
       {/* ファビコン・マニフェスト */}
       <link
@@ -84,11 +84,11 @@ export default function RootLayout({
       <link rel="manifest" href={`${basePath}/manifest.json`} />
 
       {/* Open Graph / SNS 用 */}
-      <meta property="og:site_name" content="戸定梨香ちゃんの歌リスト" />
+      <meta property="og:site_name" content="花巻レシュラちゃんの歌リスト" />
       <meta property="og:locale" content="ja_JP" />
       <link
         rel="canonical"
-        href="https://katsu1101.github.io/song-list-linca-tojou/"
+        href="https://katsu1101.github.io/song-list-reshra-hanamaki/"
       />
 
       {/* スタートアップ画像・ホーム画面用アイコン */}
@@ -108,10 +108,10 @@ export default function RootLayout({
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebSite",
-            "url": "https://katsu1101.github.io/song-list-linca-tojou/",
-            "name": "戸定梨香ちゃんの歌リスト",
+            "url": "https://katsu1101.github.io/song-list-reshra-hanamaki/",
+            "name": "花巻レシュラちゃんの歌リスト",
             "description":
-              "戸定梨香さんが配信で歌った最新の歌情報を更新。かわいいVTuber戸定梨香さんの歌声の魅力を堪能できるサイトです。",
+              "花巻レシュラさんが配信で歌った最新の歌情報を更新。かわいいVTuber花巻レシュラさんの歌声の魅力を堪能できるサイトです。",
             "publisher": {
               "@type": "Person",
               "name": "かつき",
@@ -119,13 +119,13 @@ export default function RootLayout({
             "potentialAction": [
               {
                 "@type": "SearchAction",
-                "target": "https://katsu1101.github.io/song-list-linca-tojou/?s={search_term_string}",
+                "target": "https://katsu1101.github.io/song-list-reshra-hanamaki/?s={search_term_string}",
                 "query-input": "required name=search_term_string",
                 "description": "通常の検索。ユーザーが入力したキーワードをそのまま検索します。"
               },
               {
                 "@type": "SearchAction",
-                "target": "https://katsu1101.github.io/song-list-linca-tojou/?s=%23{search_term_string}",
+                "target": "https://katsu1101.github.io/song-list-reshra-hanamaki/?s=%23{search_term_string}",
                 "query-input": "required name=search_term_string",
                 "description": "タグ検索。検索クエリの先頭にURLエンコードされた'#'（%23）を付与します。"
               }

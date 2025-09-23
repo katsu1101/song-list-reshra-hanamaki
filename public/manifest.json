@@ -1,9 +1,9 @@
 {
   "name": "戸定梨香ちゃんの歌リスト",
   "short_name": "とじょりん歌リスト",
-  "start_url": "https://katsu1101.github.io/song-list-linca-tojou/",
+  "start_url": "https://katsu1101.github.io/song-list-reshra-hanamaki/",
   "display": "standalone",
-  "background_color": "#ff0000",
+  "background_color": "#9882A6",
   "theme_color": "#000000",
   "icons": [
     {
@@ -20,7 +20,7 @@
   "protocol_handlers": [
     {
       "protocol": "web+songlistlincatojou",
-      "url": "https://katsu1101.github.io/song-list-linca-tojou/?s=%s"
+      "url": "https://katsu1101.github.io/song-list-reshra-hanamaki/?s=%s"
     }
   ]
 }

@@ -1,11 +1,11 @@
-# 戸定梨香ちゃんの歌リスト
+# 花巻レシュラちゃんの歌リスト
 
-このリポジトリは千葉県ご当地VTuber戸定梨香さんがYouTube上で歌った歌を管理検索するためのNext.jsアプリケーションです。
+このリポジトリは千葉県ご当地VTuber花巻レシュラさんがYouTube上で歌った歌を管理検索するためのNext.jsアプリケーションです。
 
 ## サイトURL
 
-https://katsu1101.github.io/song-list-linca-tojou/
-![戸定梨香ちゃんの歌リスト（スクリーンショット）.png](%E6%88%B8%E5%AE%9A%E6%A2%A8%E9%A6%99%E3%81%A1%E3%82%83%E3%82%93%E3%81%AE%E6%AD%8C%E3%83%AA%E3%82%B9%E3%83%88%EF%BC%88%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%EF%BC%89.png)
+https://katsu1101.github.io/song-list-reshra-hanamaki/
+![花巻レシュラちゃんの歌リスト（スクリーンショット）.png](%E6%88%B8%E5%AE%9A%E6%A2%A8%E9%A6%99%E3%81%A1%E3%82%83%E3%82%93%E3%81%AE%E6%AD%8C%E3%83%AA%E3%82%B9%E3%83%88%EF%BC%88%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%EF%BC%89.png)
 
 ## 機能概要
 
@@ -25,8 +25,8 @@ https://katsu1101.github.io/song-list-linca-tojou/
 
 1. リポジトリをクローン
 ```shell
-git clone https://github.com/katsu1101/song-list-linca-tojou
-cd song-list-linca-tojou
+git clone https://github.com/katsu1101/song-list-reshra-hanamaki
+cd song-list-reshra-hanamaki
 ```
 
 2. 依存関係をインストール
@@ -60,7 +60,7 @@ npm run dev
 自動的に本番環境用の環境変数をセットして、ビルドを実行
 ```dotenv
 NODE_ENV=production
-NEXT_PUBLIC_BASE_PATH=/song-list-linca-tojou
+NEXT_PUBLIC_BASE_PATH=/song-list-reshra-hanamaki
 ```
 ```shell
 npm run build

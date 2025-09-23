@@ -3,7 +3,7 @@ import fs from "fs";
 import path from "path";
 
 const isProd = process.env.NODE_ENV === "production";
-const repoName = "song-list-linca-tojou";
+const repoName = "song-list-reshra-hanamaki";
 
 // 🔽 追加: ビルドバージョンを更新する関数
 const updateBuildVersion = () => {

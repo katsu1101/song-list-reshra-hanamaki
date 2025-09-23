@@ -178,14 +178,14 @@ export default function Home() {
     return <div>Loading...</div>; // SSR時に一旦「Loading...」を表示
   }
   const encodedQuery = encodeURIComponent(searchQuery);
-  const currentUrl = "https://katsu1101.github.io/song-list-linca-tojou";
+  const currentUrl = "https://katsu1101.github.io/song-list-reshra-hanamaki";
   const linkUrl = `${currentUrl}/?s=${encodedQuery}`
-  const linkNote = encodeURIComponent(`#戸定梨香ちゃんの歌リスト の検索結果
+  const linkNote = encodeURIComponent(`#花巻レシュラちゃんの歌リスト の検索結果
 キーワード: ${searchQuery}
 
-#戸定梨香 #とじょりん \n　\n　`);
-  const linkNote2 = encodeURIComponent(`#戸定梨香ちゃんの歌リスト
-#戸定梨香 #とじょりん \n　\n　`);
+#花巻レシュラ #とじょりん \n　\n　`);
+  const linkNote2 = encodeURIComponent(`#花巻レシュラちゃんの歌リスト
+#花巻レシュラ #とじょりん \n　\n　`);
 
   return (
     <main className="max-w-4xl mx-auto p-4 text-gray-900 dark:text-gray-100 bg-white dark:bg-gray-900">
@@ -198,7 +198,7 @@ export default function Home() {
               isScrolled ? "opacity-0 h-0" : "opacity-100 h-auto"
             }`}>
             <h1 className="text-2xl md:text-4xl font-bold whitespace-nowrap">
-              戸定梨香ちゃんの歌リスト
+              花巻レシュラちゃんの歌リスト
             </h1>
             {/* メニューアイコン */}
             <Menu menuOpen={menuOpen} onClick={() => setMenuOpen(!menuOpen)} />
