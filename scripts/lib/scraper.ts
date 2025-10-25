@@ -192,3 +192,42 @@ export async function scrapeLinkList(url: string) {
   await browser.close();
   return data;
 }
+
+export function scrapeSongListFromText(text: string, index: number) {
+  const lines = text.split(/\r?\n/).map(l => l.trim());
+  const songs = [];
+  let currentDate: string | null = null;
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+
+    // ✅ 日付形式（例: 2025-09-30）を検出
+    if (/^\d{4}-\d{2}-\d{2}$/.test(line)) {
+      currentDate = line;
+      continue;
+    }
+
+    // ✅ 曲構造（タイトル → ♪アーティスト → URL）の検出
+    if (lines[i + 1]?.startsWith("♪") && lines[i + 2]?.startsWith("http")) {
+      const title = lines[i];
+      const artist = lines[i + 1].replace(/^♪/, "").trim();
+      const url = lines[i + 2];
+
+      // YouTube videoId 抽出
+      const videoIdMatch = url.match(/\/([a-zA-Z0-9_-]{11})/);
+      const videoId = videoIdMatch ? videoIdMatch[1] : "";
+
+      songs.push({
+        date: currentDate,
+        title,
+        artist,
+        url,
+        videoId,
+        sourceIndex: index,
+      });
+    }
+  }
+
+  return songs;
+}
+
