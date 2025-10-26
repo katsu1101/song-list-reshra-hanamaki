@@ -1,7 +1,7 @@
 {
   "songs": [
     {
-      "date": "2025-09-30",
+      "date": "2025-09-29",
       "title": "うまぴょい伝説",
       "artist": "ウマ娘オールスターズ",
       "url": "https://www.youtube.com/live/mdstYm6pCIo?si=VAQG1dM31QKUT3Yb=495s",
@@ -9,7 +9,7 @@
       "sourceIndex": 1
     },
     {
-      "date": "2025-09-30",
+      "date": "2025-09-29",
       "title": "可変三連mixをおぼえる歌",
       "artist": "ILiFE",
       "url": "https://www.youtube.com/live/mdstYm6pCIo?si=VAQG1dM31QKUT3Yb=964s",
@@ -17,7 +17,7 @@
       "sourceIndex": 1
     },
     {
-      "date": "2025-09-30",
+      "date": "2025-09-29",
       "title": "#ラブコード",
       "artist": "ILiFE",
       "url": "https://www.youtube.com/live/mdstYm6pCIo?si=VAQG1dM31QKUT3Yb=1286s",
@@ -25,7 +25,7 @@
       "sourceIndex": 1
     },
     {
-      "date": "2025-09-30",
+      "date": "2025-09-29",
       "title": "ヒステリックナイトガール",
       "artist": "PSYQUI",
       "url": "https://www.youtube.com/live/mdstYm6pCIo?si=VAQG1dM31QKUT3Yb=1771s",
@@ -33,7 +33,7 @@
       "sourceIndex": 1
     },
     {
-      "date": "2025-09-30",
+      "date": "2025-09-29",
       "title": "春を告げる",
       "artist": "Yama",
       "url": "https://www.youtube.com/live/mdstYm6pCIo?si=VAQG1dM31QKUT3Yb=2149s",
@@ -41,7 +41,7 @@
       "sourceIndex": 1
     },
     {
-      "date": "2025-09-30",
+      "date": "2025-09-29",
       "title": "コネクト",
       "artist": "ClariS",
       "url": "https://www.youtube.com/live/mdstYm6pCIo?si=VAQG1dM31QKUT3Yb=2935s",
@@ -49,7 +49,7 @@
       "sourceIndex": 1
     },
     {
-      "date": "2025-09-30",
+      "date": "2025-09-29",
       "title": "創世のアクエリオン",
       "artist": "AKINO",
       "url": "https://www.youtube.com/live/mdstYm6pCIo?si=VAQG1dM31QKUT3Yb=3519s",
@@ -57,7 +57,7 @@
       "sourceIndex": 1
     },
     {
-      "date": "2025-09-30",
+      "date": "2025-09-29",
       "title": "海色",
       "artist": "AKINO",
       "url": "https://www.youtube.com/live/mdstYm6pCIo?si=VAQG1dM31QKUT3Yb=3939s",
@@ -65,7 +65,7 @@
       "sourceIndex": 1
     },
     {
-      "date": "2025-09-30",
+      "date": "2025-09-29",
       "title": "メンヘラデビュー",
       "artist": "安部菜々(三宅麻理恵)",
       "url": "https://www.youtube.com/live/mdstYm6pCIo?si=VAQG1dM31QKUT3Yb=4476s",
@@ -73,7 +73,7 @@
       "sourceIndex": 1
     },
     {
-      "date": "2025-09-30",
+      "date": "2025-09-29",
       "title": "SOS",
       "artist": "黛冬優子(幸村恵理)",
       "url": "https://www.youtube.com/live/mdstYm6pCIo?si=VAQG1dM31QKUT3Yb=4915s",
@@ -81,7 +81,7 @@
       "sourceIndex": 1
     },
     {
-      "date": "2025-09-30",
+      "date": "2025-09-29",
       "title": "Reign of Sleep",
       "artist": "花巻レシュラ",
       "url": "https://www.youtube.com/live/mdstYm6pCIo?si=VAQG1dM31QKUT3Yb=5646s",
@@ -92,7 +92,7 @@
   "videos": {
     "mdstYm6pCIo": {
       "kind": "youtube#video",
-      "etag": "SmBxOcc5ntjOsn1n4cM8ALYDdQQ",
+      "etag": "pzuuU_xYJncLlCrmBIV5VjSwG3A",
       "id": "mdstYm6pCIo",
       "snippet": {
         "publishedAt": "2025-09-30T03:42:32Z",
@@ -146,7 +146,7 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "257",
+        "viewCount": "258",
         "likeCount": "47",
         "favoriteCount": "0",
         "commentCount": "4"
